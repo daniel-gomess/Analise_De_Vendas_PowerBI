@@ -1,0 +1,1001 @@
+Data,Cliente,Produto,Quantidade,Valor,Desconto,Forma de Pagamento,Nº Vezes,Data Vencimento,Status,Vendedor
+2025-06-18,Stella Oliveira,Placa de Vídeo RTX,4,13443.77,10%,Boleto,11,2026-01-14,NÃO PAGO,Heloísa
+2025-01-02,Aylla Azevedo,Placa de Vídeo GTX,5,8961.45,5%,Boleto,11,2025-11-28,PENDENTE,Gustavo Henrique
+2025-11-27,Raul Barros,Placa-Mãe,4,2702.81,10%,Dinheiro,1,2025-11-27,PAGO,Ian
+2026-01-04,Pedro Lucas Souza,Cabo de Rede,5,181.81,15%,Pix,1,2026-01-04,PAGO,Henry Gabriel
+2025-08-31,Benjamim das Neves,Impressora,2,752.74,20%,Cartão,10,2026-01-28,PAGO,Luna
+2025-04-30,Olivia Novais,Mouse,5,321.8,0%,Boleto,10,2026-01-25,NÃO PAGO,Maria Luísa
+2025-08-17,Vicente Rezende,Placa de Vídeo GTX,4,6334.3,5%,Pix,1,2025-08-17,PAGO,Caroline
+2025-12-17,Maria Flor Sampaio,Processador Intel i5,5,4308.9,0%,Dinheiro,1,2025-12-17,PAGO,Lívia
+2025-12-05,Mariane Campos,SSD 256GB,4,1049.64,0%,Cartão,5,2026-02-03,PAGO,Anthony
+2025-12-01,Emilly Moreira,Processador AMD Ryzen 7,5,8543.61,15%,Dinheiro,1,2025-12-01,PAGO,Milena
+2025-05-16,Enzo Gabriel Marques,"Monitor 24""",2,1095.53,15%,Dinheiro,1,2025-05-16,PAGO,Otto
+2025-05-27,Daniela Pires,Teclado,3,543.87,0%,Dinheiro,1,2025-05-27,PAGO,Maria Clara
+2025-04-19,Maria Helena Pires,Webcam,2,852.8,10%,Dinheiro,1,2025-04-19,PAGO,Arthur Gabriel
+2025-08-21,Vitor Gabriel Araújo,Fonte 700W,4,1391.98,10%,Dinheiro,1,2025-08-21,PAGO,Léo
+2025-10-10,Augusto Mendes,Fonte 500W,4,819.93,5%,Cartão,10,2026-02-07,NÃO PAGO,Bella
+2025-04-02,Aurora Rezende,SSD 1TB,4,2769.48,0%,Boleto,12,2026-01-27,NÃO PAGO,Emanuel
+2025-08-30,Luiz Otávio Dias,Switch de Rede,4,1795.88,0%,Boleto,1,2025-08-30,NÃO PAGO,Diego
+2025-04-22,Stella Viana,Computador Desktop,4,8488.99,20%,Dinheiro,1,2025-04-22,PAGO,Camila
+2025-09-10,Maria Júlia Alves,Mesa para Computador,5,2221.9,0%,Pix,1,2025-09-10,PAGO,Ana
+2025-07-01,José Miguel Costela,Mouse,5,216.25,0%,Dinheiro,1,2025-07-01,PAGO,Anna Liz
+2025-01-04,Luara Moreira,SSD 512GB,5,1977.52,20%,Boleto,10,2025-10-31,NÃO PAGO,Ravi
+2025-10-02,Giovanna Ribeiro,Processador Intel i5,2,2879.48,0%,Cartão,8,2026-01-30,NÃO PAGO,Ana
+2025-05-27,Davi Lucca Duarte,Pendrive 64GB,3,169.87,20%,Cartão,2,2025-07-26,PENDENTE,Larissa
+2025-01-31,Stella Rodrigues,Pendrive 64GB,2,81.36,20%,Pix,1,2025-01-31,PAGO,Leandro
+2025-08-15,Pietro Leão,Processador Intel i5,5,5035.4,0%,Pix,1,2025-08-15,PAGO,Antonella
+2025-02-24,Bento Leão,Fonte 700W,1,407.81,20%,Dinheiro,1,2025-02-24,PAGO,Bryan
+2025-09-11,Rebeca Melo,"Monitor 24""",3,3039.54,0%,Boleto,1,2025-09-11,PAGO,Bernardo
+2025-03-29,Benjamim Fonseca,Placa de Vídeo GTX,2,2490.3,15%,Dinheiro,1,2025-03-29,PAGO,Emanuelly
+2025-02-20,João Lucas Mendonça,Placa de Vídeo GTX,3,3608.28,20%,Pix,1,2025-02-20,PAGO,Davi Lucca
+2025-10-04,Maria Laura Cavalcanti,Memória RAM 16GB,3,1049.04,0%,Boleto,1,2025-10-04,PAGO,Arthur Miguel
+2025-02-10,André Pastor,Webcam,2,427.11,15%,Pix,1,2025-02-10,PAGO,Henry Gabriel
+2025-11-15,Gabriela Rocha,Placa de Vídeo GTX,4,7485.73,10%,Cartão,10,2026-01-14,PAGO,Rafael
+2025-11-03,Yuri Câmara,Cabo de Rede,3,80.65,5%,Pix,1,2025-11-03,PAGO,Rafael
+2025-02-17,Alice Moreira,HD Externo 1TB,1,250.82,0%,Pix,1,2025-02-17,PAGO,Enrico
+2025-04-08,Clara Nascimento,Pendrive 64GB,3,129.57,0%,Boleto,6,2025-10-05,NÃO PAGO,Carolina
+2025-12-22,Bernardo Mendonça,SSD 256GB,1,231.32,5%,Boleto,9,2026-01-21,PENDENTE,Letícia
+2025-10-07,Diogo da Cunha,Teclado,3,605.86,20%,Cartão,12,2026-02-04,PAGO,Caio
+2025-01-19,Liam Monteiro,Notebook,5,16844.65,0%,Cartão,10,2025-11-15,PENDENTE,Liam
+2025-03-06,Ana Luiza Mendes,Memória RAM 16GB,1,378.57,5%,Cartão,5,2025-08-03,PENDENTE,Fernando
+2025-05-31,Ana Beatriz Barbosa,Memória RAM 16GB,5,2135.75,0%,Cartão,1,2025-05-31,PAGO,Ryan
+2025-03-13,Manuela Barbosa,Cadeira Gamer,2,1313.24,10%,Boleto,9,2025-12-08,PENDENTE,Gabrielly
+2025-02-08,Henry da Luz,Cabo HDMI,1,58.36,0%,Dinheiro,1,2025-02-08,PAGO,Antônio
+2026-01-06,Maria Luiza Guerra,Processador Intel i5,2,1839.11,15%,Pix,1,2026-01-06,PAGO,Lívia
+2025-06-22,Davi Cavalcanti,Impressora,1,597.55,15%,Dinheiro,1,2025-06-22,PAGO,Fernanda
+2025-01-17,Marcelo da Costa,Memória RAM 8GB,4,987.2,0%,Boleto,5,2025-06-16,PENDENTE,Rhavi
+2025-12-01,José Miguel Correia,"Monitor 24""",3,2469.73,15%,Boleto,9,2026-01-30,PENDENTE,João
+2025-12-28,Laís Rodrigues,Gabinete,5,2328.6,20%,Pix,1,2025-12-28,PAGO,Laís
+2025-02-24,Maria Eduarda Farias,Fonte 500W,4,1494.44,0%,Dinheiro,1,2025-02-24,PAGO,Isabella
+2025-12-01,Dante Moraes,SSD 512GB,5,2263.64,20%,Cartão,6,2026-01-30,PAGO,Ayla
+2025-05-15,Leandro da Rosa,Fonte 500W,4,930.66,5%,Dinheiro,1,2025-05-15,PAGO,Gabriel
+2025-10-06,Thiago Abreu,Fonte 500W,4,799.06,5%,Cartão,5,2026-02-03,NÃO PAGO,Maria Cecília
+2025-09-15,Ana Vitória Cunha,Gabinete,3,776.87,10%,Dinheiro,1,2025-09-15,PAGO,Ester
+2025-01-09,Vitor Gabriel Novais,Memória RAM 8GB,3,551.97,0%,Pix,1,2025-01-09,PAGO,Isaac
+2025-07-02,Miguel Campos,Headset,3,853.56,0%,Dinheiro,1,2025-07-02,PAGO,Marcos Vinicius
+2025-04-21,Arthur Gabriel Câmara,"Monitor 27""",4,4068.81,15%,Cartão,1,2025-04-21,PAGO,Luan
+2025-02-03,Maria Luísa Sá,Mouse,3,263.92,10%,Boleto,1,2025-02-03,NÃO PAGO,Maria Eduarda
+2025-11-07,Eloá Barbosa,SSD 512GB,3,1348.25,5%,Dinheiro,1,2025-11-07,PAGO,Yasmin
+2025-01-06,Eloah Moraes,Mesa para Computador,3,2771.7,15%,Dinheiro,1,2025-01-06,PAGO,Maria
+2025-07-11,Ana Luiza Sales,Headset,5,1469.44,15%,Dinheiro,1,2025-07-11,PAGO,Bianca
+2025-11-27,João Vitor Ramos,Pendrive 64GB,1,54.68,10%,Pix,1,2025-11-27,PAGO,Ravi
+2025-04-15,Pietro Machado,Cabo HDMI,2,89.14,0%,Boleto,6,2025-10-12,NÃO PAGO,Beatriz
+2025-02-25,Lara Novaes,Gabinete,4,732.42,20%,Cartão,10,2025-12-22,PENDENTE,José Miguel
+2025-10-05,Ana Carolina Lima,Cooler para CPU,4,215.73,5%,Dinheiro,1,2025-10-05,PAGO,Rebeca
+2025-06-08,Davi Miguel Porto,HD Externo 1TB,2,618.94,0%,Dinheiro,1,2025-06-08,PAGO,Agatha
+2025-06-11,Esther Barros,Gabinete,3,1336.23,0%,Pix,1,2025-06-11,PAGO,Luísa
+2025-12-25,Benjamin Vieira,Gabinete,1,366.97,0%,Cartão,11,2026-01-24,PENDENTE,Mathias
+2025-03-10,Sabrina Rocha,Processador AMD Ryzen 7,5,9793.7,0%,Pix,1,2025-03-10,PAGO,Ana Carolina
+2025-07-20,Henry Gabriel Caldeira,Placa de Vídeo GTX,1,1787.05,20%,Cartão,8,2026-01-16,PAGO,Théo
+2025-06-21,Aurora Castro,"Monitor 24""",4,2736.72,5%,Cartão,9,2026-01-17,NÃO PAGO,Maria
+2025-09-16,Igor Brito,Cadeira Gamer,2,2959.84,15%,Cartão,1,2025-09-16,PAGO,Olívia
+2025-11-13,Ravi Camargo,SSD 256GB,5,1380.7,0%,Dinheiro,1,2025-11-13,PAGO,Vitor Gabriel
+2025-07-22,Olivia Pereira,Computador Desktop,2,9423.34,5%,Pix,1,2025-07-22,PAGO,Asafe
+2025-08-06,Isabelly da Mata,Impressora,3,1383.87,0%,Cartão,12,2026-02-02,PENDENTE,Maria Clara
+2025-01-09,Maria Sophia Dias,Headset,5,904.28,20%,Cartão,6,2025-07-08,PENDENTE,Bianca
+2025-08-09,Guilherme Rodrigues,Cabo de Rede,5,173.95,0%,Boleto,3,2025-11-07,PAGO,Benicio
+2025-04-12,Alexia Gonçalves,Memória RAM 16GB,1,275.96,15%,Cartão,1,2025-04-12,NÃO PAGO,Maria Fernanda
+2025-07-03,Giovanna da Rosa,Processador Intel i7,1,2025.9,15%,Pix,1,2025-07-03,PAGO,José Miguel
+2025-02-01,Lucas Ribeiro,Pendrive 32GB,2,55.08,15%,Boleto,11,2025-12-28,PENDENTE,Marina
+2025-11-13,Lavínia Vargas,Roteador Wi-Fi,1,365.39,5%,Pix,1,2025-11-13,PAGO,Ana Carolina
+2025-05-24,Diego Almeida,"Monitor 27""",2,2537.79,5%,Cartão,10,2026-01-19,PENDENTE,Lucca
+2025-12-13,Marcelo Cassiano,Pendrive 32GB,4,177.31,20%,Boleto,3,2026-01-12,PAGO,Diogo
+2025-05-15,Sarah da Cunha,SSD 512GB,3,1421.06,10%,Boleto,6,2025-11-11,PAGO,Ana Vitória
+2025-09-17,Otto Rezende,Gabinete,5,2773.7,0%,Pix,1,2025-09-17,PAGO,Nicole
+2025-11-02,Lívia Sá,Placa de Vídeo RTX,2,5251.07,10%,Pix,1,2025-11-02,PAGO,Lorena
+2025-07-03,Lucca Pinto,Mesa para Computador,2,1422.75,20%,Boleto,8,2026-01-29,PAGO,Mathias
+2025-11-20,Rael das Neves,"Monitor 27""",5,6791.76,20%,Cartão,11,2026-01-19,NÃO PAGO,Maria Flor
+2025-06-02,Amanda Vargas,Roteador Wi-Fi,3,1131.15,0%,Cartão,12,2026-01-28,PAGO,Ravi
+2025-09-19,Davi Duarte,SSD 1TB,1,787.1,0%,Pix,1,2025-09-19,PAGO,Agatha
+2025-01-27,Luna Porto,Cabo de Rede,3,139.53,0%,Cartão,10,2025-11-23,PAGO,Rafael
+2025-01-03,Breno Marques,Switch de Rede,4,1190.24,0%,Pix,1,2025-01-03,PAGO,Ana
+2025-04-29,Lucas Abreu,HD Externo 1TB,2,540.26,20%,Pix,1,2025-04-29,PAGO,Levi
+2025-08-28,Léo Araújo,Impressora,2,2771.7,5%,Dinheiro,1,2025-08-28,PAGO,Ana Júlia
+2025-03-11,Emanuel Caldeira,Fonte 500W,3,777.93,15%,Pix,1,2025-03-11,PAGO,Murilo
+2025-02-18,Mariah Cunha,Placa de Vídeo GTX,4,6979.55,20%,Boleto,3,2025-05-19,PENDENTE,Carlos Eduardo
+2025-02-24,Mathias Aragão,Placa-Mãe,1,1005.65,15%,Pix,1,2025-02-24,PAGO,Mirella
+2025-12-13,Nicolas Azevedo,Placa de Vídeo GTX,1,2098.4,10%,Pix,1,2025-12-13,PAGO,Théo
+2025-08-21,Rebeca Nascimento,Processador Intel i5,1,826.24,5%,Cartão,9,2026-01-18,PAGO,Sophie
+2025-12-14,Davi Lucca Almeida,Placa-Mãe,5,3393.75,0%,Boleto,9,2026-01-13,PENDENTE,Giovanna
+2025-10-15,Hadassa Araújo,Switch de Rede,2,700.72,0%,Cartão,3,2026-01-13,PAGO,Manuela
+2025-03-06,João da Rocha,Processador Intel i7,5,9636.9,0%,Boleto,6,2025-09-02,NÃO PAGO,João Gabriel
+2025-11-16,Matteo Gonçalves,Processador Intel i7,3,4833.18,0%,Cartão,12,2026-01-15,NÃO PAGO,Gustavo Henrique
+2025-10-04,Elisa Costela,Processador AMD Ryzen 7,2,4018.63,5%,Pix,1,2025-10-04,PAGO,Luigi
+2025-10-15,Aurora Vieira,Teclado,3,176.07,5%,Dinheiro,1,2025-10-15,PAGO,Ana Vitória
+2025-01-30,Beatriz da Costa,Memória RAM 16GB,5,1980.18,10%,Dinheiro,1,2025-01-30,PAGO,Ryan
+2025-12-02,João Vitor Machado,Webcam,2,490.61,20%,Boleto,8,2026-01-31,NÃO PAGO,Heloísa
+2025-06-27,Murilo Garcia,SSD 256GB,1,265.55,10%,Pix,1,2025-06-27,PAGO,João Miguel
+2025-07-21,Carlos Eduardo Nunes,Mouse,2,208.24,5%,Boleto,8,2026-01-17,PAGO,Valentina
+2025-06-21,José Miguel Guerra,Webcam,4,616.96,20%,Cartão,8,2026-01-17,NÃO PAGO,Arthur Gabriel
+2025-06-14,Ana Laura Silva,Placa de Vídeo RTX,4,11456.61,15%,Boleto,4,2025-10-12,PAGO,Luiza
+2025-12-11,Aurora Rodrigues,Pendrive 64GB,2,151.01,15%,Pix,1,2025-12-11,PAGO,Ana Cecília
+2025-11-29,Luiz Miguel Moraes,Roteador Wi-Fi,3,414.66,0%,Dinheiro,1,2025-11-29,PAGO,Matteo
+2025-07-08,Luísa Mendonça,Impressora,3,1323.08,5%,Pix,1,2025-07-08,PAGO,Kevin
+2025-09-10,Gabriel Guerra,Gabinete,2,873.52,10%,Cartão,2,2025-11-09,NÃO PAGO,Ana Cecília
+2025-08-03,Luísa Gonçalves,Placa de Vídeo RTX,2,6082.26,20%,Cartão,9,2026-01-30,PAGO,Gael Henrique
+2025-05-20,Cauê Fernandes,Placa de Vídeo RTX,5,19142.02,5%,Cartão,6,2025-11-16,NÃO PAGO,Helena
+2025-01-18,Maitê Santos,"Monitor 24""",1,906.52,10%,Cartão,9,2025-10-15,PENDENTE,Antonella
+2025-10-08,Luiz Gustavo Albuquerque,HD Externo 1TB,1,308.07,15%,Pix,1,2025-10-08,PAGO,Lavínia
+2025-11-23,Luiza Viana,Computador Desktop,5,17494.25,0%,Pix,1,2025-11-23,PAGO,Pedro
+2025-03-20,João Pedro Costa,Pendrive 64GB,4,270.2,0%,Cartão,5,2025-08-17,PENDENTE,Liam
+2025-03-21,Henry Gabriel Pimenta,Fonte 700W,1,321.98,10%,Pix,1,2025-03-21,PAGO,Heloísa
+2025-05-31,Vicente Fonseca,Mouse,2,223.28,0%,Cartão,8,2026-01-26,PENDENTE,Bárbara
+2025-11-12,Josué da Paz,Fonte 500W,4,1193.96,0%,Dinheiro,1,2025-11-12,PAGO,Bruna
+2025-07-07,Kaique Rezende,Headset,5,1035.55,0%,Dinheiro,1,2025-07-07,PAGO,João Felipe
+2025-06-26,Yuri da Paz,Switch de Rede,5,1704.33,10%,Boleto,6,2025-12-23,PENDENTE,Enrico
+2025-09-01,Vitória Borges,SSD 256GB,2,515.79,5%,Pix,1,2025-09-01,PAGO,Maysa
+2025-02-12,Lucas Gabriel Pires,Cabo HDMI,3,121.31,10%,Dinheiro,1,2025-02-12,PAGO,Davi Lucas
+2025-01-04,Davi Fogaça,Placa-Mãe,2,1013.62,0%,Cartão,3,2025-04-04,NÃO PAGO,Lucca
+2025-08-29,Ágatha Cavalcanti,Memória RAM 8GB,3,559.21,15%,Pix,1,2025-08-29,PAGO,Ana
+2025-08-15,Valentim da Luz,Mesa para Computador,3,966.57,0%,Boleto,4,2025-12-13,PENDENTE,Cecília
+2025-03-11,Alexandre da Mata,Processador AMD Ryzen 7,5,10627.4,0%,Cartão,3,2025-06-09,PENDENTE,Stephany
+2025-01-08,Vitor Gabriel Gonçalves,Webcam,1,159.22,15%,Boleto,7,2025-08-06,PAGO,Nathan
+2025-04-21,Rael Nascimento,Placa de Vídeo GTX,4,8299.43,15%,Boleto,10,2026-01-16,PAGO,Evelyn
+2025-04-02,Stella Lopes,SSD 1TB,2,1423.15,10%,Cartão,7,2025-10-29,PAGO,Luara
+2025-12-30,Vitor Gabriel Cirino,SSD 256GB,2,578.16,0%,Cartão,9,2026-01-29,PENDENTE,Henry Gabriel
+2025-09-09,Yuri Dias,Notebook,1,2099.23,5%,Pix,1,2025-09-09,PAGO,Allana
+2025-01-06,Lara Cardoso,Cabo de Rede,2,70.6,0%,Dinheiro,1,2025-01-06,PAGO,Zoe
+2025-07-17,Vicente Abreu,Processador Intel i7,1,2071.96,5%,Boleto,8,2026-01-13,NÃO PAGO,Oliver
+2025-09-19,Ravy Alves,"Monitor 24""",3,2751.72,0%,Boleto,6,2026-01-17,PAGO,Thomas
+2025-08-09,Theo Alves,Mouse,4,576.84,0%,Dinheiro,1,2025-08-09,PAGO,Isaac
+2025-02-15,Maria Fernanda Mendonça,Processador AMD Ryzen 7,2,2774.68,0%,Boleto,10,2025-12-12,PAGO,Bella
+2025-04-10,Ian Machado,"Monitor 24""",1,1002.41,15%,Pix,1,2025-04-10,PAGO,Ana Carolina
+2025-08-20,Otávio Teixeira,Webcam,1,471.51,5%,Boleto,12,2026-01-17,NÃO PAGO,Emanuel
+2025-09-02,Raul Gonçalves,Cabo de Rede,2,77.42,20%,Boleto,4,2025-12-31,NÃO PAGO,Maria Fernanda
+2025-04-03,Isabel Souza,Teclado,2,495.94,15%,Boleto,11,2026-01-28,NÃO PAGO,Daniel
+2025-07-22,Renan Moreira,Switch de Rede,3,1145.76,0%,Dinheiro,1,2025-07-22,PAGO,Théo
+2025-11-16,Bianca Vieira,Placa-Mãe,2,1978.0,10%,Pix,1,2025-11-16,PAGO,Ravi Lucca
+2025-03-17,Fernanda Costa,Processador AMD Ryzen 5,2,2452.34,0%,Cartão,1,2025-03-17,PENDENTE,Mariana
+2025-08-30,Antonella Pastor,Placa de Vídeo GTX,3,6479.88,0%,Pix,1,2025-08-30,PAGO,Emilly
+2025-09-01,Carolina Fonseca,Notebook,2,6296.34,0%,Cartão,2,2025-10-31,NÃO PAGO,Allana
+2025-02-07,Dante Rios,SSD 1TB,4,2412.52,0%,Boleto,1,2025-02-07,PENDENTE,Leandro
+2025-08-09,Isis Pastor,Cabo de Rede,1,38.11,0%,Pix,1,2025-08-09,PAGO,Rodrigo
+2025-11-11,Henrique Almeida,"Monitor 27""",4,3226.67,15%,Pix,1,2025-11-11,PAGO,Elisa
+2025-12-09,Stella das Neves,SSD 256GB,5,1024.75,0%,Pix,1,2025-12-09,PAGO,Dom
+2025-04-07,Heitor Nogueira,Processador Intel i7,4,6979.25,10%,Pix,1,2025-04-07,PAGO,João Guilherme
+2025-06-10,Emanuelly Garcia,Placa-Mãe,4,3577.82,15%,Cartão,4,2025-10-08,PAGO,Clara
+2025-03-22,Léo Rezende,Computador Desktop,4,15588.76,0%,Boleto,6,2025-09-18,PAGO,Helena
+2025-06-17,Gabriela Ribeiro,Processador Intel i7,1,2202.52,0%,Cartão,7,2026-01-13,PENDENTE,Sofia
+2025-01-27,João Lucas Pereira,Placa-Mãe,2,1087.04,20%,Cartão,2,2025-03-28,PAGO,Lucas
+2026-01-05,Gabriela Cunha,Processador AMD Ryzen 7,5,10266.0,0%,Boleto,10,2026-02-04,PAGO,Caroline
+2025-04-30,Lucas Gabriel Barbosa,HD Externo 1TB,4,1611.44,0%,Boleto,10,2026-01-25,PAGO,Raul
+2025-04-09,André Andrade,Teclado,5,843.08,20%,Dinheiro,1,2025-04-09,PAGO,Ana Clara
+2025-02-26,Ana Lívia Novaes,"Monitor 27""",4,7459.84,0%,Dinheiro,1,2025-02-26,PAGO,Theo
+2025-07-07,Caroline Rezende,Impressora,4,2567.28,0%,Dinheiro,1,2025-07-07,PAGO,Valentim
+2025-02-22,Ágatha Cunha,Fonte 700W,4,1495.56,15%,Boleto,2,2025-04-23,NÃO PAGO,Noah
+2025-01-17,Matteo Fogaça,Cabo HDMI,5,110.07,10%,Boleto,12,2026-01-12,PAGO,Davi Lucca
+2025-08-13,Alexandre Rezende,Cooler para CPU,3,148.5,10%,Boleto,9,2026-01-10,PENDENTE,Ana Laura
+2025-04-11,Manuella Lima,Processador AMD Ryzen 5,4,4119.52,20%,Pix,1,2025-04-11,PAGO,Luara
+2025-02-18,Daniela Montenegro,Fonte 500W,5,1378.02,5%,Cartão,2,2025-04-19,PENDENTE,Pedro Henrique
+2025-02-09,Eloá da Paz,Notebook,1,4574.44,0%,Cartão,9,2025-11-06,NÃO PAGO,Maria Laura
+2025-04-01,José Pedro Novais,Memória RAM 8GB,4,1015.48,15%,Cartão,4,2025-07-30,NÃO PAGO,Ravi Lucca
+2025-05-05,Ravi Lucca Carvalho,SSD 1TB,5,3484.0,0%,Pix,1,2025-05-05,PAGO,Erick
+2025-06-18,Ian Almeida,Placa de Vídeo RTX,2,8976.64,0%,Dinheiro,1,2025-06-18,PAGO,Maysa
+2025-12-17,Eduardo Leão,Mouse,4,368.64,10%,Pix,1,2025-12-17,PAGO,José
+2025-09-18,Olivia Guerra,Roteador Wi-Fi,5,633.56,10%,Boleto,11,2026-01-16,PAGO,Pietro
+2025-04-09,Laís Azevedo,Pendrive 32GB,5,247.1,15%,Pix,1,2025-04-09,PAGO,Mirella
+2025-03-08,Maria Julia Vargas,Fonte 500W,2,391.52,10%,Cartão,3,2025-06-06,PAGO,Noah
+2025-11-24,Ayla Monteiro,Processador AMD Ryzen 5,3,3139.38,0%,Pix,1,2025-11-24,PAGO,Marcelo
+2025-10-27,Oliver Vieira,Teclado,3,331.55,15%,Cartão,4,2026-01-25,PAGO,Pedro Henrique
+2025-05-12,Dom Teixeira,Cadeira Gamer,3,2213.94,15%,Pix,1,2025-05-12,PAGO,Ana Júlia
+2025-09-05,Davi Lucca Araújo,Pendrive 64GB,4,279.68,20%,Dinheiro,1,2025-09-05,PAGO,Isaac
+2025-08-21,Liz Ribeiro,Impressora,3,2330.73,0%,Boleto,3,2025-11-19,PAGO,Eloá
+2025-04-08,Felipe Pereira,Mouse,2,141.5,0%,Dinheiro,1,2025-04-08,PAGO,Yuri
+2025-11-23,Valentina Ramos,Placa de Vídeo GTX,2,3901.1,0%,Cartão,3,2026-01-22,NÃO PAGO,Henry
+2025-02-20,Camila Vasconcelos,Roteador Wi-Fi,4,1029.64,10%,Dinheiro,1,2025-02-20,PAGO,Esther
+2025-08-06,Marcos Vinicius da Mota,Switch de Rede,5,1681.52,20%,Dinheiro,1,2025-08-06,PAGO,Isis
+2025-10-03,Léo Carvalho,Cabo HDMI,3,200.16,0%,Pix,1,2025-10-03,PAGO,Paulo
+2025-03-25,Luigi Martins,Processador Intel i5,5,7419.6,0%,Boleto,4,2025-07-23,PENDENTE,Sophie
+2025-08-29,João Lucas Dias,Computador Desktop,4,11694.3,20%,Dinheiro,1,2025-08-29,PAGO,Guilherme
+2025-04-26,Samuel Sales,Fonte 500W,5,1248.65,0%,Pix,1,2025-04-26,PAGO,João
+2025-01-09,Arthur Miguel Lima,Gabinete,1,570.31,0%,Dinheiro,1,2025-01-09,PAGO,Alícia
+2025-05-28,Ravy Cavalcante,SSD 1TB,2,969.32,0%,Boleto,6,2025-11-24,NÃO PAGO,Theodoro
+2025-02-07,Luiz Henrique da Rocha,Teclado,5,1143.3,0%,Pix,1,2025-02-07,PAGO,Mariana
+2025-03-07,Ana Laura Melo,"Monitor 24""",2,1665.92,10%,Boleto,5,2025-08-04,PENDENTE,Eduardo
+2025-08-19,Ravi Lucca Ramos,Placa-Mãe,1,656.1,5%,Pix,1,2025-08-19,PAGO,Isabel
+2025-07-10,Vinicius Nunes,Teclado,5,1441.6,0%,Cartão,8,2026-02-05,PENDENTE,Renan
+2025-07-16,Eloá Jesus,Notebook,5,24411.25,0%,Pix,1,2025-07-16,PAGO,Pietra
+2025-05-25,Ester Gomes,Pendrive 64GB,5,351.4,10%,Cartão,4,2025-09-22,NÃO PAGO,Benício
+2025-03-06,Allana Casa Grande,Mesa para Computador,5,3858.19,5%,Pix,1,2025-03-06,PAGO,Dante
+2025-08-05,Maria Luiza Costela,Cabo HDMI,4,132.91,10%,Cartão,7,2026-02-01,PENDENTE,João Guilherme
+2025-02-14,Gael Camargo,Headset,1,396.4,0%,Boleto,10,2025-12-11,PENDENTE,Antonella
+2025-01-22,Maria Vitória da Rosa,Memória RAM 8GB,2,328.71,15%,Boleto,9,2025-10-19,NÃO PAGO,Luiz Otávio
+2025-12-13,Julia Gomes,"Monitor 27""",1,1625.31,0%,Cartão,2,2026-01-12,NÃO PAGO,Maria Cecília
+2025-09-23,Ian Albuquerque,SSD 256GB,2,365.94,0%,Dinheiro,1,2025-09-23,PAGO,Noah
+2025-08-08,Thiago Caldeira,Teclado,5,932.65,0%,Cartão,4,2025-12-06,PAGO,João Guilherme
+2025-11-30,Heitor Farias,Memória RAM 16GB,1,375.67,20%,Pix,1,2025-11-30,PAGO,Vinicius
+2025-10-10,Ana Cecília Andrade,Placa de Vídeo RTX,5,13999.1,0%,Dinheiro,1,2025-10-10,PAGO,Liz
+2025-07-27,Pietro Campos,Cadeira Gamer,3,2508.77,15%,Pix,1,2025-07-27,PAGO,Alexia
+2025-11-05,Oliver Cassiano,SSD 512GB,1,504.02,0%,Cartão,5,2026-02-03,PENDENTE,Ana Vitória
+2025-05-26,Ana Luiza Porto,Pendrive 32GB,4,111.0,0%,Dinheiro,1,2025-05-26,PAGO,José Pedro
+2025-10-20,Luiza Moreira,Headset,4,698.14,5%,Cartão,2,2025-12-19,NÃO PAGO,Emanuel
+2025-07-31,Ísis Cirino,Processador Intel i7,2,4104.61,10%,Pix,1,2025-07-31,PAGO,Pedro
+2025-07-30,Gabriel Duarte,Pendrive 64GB,3,234.9,10%,Dinheiro,1,2025-07-30,PAGO,Benício
+2025-08-24,Ana Clara Lima,Processador Intel i5,1,1005.39,10%,Cartão,6,2026-01-21,PENDENTE,Maria Luísa
+2025-02-23,Nina Silveira,Processador Intel i7,5,11994.4,0%,Cartão,6,2025-08-22,PAGO,Isabel
+2025-03-27,Marcos Vinicius Duarte,Impressora,3,4131.78,0%,Boleto,6,2025-09-23,PAGO,Eduarda
+2025-02-16,Yuri Sá,Cabo de Rede,4,115.13,10%,Boleto,7,2025-09-14,NÃO PAGO,Ana Liz
+2025-02-02,Augusto Jesus,Headset,1,160.08,10%,Cartão,10,2025-11-29,PENDENTE,Olívia
+2025-12-09,Lívia Freitas,HD Externo 1TB,5,2043.9,0%,Dinheiro,1,2025-12-09,PAGO,Luan
+2026-01-07,Davi Luiz Carvalho,Placa de Vídeo RTX,3,12604.44,0%,Cartão,8,2026-02-06,PAGO,Rhavi
+2025-08-23,Ayla Porto,"Monitor 24""",5,5997.9,0%,Cartão,8,2026-01-20,NÃO PAGO,Lorenzo
+2025-11-26,Ana Julia Aparecida,SSD 256GB,2,513.06,15%,Dinheiro,1,2025-11-26,PAGO,Marcela
+2025-05-04,Lucca Barbosa,Teclado,2,410.8,10%,Boleto,2,2025-07-03,PAGO,Mathias
+2025-12-31,Diogo Lima,Cadeira Gamer,1,872.13,10%,Pix,1,2025-12-31,PAGO,Vitor Gabriel
+2025-11-20,Luigi Peixoto,Gabinete,2,407.72,0%,Boleto,12,2026-01-19,PENDENTE,Nicolas
+2025-01-04,Luiza Fernandes,Impressora,2,1973.58,0%,Cartão,11,2025-11-30,PENDENTE,Arthur Miguel
+2025-11-19,Luara Pinto,Processador AMD Ryzen 7,3,3673.02,15%,Dinheiro,1,2025-11-19,PAGO,Nathan
+2025-04-18,Luísa Cavalcante,Processador AMD Ryzen 5,3,2205.19,15%,Cartão,2,2025-06-17,NÃO PAGO,Eduarda
+2025-08-08,Diogo Cirino,Cadeira Gamer,2,1120.75,20%,Pix,1,2025-08-08,PAGO,Ágatha
+2025-02-03,Erick Ribeiro,Processador AMD Ryzen 5,5,5100.8,0%,Pix,1,2025-02-03,PAGO,Luiz Felipe
+2025-01-25,Brayan Mendes,HD Externo 1TB,1,377.67,0%,Dinheiro,1,2025-01-25,PAGO,Olívia
+2025-11-22,Maria Clara Câmara,Cabo HDMI,5,197.55,0%,Boleto,7,2026-01-21,PENDENTE,Thiago
+2025-09-12,Henry Gabriel Machado,Memória RAM 16GB,4,1795.97,10%,Cartão,10,2026-01-10,NÃO PAGO,Maria Sophia
+2025-09-02,Isaac Fonseca,Memória RAM 16GB,5,2446.5,0%,Boleto,1,2025-09-02,PENDENTE,Cecilia
+2025-05-16,Lívia Pacheco,Fonte 500W,2,525.95,20%,Cartão,4,2025-09-13,PENDENTE,João Gabriel
+2025-04-03,Elisa Abreu,Impressora,4,2744.72,15%,Cartão,8,2025-11-29,PENDENTE,Maria
+2025-02-16,Ravi Borges,SSD 256GB,2,552.38,0%,Dinheiro,1,2025-02-16,PAGO,Vitor
+2025-05-18,Caleb Moura,Placa de Vídeo GTX,2,3090.28,10%,Dinheiro,1,2025-05-18,PAGO,Benício
+2025-12-02,Carolina Ramos,Computador Desktop,2,5623.81,10%,Cartão,7,2026-01-31,NÃO PAGO,Eloá
+2025-12-28,Noah Viana,Computador Desktop,4,19062.48,0%,Boleto,3,2026-01-27,NÃO PAGO,Nina
+2025-01-16,Oliver Sales,SSD 1TB,2,1093.26,0%,Cartão,2,2025-03-17,NÃO PAGO,Maria Júlia
+2025-01-08,Rafaela Borges,"Monitor 24""",1,606.53,10%,Pix,1,2025-01-08,PAGO,Thiago
+2025-07-10,Marcelo da Mata,Webcam,2,649.66,0%,Cartão,1,2025-07-10,PENDENTE,Isabella
+2025-02-27,Yago Oliveira,Cooler para CPU,1,182.29,0%,Dinheiro,1,2025-02-27,PAGO,Benício
+2025-09-05,Ana Liz Peixoto,"Monitor 27""",1,1936.35,0%,Boleto,2,2025-11-04,PENDENTE,Julia
+2025-05-04,Maysa Oliveira,Processador AMD Ryzen 7,4,7826.84,0%,Cartão,9,2026-01-29,NÃO PAGO,Ana Julia
+2025-08-07,Renan Leão,Notebook,5,12571.38,10%,Boleto,11,2026-02-03,PAGO,Thiago
+2025-10-30,Hadassa Monteiro,Processador AMD Ryzen 7,3,4399.56,0%,Pix,1,2025-10-30,PAGO,Caleb
+2025-06-13,Yan Andrade,Headset,4,1253.58,15%,Boleto,10,2026-01-09,NÃO PAGO,Breno
+2025-09-20,Maria Laura Cardoso,Processador AMD Ryzen 5,5,4405.08,20%,Pix,1,2025-09-20,PAGO,Maria
+2025-05-05,Vitor Guerra,Cooler para CPU,3,479.94,0%,Boleto,6,2025-11-01,PAGO,Rafael
+2025-08-23,Léo Moura,Teclado,2,577.22,0%,Dinheiro,1,2025-08-23,PAGO,Beatriz
+2025-09-08,Cauê Nunes,Pendrive 64GB,1,89.5,0%,Dinheiro,1,2025-09-08,PAGO,Anthony
+2025-09-24,Lucas Pacheco,Gabinete,5,1208.1,0%,Cartão,1,2025-09-24,NÃO PAGO,Maria Alice
+2025-11-09,Helena Campos,Impressora,4,4340.36,0%,Boleto,12,2026-02-07,PENDENTE,Murilo
+2025-01-02,Eloah da Cunha,Notebook,1,2090.47,15%,Boleto,5,2025-06-01,NÃO PAGO,Pietra
+2025-11-13,Hellena Sampaio,Teclado,2,378.07,10%,Pix,1,2025-11-13,PAGO,Alícia
+2025-12-13,Arthur Miguel Guerra,Cabo HDMI,4,134.14,20%,Cartão,7,2026-01-12,PAGO,Isaque
+2025-03-26,Eloah Alves,Cabo HDMI,2,60.06,0%,Pix,1,2025-03-26,PAGO,Breno
+2025-05-19,João Lucas Campos,Processador AMD Ryzen 7,5,5736.44,20%,Cartão,4,2025-09-16,PENDENTE,Breno
+2025-08-02,Vinicius Duarte,Cabo de Rede,2,95.12,0%,Dinheiro,1,2025-08-02,PAGO,Ana
+2025-04-25,Gael Henrique Jesus,Webcam,5,1053.36,20%,Cartão,3,2025-07-24,PENDENTE,Gael Henrique
+2025-05-01,Bento Silveira,Processador AMD Ryzen 5,1,679.9,20%,Pix,1,2025-05-01,PAGO,Emanuelly
+2025-01-31,Leonardo Melo,Teclado,2,179.04,15%,Pix,1,2025-01-31,PAGO,Isaque
+2025-04-23,José Miguel Melo,Mouse,2,196.16,5%,Dinheiro,1,2025-04-23,PAGO,Ísis
+2025-10-21,Luiz Henrique Barbosa,Memória RAM 16GB,2,535.08,0%,Cartão,4,2026-01-19,PAGO,Sophie
+2025-06-28,Mirella Pastor,Headset,3,1029.45,0%,Dinheiro,1,2025-06-28,PAGO,Calebe
+2025-03-11,Ian Guerra,Memória RAM 16GB,2,669.86,0%,Boleto,6,2025-09-07,PAGO,Valentina
+2025-02-10,Rodrigo Cassiano,Placa de Vídeo RTX,1,3348.86,0%,Boleto,11,2026-01-06,PAGO,Matteo
+2025-04-10,Guilherme da Paz,Teclado,3,402.84,0%,Boleto,12,2026-02-04,PENDENTE,Maria Clara
+2025-04-01,Caroline Cavalcanti,Fonte 500W,2,404.98,5%,Cartão,4,2025-07-30,NÃO PAGO,Helena
+2025-03-09,Maria Flor Camargo,Processador AMD Ryzen 7,5,8850.46,15%,Boleto,6,2025-09-05,PENDENTE,Isis
+2025-09-09,Luana Porto,Notebook,3,5825.63,10%,Cartão,9,2026-02-06,NÃO PAGO,Beatriz
+2025-10-18,Vinicius Guerra,Computador Desktop,5,18866.55,0%,Pix,1,2025-10-18,PAGO,João Miguel
+2025-09-23,Daniela Rios,Computador Desktop,1,4822.73,15%,Boleto,1,2025-09-23,PAGO,Brenda
+2025-06-30,Emanuelly Farias,Webcam,3,501.36,0%,Dinheiro,1,2025-06-30,PAGO,Maria Eduarda
+2025-10-06,Otto da Cruz,Placa de Vídeo GTX,4,5353.68,0%,Dinheiro,1,2025-10-06,PAGO,Ana Júlia
+2025-07-27,Lívia Caldeira,Processador Intel i5,4,4699.12,0%,Boleto,11,2026-01-23,PENDENTE,Maria Isis
+2025-04-09,Matteo Rios,Cooler para CPU,1,107.32,5%,Cartão,11,2026-02-03,NÃO PAGO,Maria Julia
+2025-02-05,Pedro Fogaça,Roteador Wi-Fi,1,270.57,15%,Pix,1,2025-02-05,PAGO,Kaique
+2025-08-14,Luan Nogueira,Webcam,1,298.31,15%,Pix,1,2025-08-14,PAGO,Asafe
+2025-05-20,Rodrigo Lopes,Switch de Rede,2,832.7,0%,Boleto,6,2025-11-16,NÃO PAGO,Lorenzo
+2025-11-30,Gabriela Brito,"Monitor 24""",4,3406.64,0%,Boleto,11,2026-01-29,PENDENTE,André
+2025-10-14,Igor Monteiro,"Monitor 24""",1,861.8,10%,Dinheiro,1,2025-10-14,PAGO,Aylla
+2025-10-20,Luan Casa Grande,Processador Intel i7,1,2259.17,0%,Pix,1,2025-10-20,PAGO,Bento
+2025-09-12,André Pacheco,"Monitor 24""",4,2262.1,10%,Pix,1,2025-09-12,PAGO,Bryan
+2025-01-22,Marcelo Nunes,Placa de Vídeo RTX,3,6763.88,15%,Pix,1,2025-01-22,PAGO,Stella
+2025-01-07,Ana Lívia Freitas,Impressora,3,1863.75,0%,Boleto,12,2026-01-02,PAGO,Pedro
+2025-12-27,Gustavo Henrique da Cruz,Teclado,1,96.96,0%,Boleto,7,2026-01-26,PAGO,Cecília
+2025-03-20,Giovanna Nogueira,Roteador Wi-Fi,1,100.51,5%,Dinheiro,1,2025-03-20,PAGO,Marcos Vinicius
+2025-06-10,Benicio Porto,Pendrive 32GB,2,65.08,15%,Boleto,2,2025-08-09,PAGO,Paulo
+2025-09-26,José Miguel Vieira,Placa de Vídeo GTX,2,2167.26,15%,Boleto,4,2026-01-24,PENDENTE,Ana Julia
+2025-03-26,Raquel Costela,Fonte 500W,2,481.93,5%,Pix,1,2025-03-26,PAGO,Isabella
+2025-03-13,Stella Costela,Mouse,2,76.58,0%,Dinheiro,1,2025-03-13,PAGO,Theo
+2025-03-11,Rebeca da Rocha,Cabo HDMI,2,121.52,0%,Boleto,11,2026-02-04,NÃO PAGO,Paulo
+2025-12-25,Arthur Miguel Rodrigues,SSD 512GB,2,1083.92,0%,Cartão,10,2026-01-24,PAGO,Maria Liz
+2025-03-08,Raquel Rezende,Impressora,3,3730.89,0%,Dinheiro,1,2025-03-08,PAGO,Natália
+2025-09-02,Antonella da Cunha,Impressora,3,2718.33,15%,Boleto,6,2026-01-30,PENDENTE,Kevin
+2025-04-10,João Lucas Moreira,Cabo HDMI,2,93.36,15%,Boleto,10,2026-02-04,NÃO PAGO,Thales
+2025-11-09,Maria Helena Macedo,Cadeira Gamer,1,1087.91,15%,Boleto,5,2026-02-07,NÃO PAGO,Kaique
+2025-02-17,Eloah Abreu,Fonte 500W,1,218.28,15%,Cartão,12,2026-01-13,PAGO,Eloá
+2025-04-23,João Pedro Carvalho,Roteador Wi-Fi,2,455.04,10%,Cartão,12,2026-01-18,PAGO,Bruno
+2025-08-14,Rafael Porto,Pendrive 64GB,2,95.86,0%,Dinheiro,1,2025-08-14,PAGO,Luiz Otávio
+2025-06-22,Maria Helena Aragão,SSD 512GB,3,959.62,15%,Cartão,2,2025-08-21,PENDENTE,Ísis
+2025-11-03,Benjamin Casa Grande,SSD 256GB,4,910.75,5%,Pix,1,2025-11-03,PAGO,Pietra
+2025-04-17,Ravi Lucca Azevedo,Fonte 700W,2,733.98,0%,Pix,1,2025-04-17,PAGO,Emanuelly
+2025-04-26,Bento Rezende,Teclado,5,991.76,20%,Boleto,4,2025-08-24,NÃO PAGO,Apollo
+2025-07-12,Fernanda Aragão,Placa de Vídeo GTX,2,2299.53,5%,Pix,1,2025-07-12,PAGO,Guilherme
+2025-07-09,Otto Abreu,"Monitor 27""",4,4757.6,20%,Cartão,2,2025-09-07,PAGO,Ana Beatriz
+2025-10-24,Yago Duarte,Cabo de Rede,5,146.11,15%,Dinheiro,1,2025-10-24,PAGO,Kevin
+2025-07-24,Gustavo Henrique Garcia,Pendrive 64GB,3,144.96,20%,Pix,1,2025-07-24,PAGO,Gustavo
+2025-01-09,Heloísa Alves,Processador Intel i5,4,4574.7,15%,Dinheiro,1,2025-01-09,PAGO,Diogo
+2025-12-19,Hellena Barros,Roteador Wi-Fi,5,1360.55,0%,Boleto,10,2026-01-18,PAGO,Aurora
+2025-05-17,Arthur Gabriel Novaes,Impressora,2,692.26,20%,Boleto,8,2026-01-12,NÃO PAGO,Joaquim
+2025-04-27,Gael Henrique Machado,Pendrive 64GB,4,145.57,20%,Dinheiro,1,2025-04-27,PAGO,Rael
+2025-04-14,Léo Aparecida,Computador Desktop,5,12827.9,5%,Cartão,8,2025-12-10,NÃO PAGO,Benício
+2025-01-30,Raul Barros,Memória RAM 8GB,4,630.29,10%,Dinheiro,1,2025-01-30,PAGO,Giovanna
+2025-12-29,Alice Monteiro,Headset,4,398.76,0%,Boleto,6,2026-01-28,PENDENTE,Maria Luiza
+2025-12-29,Luísa Pastor,Webcam,3,1455.45,0%,Pix,1,2025-12-29,PAGO,André
+2025-07-10,Luiz Miguel Lima,Gabinete,1,591.36,0%,Dinheiro,1,2025-07-10,PAGO,Gustavo
+2025-08-17,Théo Monteiro,Computador Desktop,5,18206.6,0%,Boleto,2,2025-10-16,PENDENTE,Nicole
+2025-10-28,Natália Pastor,Cooler para CPU,5,579.5,0%,Cartão,10,2026-01-26,PENDENTE,Rebeca
+2025-04-15,Maria Isis Monteiro,Teclado,3,155.86,20%,Pix,1,2025-04-15,PAGO,Beatriz
+2025-11-20,Sofia Vieira,Fonte 500W,5,1717.3,0%,Boleto,9,2026-01-19,PENDENTE,Ayla
+2025-08-30,Yuri Guerra,Pendrive 64GB,2,176.74,0%,Pix,1,2025-08-30,PAGO,Clarice
+2025-10-03,Luísa Pinto,"Monitor 24""",4,2712.1,5%,Cartão,11,2026-01-31,PAGO,Cecilia
+2025-08-06,Davi da Costa,SSD 1TB,2,1612.12,0%,Cartão,8,2026-02-02,NÃO PAGO,Vinicius
+2025-09-17,Lucas Rezende,Placa-Mãe,3,1637.15,15%,Dinheiro,1,2025-09-17,PAGO,Laura
+2025-09-15,Fernanda Aragão,Pendrive 32GB,1,30.83,15%,Pix,1,2025-09-15,PAGO,Ian
+2025-08-12,Juan Correia,Fonte 500W,2,352.1,20%,Cartão,5,2026-01-09,PENDENTE,Manuela
+2025-09-04,Eloá Melo,Fonte 700W,3,1235.6,10%,Cartão,11,2026-02-01,PENDENTE,Igor
+2025-11-08,Maria Liz Andrade,Impressora,3,2855.94,0%,Cartão,7,2026-02-06,NÃO PAGO,Luiz Henrique
+2026-01-03,Alana Cirino,Memória RAM 8GB,5,1103.27,10%,Cartão,4,2026-02-02,NÃO PAGO,Gustavo Henrique
+2025-05-12,Marcelo Pereira,Fonte 500W,3,728.1,0%,Dinheiro,1,2025-05-12,PAGO,Mateus
+2025-02-07,Lorenzo Vasconcelos,Processador Intel i5,3,3958.14,0%,Pix,1,2025-02-07,PAGO,Joana
+2025-03-06,Maria Cecília Silva,Cabo HDMI,4,132.98,10%,Dinheiro,1,2025-03-06,PAGO,Alícia
+2025-01-01,Davi Luiz Fonseca,Switch de Rede,4,1188.54,15%,Pix,1,2025-01-01,PAGO,Luísa
+2025-07-09,Maya Nogueira,Impressora,5,4207.2,15%,Pix,1,2025-07-09,PAGO,Esther
+2025-12-31,Milena Vieira,Mesa para Computador,3,2148.99,5%,Dinheiro,1,2025-12-31,PAGO,Maria Alice
+2025-07-13,Lívia da Paz,HD Externo 1TB,3,1279.83,0%,Cartão,12,2026-01-09,PAGO,Yago
+2025-04-12,Joaquim Montenegro,Memória RAM 16GB,5,1407.2,0%,Dinheiro,1,2025-04-12,PAGO,Sara
+2025-07-12,Ana Vitória Novaes,SSD 1TB,4,2137.57,20%,Cartão,2,2025-09-10,PENDENTE,Augusto
+2025-12-23,Marcos Vinicius Dias,Mesa para Computador,4,3280.61,10%,Dinheiro,1,2025-12-23,PAGO,Bernardo
+2025-03-13,Pedro Henrique Silva,Processador AMD Ryzen 5,1,1291.23,0%,Dinheiro,1,2025-03-13,PAGO,Maria Fernanda
+2025-07-22,Davi Miguel Pastor,Pendrive 64GB,5,324.9,0%,Cartão,1,2025-07-22,PAGO,Maya
+2025-10-13,Manuella Mendes,Placa de Vídeo GTX,1,1597.16,10%,Dinheiro,1,2025-10-13,PAGO,Ana Carolina
+2025-01-03,Vicente Câmara,Pendrive 64GB,5,263.53,5%,Pix,1,2025-01-03,PAGO,Lavínia
+2025-02-07,Maria Cecília Ramos,"Monitor 27""",3,4983.58,10%,Dinheiro,1,2025-02-07,PAGO,Gabriel
+2026-01-01,Isaac Peixoto,Processador AMD Ryzen 7,4,5234.64,15%,Pix,1,2026-01-01,PAGO,Mariane
+2025-08-25,Hadassa Sales,Processador AMD Ryzen 5,2,1575.5,10%,Dinheiro,1,2025-08-25,PAGO,Kamilly
+2025-03-31,Marcela Rios,Computador Desktop,2,5320.27,15%,Boleto,2,2025-05-30,PENDENTE,Ana Beatriz
+2025-10-06,Ana Pires,SSD 256GB,2,347.07,5%,Cartão,1,2025-10-06,PENDENTE,Mariane
+2025-01-04,Arthur Miguel Melo,Pendrive 64GB,4,291.12,0%,Dinheiro,1,2025-01-04,PAGO,Lorenzo
+2025-06-27,Ana Vitória Cavalcanti,SSD 256GB,1,187.31,10%,Boleto,3,2025-09-25,PAGO,Sarah
+2025-05-22,Heloísa Sá,Fonte 700W,1,331.44,15%,Dinheiro,1,2025-05-22,PAGO,Lívia
+2025-12-23,Davi Lucas Farias,SSD 512GB,3,1429.77,0%,Dinheiro,1,2025-12-23,PAGO,Isabella
+2025-10-31,Davi Miguel Pinto,SSD 512GB,3,1696.26,5%,Pix,1,2025-10-31,PAGO,Emanuel
+2025-08-14,Vitor Rezende,SSD 256GB,3,956.37,5%,Dinheiro,1,2025-08-14,PAGO,Thales
+2025-07-03,Ana Luiza Andrade,Mouse,4,346.12,0%,Boleto,8,2026-01-29,PAGO,Alana
+2025-07-27,Benjamim Cardoso,Fonte 700W,3,1768.83,0%,Pix,1,2025-07-27,PAGO,Maria Clara
+2025-01-26,João da Rosa,HD Externo 1TB,3,976.53,0%,Dinheiro,1,2025-01-26,PAGO,Maria Luiza
+2025-11-19,Benjamin Borges,Memória RAM 8GB,3,698.61,0%,Dinheiro,1,2025-11-19,PAGO,Bárbara
+2025-01-11,Sabrina Marques,Headset,2,162.1,0%,Boleto,10,2025-11-07,NÃO PAGO,Catarina
+2025-11-08,Luiza Nogueira,Cooler para CPU,4,669.32,15%,Dinheiro,1,2025-11-08,PAGO,Davi Luiz
+2025-09-04,Ana Vitória Novais,Placa de Vídeo GTX,5,7807.4,0%,Cartão,6,2026-02-01,PENDENTE,Ravy
+2025-08-28,Letícia Siqueira,Cabo de Rede,1,26.5,20%,Boleto,12,2026-01-25,PENDENTE,Marcela
+2025-02-18,Théo da Mata,Mesa para Computador,1,834.63,20%,Boleto,11,2026-01-14,NÃO PAGO,Alana
+2025-06-20,Julia Duarte,Webcam,5,1512.24,15%,Boleto,5,2025-11-17,PAGO,Ísis
+2025-03-09,Emanuelly Fonseca,Cadeira Gamer,5,6218.75,0%,Dinheiro,1,2025-03-09,PAGO,Mathias
+2025-09-27,Mariana Pires,Placa de Vídeo RTX,3,7285.99,15%,Dinheiro,1,2025-09-27,PAGO,Júlia
+2025-03-16,Marcos Vinicius Pimenta,Roteador Wi-Fi,3,961.56,0%,Cartão,4,2025-07-14,NÃO PAGO,Ana Cecília
+2025-08-28,Melissa da Cruz,Mesa para Computador,4,3836.46,15%,Cartão,11,2026-01-25,PAGO,Kevin
+2025-11-21,Vinícius Cardoso,SSD 256GB,2,319.29,15%,Dinheiro,1,2025-11-21,PAGO,Ravy
+2025-03-17,Maria Vitória Castro,"Monitor 24""",1,646.62,0%,Dinheiro,1,2025-03-17,PAGO,Luiz Henrique
+2025-01-03,Diogo Lopes,Pendrive 32GB,3,97.89,0%,Boleto,10,2025-10-30,PENDENTE,Luigi
+2025-05-16,Luara Rocha,Roteador Wi-Fi,4,368.7,15%,Pix,1,2025-05-16,PAGO,Thales
+2025-06-15,Laura Gomes,Cadeira Gamer,5,2909.89,15%,Pix,1,2025-06-15,PAGO,Miguel
+2025-12-27,Maitê Caldeira,Pendrive 64GB,4,261.63,5%,Pix,1,2025-12-27,PAGO,André
+2025-11-29,Maria Alice Araújo,Placa de Vídeo GTX,1,1049.4,20%,Boleto,11,2026-01-28,PENDENTE,Antônio
+2025-03-09,Ana Cassiano,Placa de Vídeo GTX,1,1379.66,20%,Dinheiro,1,2025-03-09,PAGO,Ágatha
+2025-06-17,Isabel Pastor,SSD 1TB,4,2181.89,20%,Dinheiro,1,2025-06-17,PAGO,Bryan
+2025-04-16,Ana Sophia Cavalcanti,Pendrive 32GB,1,50.07,0%,Pix,1,2025-04-16,PAGO,Francisco
+2025-12-18,Maitê Camargo,Processador AMD Ryzen 7,1,2107.34,0%,Pix,1,2025-12-18,PAGO,Daniel
+2025-04-10,Bella Nogueira,Memória RAM 8GB,3,714.33,0%,Pix,1,2025-04-10,PAGO,Gael
+2025-03-31,Ian Castro,Teclado,3,171.77,10%,Cartão,3,2025-06-29,PENDENTE,Ágatha
+2025-01-27,Helena Guerra,Cadeira Gamer,3,3257.16,0%,Pix,1,2025-01-27,PAGO,Josué
+2025-12-07,Julia Pires,"Monitor 24""",3,1663.3,20%,Dinheiro,1,2025-12-07,PAGO,Lorenzo
+2025-01-22,Ravi Carvalho,Notebook,1,1826.92,10%,Boleto,11,2025-12-18,PAGO,Ana Sophia
+2025-02-10,Manuella Jesus,Switch de Rede,2,709.0,5%,Dinheiro,1,2025-02-10,PAGO,Olivia
+2025-09-18,Erick Martins,Processador AMD Ryzen 5,5,5430.25,0%,Boleto,2,2025-11-17,PAGO,Benjamim
+2025-02-06,Liz Farias,Processador Intel i7,5,11003.6,0%,Cartão,8,2025-10-04,PAGO,Alexia
+2025-05-03,Maria Vitória Pinto,Processador AMD Ryzen 5,3,3622.86,0%,Boleto,8,2025-12-29,PENDENTE,Sabrina
+2025-07-12,Elisa Pires,Headset,5,1165.6,5%,Boleto,9,2026-02-07,PENDENTE,João Felipe
+2025-04-17,Cecília Mendes,Placa-Mãe,4,2293.24,10%,Cartão,5,2025-09-14,NÃO PAGO,Emanuel
+2025-05-06,Otto Novais,Processador Intel i7,3,5075.34,15%,Pix,1,2025-05-06,PAGO,Antonella
+2025-04-14,Catarina da Rosa,Mouse,5,625.35,0%,Dinheiro,1,2025-04-14,PAGO,Milena
+2025-10-09,Sara Rodrigues,Fonte 500W,2,692.14,0%,Dinheiro,1,2025-10-09,PAGO,Ana
+2025-09-21,Marcos Vinicius Peixoto,Memória RAM 8GB,4,1126.68,0%,Dinheiro,1,2025-09-21,PAGO,Ana Lívia
+2025-12-05,Stella Almeida,Roteador Wi-Fi,4,1023.33,15%,Boleto,2,2026-02-03,PENDENTE,Sophie
+2025-04-01,Benicio Araújo,Cabo de Rede,1,27.96,10%,Cartão,9,2025-12-27,PAGO,Felipe
+2025-07-23,Thales Campos,Cabo de Rede,1,22.51,5%,Boleto,4,2025-11-20,PAGO,João Pedro
+2025-12-13,Ana Júlia da Cunha,Impressora,5,4719.75,0%,Dinheiro,1,2025-12-13,PAGO,Theo
+2025-01-04,Maria Sophia Farias,Placa-Mãe,4,3593.26,15%,Cartão,10,2025-10-31,PAGO,Emanuelly
+2025-05-14,Bárbara Cunha,HD Externo 1TB,1,249.55,5%,Cartão,7,2025-12-10,PAGO,Carlos Eduardo
+2025-07-11,Arthur Camargo,Mouse,4,250.36,0%,Dinheiro,1,2025-07-11,PAGO,Bella
+2025-10-05,Hadassa Castro,HD Externo 1TB,2,686.42,0%,Dinheiro,1,2025-10-05,PAGO,Gustavo Henrique
+2025-08-21,Pedro Sampaio,Processador Intel i5,4,4085.72,0%,Pix,1,2025-08-21,PAGO,Aylla
+2025-02-17,Ana Beatriz da Costa,Roteador Wi-Fi,3,1047.21,0%,Pix,1,2025-02-17,PAGO,Ayla
+2025-02-28,Júlia Araújo,Cooler para CPU,1,145.32,20%,Cartão,1,2025-02-28,NÃO PAGO,Evelyn
+2026-01-01,Ayla Fonseca,Gabinete,1,526.94,10%,Cartão,3,2026-01-31,PENDENTE,Diogo
+2025-07-18,Gustavo da Cruz,Cadeira Gamer,4,2656.81,5%,Cartão,11,2026-01-14,NÃO PAGO,Maria
+2025-07-02,Gustavo Henrique da Rosa,Roteador Wi-Fi,4,1101.88,0%,Dinheiro,1,2025-07-02,PAGO,Breno
+2025-04-10,Enzo Garcia,Pendrive 64GB,3,131.88,0%,Cartão,8,2025-12-06,NÃO PAGO,Maria Júlia
+2025-10-23,Ana Clara Cavalcanti,Teclado,4,958.02,5%,Cartão,12,2026-01-21,NÃO PAGO,Carolina
+2025-09-30,Sophie Moreira,Gabinete,4,1845.8,0%,Cartão,12,2026-01-28,NÃO PAGO,Mariana
+2025-02-28,Arthur Gabriel Melo,"Monitor 27""",1,1335.86,20%,Cartão,2,2025-04-29,PENDENTE,Brenda
+2025-04-18,João Felipe Siqueira,Pendrive 64GB,1,65.82,5%,Boleto,1,2025-04-18,NÃO PAGO,Luiza
+2025-01-04,Gabriela Ribeiro,Processador AMD Ryzen 7,1,1487.25,15%,Dinheiro,1,2025-01-04,PAGO,Maysa
+2025-03-21,José Lima,Cabo de Rede,3,119.67,0%,Cartão,9,2025-12-16,PENDENTE,Liam
+2025-10-03,Cauê Silveira,Memória RAM 16GB,2,644.28,0%,Cartão,12,2026-01-31,PENDENTE,Lorena
+2025-07-07,Benicio Sousa,Cabo HDMI,4,138.58,15%,Pix,1,2025-07-07,PAGO,Eloá
+2025-07-08,Kevin da Rocha,Fonte 500W,5,982.98,15%,Dinheiro,1,2025-07-08,PAGO,Anna Liz
+2025-06-13,Heloisa Albuquerque,Teclado,3,807.42,0%,Cartão,1,2025-06-13,PAGO,Carlos Eduardo
+2025-01-04,Emanuella Cardoso,SSD 512GB,3,1336.26,0%,Dinheiro,1,2025-01-04,PAGO,Benjamin
+2025-10-22,Melina Macedo,Headset,2,326.14,0%,Pix,1,2025-10-22,PAGO,Heitor
+2025-10-20,João Lucas da Cunha,Fonte 500W,4,932.12,0%,Cartão,5,2026-01-18,PAGO,Mathias
+2025-09-17,Camila da Cunha,Processador Intel i7,4,6054.46,5%,Pix,1,2025-09-17,PAGO,Sophia
+2025-11-19,Ana Lívia Gonçalves,Memória RAM 8GB,2,312.9,20%,Pix,1,2025-11-19,PAGO,Antonella
+2025-04-11,Kaique Costela,Teclado,5,1122.26,15%,Cartão,1,2025-04-11,NÃO PAGO,Melina
+2025-06-12,Juliana Nascimento,SSD 1TB,4,2262.92,0%,Dinheiro,1,2025-06-12,PAGO,Nicole
+2025-04-08,Pedro Henrique Porto,Notebook,5,14619.11,15%,Pix,1,2025-04-08,PAGO,Enrico
+2025-01-31,Júlia Sá,Gabinete,5,661.85,15%,Cartão,9,2025-10-28,PENDENTE,Luara
+2025-09-29,Ryan Ramos,Cooler para CPU,1,128.18,10%,Dinheiro,1,2025-09-29,PAGO,Luiz Gustavo
+2025-05-06,Maria Julia Azevedo,Cabo de Rede,1,27.88,15%,Pix,1,2025-05-06,PAGO,Vitor Gabriel
+2025-10-11,Marina Rios,Pendrive 64GB,3,151.44,0%,Pix,1,2025-10-11,PAGO,Joana
+2025-06-05,Luiz Henrique Martins,Memória RAM 8GB,1,255.76,10%,Boleto,8,2026-01-31,PENDENTE,Murilo
+2025-07-17,José Pedro Pastor,Webcam,4,796.14,10%,Cartão,1,2025-07-17,NÃO PAGO,Natália
+2025-01-01,Gabriela Barros,Fonte 700W,1,599.04,0%,Cartão,3,2025-04-01,NÃO PAGO,Luara
+2025-02-02,Isabelly Costela,Headset,1,299.03,0%,Boleto,1,2025-02-02,NÃO PAGO,Felipe
+2025-11-22,Heitor Pastor,Mesa para Computador,5,1946.97,10%,Dinheiro,1,2025-11-22,PAGO,Rhavi
+2025-05-31,Gael Azevedo,Cabo de Rede,3,85.53,0%,Boleto,1,2025-05-31,PAGO,Yasmin
+2025-06-21,Lunna Melo,Mesa para Computador,5,2586.82,10%,Boleto,2,2025-08-20,PAGO,Laís
+2025-07-19,Heloísa Fonseca,"Monitor 24""",3,2783.3,15%,Pix,1,2025-07-19,PAGO,Yasmin
+2025-09-27,Ian Peixoto,Headset,2,776.96,0%,Cartão,5,2026-01-25,PAGO,Oliver
+2025-12-03,Mariane Fogaça,"Monitor 27""",5,5022.15,0%,Cartão,9,2026-02-01,PAGO,Mateus
+2025-10-26,Ana Laura Leão,Teclado,4,1096.56,0%,Pix,1,2025-10-26,PAGO,Ísis
+2025-05-15,Vitor Gabriel Camargo,Cadeira Gamer,2,1781.18,0%,Dinheiro,1,2025-05-15,PAGO,Marina
+2025-05-25,Lavínia Lopes,Teclado,5,944.95,0%,Boleto,10,2026-01-20,NÃO PAGO,Sara
+2025-07-13,Ana Clara Gonçalves,Cadeira Gamer,2,3681.66,0%,Boleto,3,2025-10-11,PENDENTE,Davi Lucca
+2025-05-24,Alice Lima,Processador Intel i5,3,2648.33,15%,Pix,1,2025-05-24,PAGO,Bruna
+2025-09-10,Vicente Araújo,Fonte 500W,1,247.09,0%,Cartão,7,2026-02-07,PENDENTE,Luiz Fernando
+2025-09-09,Maria Sophia Albuquerque,Pendrive 64GB,1,64.81,0%,Dinheiro,1,2025-09-09,PAGO,Nathan
+2025-06-05,Lívia Caldeira,Pendrive 64GB,5,235.32,5%,Dinheiro,1,2025-06-05,PAGO,Ísis
+2026-01-07,Yago Pereira,Pendrive 64GB,5,213.1,0%,Pix,1,2026-01-07,PAGO,Maria Flor
+2025-02-23,Sara Novais,Placa de Vídeo RTX,5,15204.33,10%,Boleto,1,2025-02-23,PENDENTE,Isabel
+2025-05-21,Cauê Cavalcanti,Headset,4,508.35,20%,Boleto,1,2025-05-21,PENDENTE,Kevin
+2025-02-15,Igor Santos,Pendrive 32GB,5,206.51,15%,Dinheiro,1,2025-02-15,PAGO,Esther
+2025-08-15,Lucas Gabriel Souza,Impressora,2,1125.54,10%,Dinheiro,1,2025-08-15,PAGO,Maria Isis
+2025-10-17,Maria Fernanda Costa,Webcam,4,1017.64,5%,Boleto,9,2026-01-15,NÃO PAGO,Lucas
+2025-01-06,Lunna Peixoto,Cabo de Rede,5,163.49,5%,Boleto,5,2025-06-05,PAGO,Rebeca
+2025-08-10,Gabriela Souza,Roteador Wi-Fi,4,929.9,15%,Pix,1,2025-08-10,PAGO,Fernanda
+2025-01-03,Rodrigo Pacheco,Fonte 500W,2,438.84,5%,Cartão,10,2025-10-30,PENDENTE,Letícia
+2025-11-07,Bryan Alves,HD Externo 1TB,2,520.36,0%,Cartão,2,2026-01-06,NÃO PAGO,Kaique
+2025-12-15,Brayan Souza,Pendrive 64GB,2,115.3,0%,Boleto,11,2026-01-14,NÃO PAGO,Lívia
+2025-11-24,Bruno Casa Grande,Placa-Mãe,4,4055.32,15%,Boleto,9,2026-01-23,PENDENTE,Liam
+2025-02-28,Elisa Fogaça,Webcam,1,166.79,0%,Cartão,1,2025-02-28,NÃO PAGO,Isadora
+2025-06-12,Matheus Casa Grande,Processador Intel i5,4,4729.6,0%,Dinheiro,1,2025-06-12,PAGO,Lívia
+2025-01-14,Sara Silva,Fonte 700W,1,352.1,20%,Dinheiro,1,2025-01-14,PAGO,Letícia
+2025-12-30,Nina Vargas,SSD 1TB,2,1121.9,10%,Dinheiro,1,2025-12-30,PAGO,Bento
+2025-06-12,Aurora Teixeira,Webcam,5,1427.8,0%,Cartão,11,2026-02-07,PAGO,Vitor Gabriel
+2025-01-14,Daniela Pimenta,Cadeira Gamer,1,1815.39,0%,Pix,1,2025-01-14,PAGO,Caleb
+2025-08-01,Mariane Marques,Cabo HDMI,1,20.78,0%,Pix,1,2025-08-01,PAGO,Luiz Felipe
+2025-03-28,Maria Clara Viana,Memória RAM 16GB,3,657.72,15%,Boleto,7,2025-10-24,NÃO PAGO,Isaque
+2025-09-09,Lucca Gonçalves,Processador AMD Ryzen 5,1,1111.09,5%,Boleto,10,2026-02-06,NÃO PAGO,José Miguel
+2025-10-31,Camila Fonseca,Mesa para Computador,2,1028.05,10%,Dinheiro,1,2025-10-31,PAGO,Esther
+2025-05-29,Diogo Souza,Processador Intel i7,1,2073.56,0%,Dinheiro,1,2025-05-29,PAGO,Alice
+2025-08-23,Luna Barbosa,SSD 256GB,1,265.42,10%,Pix,1,2025-08-23,PAGO,Melina
+2025-01-06,Beatriz Teixeira,Placa de Vídeo GTX,5,5496.86,15%,Boleto,8,2025-09-03,PENDENTE,Ana Luiza
+2025-01-22,Isabelly Vasconcelos,Placa-Mãe,1,1114.57,5%,Cartão,12,2026-01-17,PENDENTE,Joaquim
+2025-01-29,Luiz Miguel da Cunha,Gabinete,2,565.58,0%,Dinheiro,1,2025-01-29,PAGO,Joana
+2025-05-06,Ana Vitória Cassiano,HD Externo 1TB,3,933.66,10%,Dinheiro,1,2025-05-06,PAGO,Nicole
+2025-07-15,Mateus Albuquerque,SSD 512GB,3,1408.48,10%,Cartão,8,2026-01-11,PAGO,Mariane
+2025-04-23,Gael Henrique Fogaça,Memória RAM 16GB,5,1881.65,0%,Boleto,5,2025-09-20,NÃO PAGO,Brenda
+2025-12-17,Vitória Carvalho,Webcam,1,340.18,20%,Pix,1,2025-12-17,PAGO,Enzo
+2026-01-01,Rhavi da Costa,Computador Desktop,2,7583.77,15%,Dinheiro,1,2026-01-01,PAGO,Cecília
+2025-06-17,Marcelo Gomes,Webcam,3,604.32,0%,Boleto,4,2025-10-15,NÃO PAGO,Augusto
+2025-06-25,Kevin Andrade,Mouse,3,337.41,5%,Pix,1,2025-06-25,PAGO,Benjamim
+2026-01-01,Arthur Miguel Rocha,"Monitor 27""",1,1719.1,5%,Boleto,9,2026-01-31,PENDENTE,João Pedro
+2025-01-06,Enrico da Rosa,Memória RAM 8GB,4,1102.2,0%,Pix,1,2025-01-06,PAGO,Stephany
+2025-11-16,Stephany da Mata,Cabo HDMI,3,80.14,5%,Boleto,2,2026-01-15,NÃO PAGO,Luigi
+2025-11-26,João Macedo,Placa de Vídeo RTX,3,12877.26,0%,Pix,1,2025-11-26,PAGO,Maria Sophia
+2025-05-13,Allana Cavalcanti,Cadeira Gamer,2,3850.8,0%,Dinheiro,1,2025-05-13,PAGO,Rafaela
+2025-07-06,Milena Sá,Webcam,2,655.56,0%,Pix,1,2025-07-06,PAGO,Thomas
+2025-08-15,Ana Cecília Ramos,Switch de Rede,3,1112.46,0%,Cartão,2,2025-10-14,PENDENTE,Agatha
+2025-02-27,Brayan da Rocha,SSD 512GB,5,2532.51,5%,Pix,1,2025-02-27,PAGO,Lorena
+2025-04-29,Isabella Ramos,Placa de Vídeo RTX,3,8204.37,0%,Dinheiro,1,2025-04-29,PAGO,Maria Isis
+2025-03-04,Yan Mendonça,Processador AMD Ryzen 7,5,6338.36,20%,Cartão,4,2025-07-02,PENDENTE,Bento
+2025-11-06,Matheus Cirino,Impressora,2,873.04,20%,Dinheiro,1,2025-11-06,PAGO,Maria Flor
+2025-04-24,Helena Cardoso,Pendrive 32GB,5,233.16,20%,Pix,1,2025-04-24,PAGO,Enrico
+2025-05-13,Isis Silveira,Teclado,4,205.13,10%,Dinheiro,1,2025-05-13,PAGO,Ágatha
+2025-07-19,Pedro da Mota,"Monitor 24""",3,2541.51,0%,Boleto,5,2025-12-16,PENDENTE,Fernando
+2025-02-01,Ana Cunha,Processador AMD Ryzen 5,1,973.2,0%,Boleto,9,2025-10-29,NÃO PAGO,Isabelly
+2026-01-03,Maria Flor Moraes,Memória RAM 16GB,3,787.24,10%,Cartão,9,2026-02-02,PENDENTE,Otávio
+2025-04-07,Laura Andrade,Processador Intel i5,5,6274.42,5%,Dinheiro,1,2025-04-07,PAGO,Antônio
+2025-03-19,Julia Leão,Gabinete,5,2087.9,0%,Pix,1,2025-03-19,PAGO,Rafaela
+2025-07-08,Maria Vitória Cirino,Processador Intel i5,2,1977.62,20%,Pix,1,2025-07-08,PAGO,Davi Miguel
+2025-05-12,Eduarda Teixeira,Pendrive 32GB,4,152.24,0%,Pix,1,2025-05-12,PAGO,Miguel
+2025-08-23,Maria Sá,Teclado,2,307.06,10%,Boleto,11,2026-01-20,NÃO PAGO,João Gabriel
+2025-02-16,Maria Liz Câmara,Processador AMD Ryzen 5,5,4310.86,15%,Cartão,9,2025-11-13,PAGO,Catarina
+2025-03-02,José Miguel das Neves,Cadeira Gamer,3,4554.04,10%,Boleto,2,2025-05-01,NÃO PAGO,Nathan
+2025-12-12,Helena da Rocha,Processador Intel i5,1,951.62,10%,Boleto,2,2026-01-11,PENDENTE,Eduarda
+2025-01-26,Levi Silveira,Memória RAM 16GB,5,2260.15,0%,Boleto,4,2025-05-26,PENDENTE,Nicolas
+2025-12-06,Renan Novaes,Switch de Rede,2,837.32,10%,Pix,1,2025-12-06,PAGO,José Pedro
+2025-12-03,Liz Fernandes,Fonte 500W,2,656.32,10%,Cartão,3,2026-02-01,PENDENTE,Igor
+2025-08-18,Ravy das Neves,Switch de Rede,4,1562.43,20%,Cartão,8,2026-01-15,PAGO,Arthur
+2025-02-05,Luiz Miguel Araújo,Headset,3,498.84,0%,Pix,1,2025-02-05,PAGO,Lívia
+2025-08-09,Maria Julia Martins,Mouse,2,138.6,0%,Boleto,1,2025-08-09,PENDENTE,Isabela
+2025-08-04,Cecilia Rezende,HD Externo 1TB,4,1270.64,5%,Cartão,2,2025-10-03,PAGO,Alice
+2025-06-22,Dante Macedo,Processador Intel i7,3,4763.12,15%,Boleto,6,2025-12-19,NÃO PAGO,Marina
+2025-11-18,Henry Gabriel Cassiano,Roteador Wi-Fi,3,663.94,15%,Dinheiro,1,2025-11-18,PAGO,Ana Luiza
+2025-03-07,Maria Eduarda Vieira,Impressora,5,3540.2,20%,Pix,1,2025-03-07,PAGO,Kevin
+2025-03-12,Beatriz Lopes,Roteador Wi-Fi,1,232.33,10%,Pix,1,2025-03-12,PAGO,Thomas
+2025-10-08,Stephany Pacheco,Processador AMD Ryzen 5,3,2184.02,15%,Cartão,6,2026-02-05,NÃO PAGO,Bryan
+2025-05-30,Yuri Lopes,Pendrive 32GB,5,148.71,15%,Pix,1,2025-05-30,PAGO,Bruno
+2025-05-22,Rael Souza,Fonte 700W,4,1292.1,20%,Boleto,8,2026-01-17,PENDENTE,Thiago
+2025-02-07,Antônio Guerra,Cabo HDMI,1,18.7,10%,Dinheiro,1,2025-02-07,PAGO,Maria Clara
+2025-04-23,Apollo Ferreira,Memória RAM 16GB,1,261.22,10%,Cartão,11,2026-01-18,PAGO,Brenda
+2025-10-22,Theodoro da Luz,Roteador Wi-Fi,1,307.44,10%,Pix,1,2025-10-22,PAGO,Mariah
+2025-04-03,Pedro Lucas Marques,HD Externo 1TB,4,1169.49,5%,Pix,1,2025-04-03,PAGO,Clara
+2025-12-28,Davi Luiz Garcia,SSD 512GB,3,1386.87,0%,Dinheiro,1,2025-12-28,PAGO,Enrico
+2025-08-30,Antony da Rocha,Teclado,1,63.03,10%,Boleto,9,2026-01-27,PAGO,Elisa
+2025-01-29,Matteo Garcia,Computador Desktop,3,10441.22,10%,Dinheiro,1,2025-01-29,PAGO,Lucca
+2025-06-09,João Lucas das Neves,Notebook,5,12546.35,0%,Boleto,7,2026-01-05,PAGO,Felipe
+2025-03-07,Thiago Caldeira,Fonte 500W,3,929.12,15%,Cartão,6,2025-09-03,PAGO,Anna Liz
+2025-10-22,Maria Laura Fonseca,Switch de Rede,1,297.84,10%,Boleto,7,2026-01-20,NÃO PAGO,Murilo
+2025-01-21,Alana Almeida,Teclado,2,449.4,0%,Cartão,6,2025-07-20,PENDENTE,Alexia
+2025-02-21,Ana Vitória Oliveira,Processador Intel i5,5,5716.67,10%,Pix,1,2025-02-21,PAGO,Maria
+2025-11-26,Aylla Novais,Headset,4,1034.01,15%,Cartão,7,2026-01-25,NÃO PAGO,Thales
+2025-09-28,Isabel Santos,Mesa para Computador,2,1984.73,10%,Cartão,8,2026-01-26,PENDENTE,Benjamin
+2025-07-19,Danilo Nascimento,"Monitor 24""",1,934.5,10%,Pix,1,2025-07-19,PAGO,Heloisa
+2025-11-22,Maria Luiza Duarte,Webcam,3,1288.62,0%,Dinheiro,1,2025-11-22,PAGO,Isadora
+2025-05-27,Rodrigo Sales,Processador Intel i7,1,1504.78,10%,Boleto,12,2026-01-22,PENDENTE,Cauê
+2025-02-07,João Pedro Borges,Placa de Vídeo RTX,3,8882.83,20%,Boleto,2,2025-04-08,PENDENTE,Kamilly
+2025-07-19,Thomas da Conceição,Processador Intel i7,2,3380.42,15%,Cartão,9,2026-01-15,PAGO,Luiz Henrique
+2025-03-02,Letícia Cunha,Fonte 500W,5,1884.5,0%,Boleto,3,2025-05-31,PENDENTE,Mateus
+2025-03-22,Valentim Casa Grande,SSD 512GB,2,941.28,0%,Pix,1,2025-03-22,PAGO,André
+2025-10-21,Aurora Câmara,Computador Desktop,5,12884.35,0%,Boleto,8,2026-01-19,PAGO,Isabelly
+2025-06-01,Davi da Rocha,Gabinete,1,365.42,0%,Dinheiro,1,2025-06-01,PAGO,Maria Luiza
+2025-11-22,Lavínia Carvalho,Headset,2,643.76,0%,Pix,1,2025-11-22,PAGO,Maria Luísa
+2025-02-19,Arthur Miguel da Costa,Cadeira Gamer,3,5224.62,0%,Dinheiro,1,2025-02-19,PAGO,Valentina
+2025-10-22,Ana Carolina Pires,Mesa para Computador,3,2314.94,15%,Boleto,7,2026-01-20,PAGO,Samuel
+2025-06-26,Anna Liz Moura,Impressora,5,4972.15,0%,Boleto,6,2025-12-23,PENDENTE,Elisa
+2025-07-09,Sabrina Rodrigues,Processador AMD Ryzen 5,1,1051.22,5%,Boleto,12,2026-02-04,NÃO PAGO,Kaique
+2025-12-15,Gael Marques,Pendrive 32GB,5,220.75,0%,Cartão,8,2026-01-14,PAGO,Eduarda
+2025-01-18,Alana Cassiano,Gabinete,2,538.44,0%,Boleto,4,2025-05-18,NÃO PAGO,Lucas Gabriel
+2025-02-23,Daniel Rezende,Cabo de Rede,3,53.04,0%,Cartão,8,2025-10-21,NÃO PAGO,Isis
+2025-07-19,Luiz Henrique Cavalcante,Teclado,5,1151.95,10%,Dinheiro,1,2025-07-19,PAGO,Elisa
+2025-10-31,Caleb da Rocha,Cooler para CPU,2,182.05,10%,Boleto,7,2026-01-29,PAGO,Juliana
+2025-02-04,Giovanna da Cunha,Pendrive 32GB,1,24.34,10%,Dinheiro,1,2025-02-04,PAGO,Yasmin
+2025-02-25,Thales Machado,Pendrive 32GB,5,168.5,0%,Pix,1,2025-02-25,PAGO,Heloísa
+2025-09-05,Raul Ribeiro,Cooler para CPU,1,61.81,20%,Cartão,2,2025-11-04,PAGO,Fernando
+2025-03-30,Diego Costela,Cadeira Gamer,4,7783.56,0%,Pix,1,2025-03-30,PAGO,Enrico
+2025-01-14,Cauã Casa Grande,Fonte 500W,3,1199.22,0%,Boleto,2,2025-03-15,PAGO,Ana Carolina
+2025-02-23,Maria Fernanda Andrade,SSD 1TB,5,3152.65,10%,Pix,1,2025-02-23,PAGO,Maria Flor
+2025-08-04,João Guilherme da Rosa,Fonte 700W,5,2720.9,0%,Boleto,10,2026-01-31,PAGO,Calebe
+2025-07-06,João Guilherme Nunes,Cooler para CPU,3,467.79,0%,Boleto,1,2025-07-06,PAGO,Matheus
+2025-03-14,Vinicius Fernandes,"Monitor 24""",2,1831.94,0%,Pix,1,2025-03-14,PAGO,Otávio
+2025-01-11,Ana Clara Caldeira,Notebook,4,9799.71,5%,Boleto,1,2025-01-11,NÃO PAGO,Melissa
+2025-12-29,Allana Jesus,"Monitor 24""",4,2263.07,15%,Dinheiro,1,2025-12-29,PAGO,Cauã
+2025-12-25,Cecilia Cavalcante,Fonte 700W,4,1622.88,0%,Cartão,8,2026-01-24,PAGO,Luana
+2025-12-17,Amanda Leão,Impressora,3,1820.15,5%,Boleto,8,2026-01-16,PAGO,Ana Clara
+2025-09-26,Vitor Hugo Machado,Placa-Mãe,5,5618.35,0%,Boleto,1,2025-09-26,PENDENTE,Rael
+2025-03-30,Anna Liz Duarte,Fonte 500W,3,993.36,0%,Boleto,5,2025-08-27,PAGO,Liz
+2025-07-11,Luana Sousa,Processador Intel i5,4,4254.12,0%,Pix,1,2025-07-11,PAGO,Maria Eduarda
+2025-02-15,Nicolas Aparecida,SSD 1TB,2,1201.66,0%,Pix,1,2025-02-15,PAGO,Pedro
+2025-06-08,Felipe Sá,Mesa para Computador,3,2670.65,20%,Boleto,6,2025-12-05,NÃO PAGO,Pedro Lucas
+2025-12-31,Clara Rocha,Fonte 700W,4,1773.0,0%,Pix,1,2025-12-31,PAGO,Bárbara
+2025-02-18,Rafaela Lima,Notebook,4,12596.58,10%,Boleto,12,2026-01-14,NÃO PAGO,Bruno
+2025-03-14,Aylla Ferreira,Gabinete,5,1593.41,10%,Pix,1,2025-03-14,PAGO,Caroline
+2025-03-02,Eduardo Albuquerque,Mouse,4,422.31,15%,Cartão,10,2025-12-27,PENDENTE,Maria Flor
+2025-07-11,Ana Liz Fonseca,Computador Desktop,5,21672.64,20%,Cartão,9,2026-02-06,PAGO,Mirella
+2025-01-16,Danilo Almeida,Pendrive 64GB,5,242.75,0%,Cartão,5,2025-06-15,PAGO,Lorena
+2025-02-26,Yuri Novaes,Memória RAM 8GB,2,532.13,10%,Boleto,2,2025-04-27,PENDENTE,Sophia
+2025-01-11,Yago Fonseca,Gabinete,1,546.51,0%,Cartão,1,2025-01-11,NÃO PAGO,Gustavo
+2025-10-04,Fernando Caldeira,Impressora,5,5652.72,10%,Cartão,9,2026-02-01,PENDENTE,Brenda
+2025-04-29,Vitória Silveira,Gabinete,1,240.57,10%,Boleto,12,2026-01-24,PENDENTE,Manuela
+2025-11-23,Paulo Albuquerque,Cabo de Rede,4,145.65,5%,Dinheiro,1,2025-11-23,PAGO,Matheus
+2025-12-28,Alícia Mendonça,Placa de Vídeo RTX,3,12657.57,0%,Cartão,4,2026-01-27,PAGO,Davi
+2025-06-01,Kamilly Santos,Notebook,3,10302.39,0%,Cartão,10,2026-01-27,PENDENTE,Ana Cecília
+2025-05-10,Miguel Pinto,Notebook,5,21099.51,10%,Pix,1,2025-05-10,PAGO,Sabrina
+2025-09-21,João Gabriel Silveira,Cadeira Gamer,5,4542.3,10%,Dinheiro,1,2025-09-21,PAGO,Enzo
+2025-10-08,Maria Eduarda Sá,Cadeira Gamer,1,1088.82,20%,Dinheiro,1,2025-10-08,PAGO,João Vitor
+2025-12-02,Melina Jesus,Memória RAM 16GB,5,1381.8,0%,Dinheiro,1,2025-12-02,PAGO,Danilo
+2025-05-14,Eloá da Cruz,SSD 1TB,1,880.06,0%,Boleto,11,2026-01-09,PAGO,Lucca
+2025-06-24,Joaquim Siqueira,Roteador Wi-Fi,5,637.75,0%,Dinheiro,1,2025-06-24,PAGO,Sabrina
+2025-01-18,Agatha Borges,Memória RAM 16GB,2,756.68,0%,Cartão,4,2025-05-18,NÃO PAGO,Ísis
+2025-05-28,Maria Helena Pimenta,Processador AMD Ryzen 7,2,3671.42,0%,Pix,1,2025-05-28,PAGO,Melissa
+2025-04-21,Emanuelly Montenegro,Cooler para CPU,4,249.7,20%,Pix,1,2025-04-21,PAGO,Natália
+2026-01-04,Anthony Gabriel Aparecida,Computador Desktop,3,15997.59,0%,Cartão,6,2026-02-03,PAGO,Maria Vitória
+2025-06-18,Ana Sophia Albuquerque,HD Externo 1TB,2,559.26,0%,Dinheiro,1,2025-06-18,PAGO,Bella
+2025-03-24,Nicolas Rezende,SSD 1TB,5,3410.41,10%,Boleto,7,2025-10-20,PENDENTE,Isaque
+2025-06-14,Arthur Miguel Cavalcanti,Placa de Vídeo RTX,4,17240.16,0%,Dinheiro,1,2025-06-14,PAGO,Evelyn
+2025-04-13,Francisco Pastor,Pendrive 32GB,1,29.49,0%,Dinheiro,1,2025-04-13,PAGO,Lavínia
+2025-08-25,Evelyn Teixeira,Pendrive 64GB,3,235.77,0%,Cartão,2,2025-10-24,NÃO PAGO,Natália
+2025-11-09,Henry Gabriel da Cruz,"Monitor 27""",5,8811.9,0%,Cartão,2,2026-01-08,PAGO,Diogo
+2025-04-15,Otávio Garcia,Memória RAM 8GB,3,485.85,15%,Pix,1,2025-04-15,PAGO,Felipe
+2025-03-06,Julia da Costa,Gabinete,2,722.68,0%,Pix,1,2025-03-06,PAGO,Maria Alice
+2025-07-03,Ravi Lucca da Paz,SSD 256GB,1,274.83,5%,Boleto,2,2025-09-01,PAGO,Maria Julia
+2025-08-25,Lorenzo Martins,Switch de Rede,2,542.42,0%,Pix,1,2025-08-25,PAGO,Maria Vitória
+2025-01-20,Otávio Rezende,Webcam,5,1352.04,5%,Pix,1,2025-01-20,PAGO,Marina
+2025-01-28,Davi Lucas Nogueira,Mouse,4,161.08,0%,Dinheiro,1,2025-01-28,PAGO,Henry
+2025-06-16,Luiz Otávio Mendes,Cabo HDMI,5,297.68,5%,Boleto,4,2025-10-14,NÃO PAGO,Pedro Lucas
+2025-04-09,Raul Fonseca,Fonte 500W,2,548.82,0%,Cartão,5,2025-09-06,PENDENTE,Ana Lívia
+2025-05-29,Vitor Hugo Ramos,Processador AMD Ryzen 5,4,3666.59,20%,Boleto,7,2025-12-25,PAGO,Eduarda
+2025-08-17,Ana Sophia Vargas,"Monitor 27""",4,7018.0,0%,Boleto,7,2026-01-14,PENDENTE,Otto
+2025-06-16,Igor Ribeiro,Processador Intel i7,2,4387.18,0%,Boleto,3,2025-09-14,PENDENTE,Joana
+2025-01-14,Juliana Jesus,Pendrive 64GB,4,151.17,20%,Boleto,12,2026-01-09,PAGO,Arthur
+2025-05-02,Amanda Nogueira,Teclado,5,680.08,15%,Cartão,6,2025-10-29,PAGO,Amanda
+2025-02-19,Guilherme Martins,Processador AMD Ryzen 5,1,888.68,0%,Dinheiro,1,2025-02-19,PAGO,Alexia
+2025-05-17,Theo Cavalcanti,Notebook,3,11664.3,0%,Pix,1,2025-05-17,PAGO,Lunna
+2025-05-27,Sarah Sousa,Cadeira Gamer,3,5407.77,0%,Boleto,6,2025-11-23,PAGO,Gabriela
+2025-07-19,Valentina Moura,Cadeira Gamer,4,4726.56,20%,Pix,1,2025-07-19,PAGO,Maria Isis
+2025-04-21,Evelyn Lopes,Notebook,4,9194.52,15%,Boleto,1,2025-04-21,NÃO PAGO,José Pedro
+2025-07-20,Bella Borges,SSD 512GB,4,1795.04,5%,Pix,1,2025-07-20,PAGO,Caio
+2025-05-11,Gael Henrique Fogaça,Cadeira Gamer,4,4731.98,15%,Cartão,1,2025-05-11,NÃO PAGO,Maria Liz
+2025-08-28,Vitor Pires,Webcam,4,671.26,20%,Dinheiro,1,2025-08-28,PAGO,Luiz Felipe
+2025-12-30,João Lucas Novais,Switch de Rede,2,555.15,15%,Boleto,3,2026-01-29,PAGO,Letícia
+2025-11-12,Vinicius Silveira,Placa de Vídeo RTX,2,5962.32,20%,Boleto,4,2026-01-11,PAGO,Ana Cecília
+2025-05-11,Ana Beatriz Pastor,Pendrive 64GB,3,133.11,0%,Cartão,4,2025-09-08,PAGO,Dom
+2025-12-21,Isaac Mendonça,Processador Intel i7,3,6199.76,15%,Dinheiro,1,2025-12-21,PAGO,Caroline
+2025-10-23,Thales Castro,Roteador Wi-Fi,3,944.82,0%,Boleto,3,2026-01-21,PAGO,João Pedro
+2025-01-11,Kamilly Vasconcelos,Teclado,5,1014.8,0%,Dinheiro,1,2025-01-11,PAGO,Beatriz
+2025-09-21,Luiz Felipe Camargo,Notebook,3,10433.94,0%,Boleto,6,2026-01-19,PAGO,Rafael
+2025-03-11,Bianca da Cunha,Switch de Rede,5,2117.55,0%,Dinheiro,1,2025-03-11,PAGO,Sara
+2025-01-17,Gael Henrique Novais,Mesa para Computador,5,3133.75,0%,Cartão,2,2025-03-18,PAGO,Melina
+2025-02-08,Pietra Garcia,Fonte 500W,4,1032.84,0%,Pix,1,2025-02-08,PAGO,Ana Clara
+2025-01-24,Luiz Otávio Ramos,Headset,3,403.32,0%,Pix,1,2025-01-24,PAGO,Nicole
+2025-01-22,Alana Souza,Memória RAM 8GB,3,559.65,15%,Cartão,10,2025-11-18,PENDENTE,Marcelo
+2025-07-30,Maria Luísa Viana,"Monitor 27""",5,9047.65,0%,Pix,1,2025-07-30,PAGO,Letícia
+2025-06-17,Danilo da Rosa,Headset,5,672.16,10%,Pix,1,2025-06-17,PAGO,Ana
+2025-06-22,Juliana Mendes,Roteador Wi-Fi,4,815.83,10%,Dinheiro,1,2025-06-22,PAGO,Brenda
+2025-08-08,Isabella Montenegro,Processador Intel i5,3,3243.9,5%,Dinheiro,1,2025-08-08,PAGO,Danilo
+2025-03-16,Rafaela da Cunha,"Monitor 27""",3,4002.15,0%,Dinheiro,1,2025-03-16,PAGO,Maria Flor
+2025-12-20,Giovanna da Luz,Fonte 500W,4,805.6,0%,Dinheiro,1,2025-12-20,PAGO,Luigi
+2025-11-28,Arthur Martins,HD Externo 1TB,2,687.74,0%,Pix,1,2025-11-28,PAGO,Ester
+2025-12-23,Antony Pastor,Computador Desktop,2,4735.49,15%,Boleto,11,2026-01-22,NÃO PAGO,Anthony
+2025-11-22,Ana Rodrigues,Computador Desktop,3,17371.5,0%,Cartão,8,2026-01-21,NÃO PAGO,Maitê
+2025-11-26,Rael Sousa,Placa de Vídeo GTX,2,2462.75,20%,Cartão,8,2026-01-25,PAGO,Vitória
+2025-01-28,Anna Liz Albuquerque,Webcam,2,641.71,20%,Pix,1,2025-01-28,PAGO,Theo
+2025-07-02,Otávio Pereira,HD Externo 1TB,2,681.4,5%,Pix,1,2025-07-02,PAGO,Luigi
+2025-01-06,Marcela Andrade,SSD 256GB,1,173.53,10%,Boleto,7,2025-08-04,PAGO,Ana
+2025-07-28,Benjamim da Mota,Computador Desktop,1,4716.94,0%,Boleto,1,2025-07-28,PENDENTE,Caroline
+2025-09-21,Isis Fogaça,Switch de Rede,2,860.3,0%,Boleto,9,2026-01-19,NÃO PAGO,Melina
+2025-04-15,Maria Flor Vasconcelos,Processador AMD Ryzen 5,3,2444.51,15%,Cartão,6,2025-10-12,PENDENTE,Zoe
+2025-03-10,Maria Liz Pastor,SSD 512GB,3,1109.13,0%,Dinheiro,1,2025-03-10,PAGO,Sara
+2025-12-08,Jade Monteiro,Mouse,1,102.54,5%,Cartão,4,2026-02-06,PENDENTE,Ana Luiza
+2025-01-03,Rafaela Câmara,SSD 512GB,1,395.11,0%,Dinheiro,1,2025-01-03,PAGO,Cecília
+2025-01-25,Anthony da Mota,Webcam,2,797.44,20%,Pix,1,2025-01-25,PAGO,Rafael
+2025-05-25,Mariana Farias,Gabinete,2,805.17,15%,Dinheiro,1,2025-05-25,PAGO,Eduardo
+2025-09-22,Elisa Carvalho,Placa de Vídeo GTX,2,4380.87,5%,Dinheiro,1,2025-09-22,PAGO,Léo
+2025-09-01,Henry Gabriel Borges,Processador AMD Ryzen 5,4,3422.85,5%,Boleto,6,2026-01-29,PENDENTE,Pedro
+2025-04-30,João Pedro Abreu,Placa de Vídeo RTX,1,4052.74,5%,Cartão,11,2026-01-25,NÃO PAGO,Isaac
+2025-10-13,Ana Luiza Cunha,Cooler para CPU,4,402.04,0%,Dinheiro,1,2025-10-13,PAGO,Carlos Eduardo
+2025-07-31,Théo Souza,Cabo de Rede,1,14.5,20%,Cartão,10,2026-01-27,NÃO PAGO,Clarice
+2025-08-19,Isaac Carvalho,Placa de Vídeo RTX,3,12086.65,5%,Pix,1,2025-08-19,PAGO,Cecilia
+2025-04-09,Maria Cecília Fogaça,Processador Intel i5,1,1135.96,5%,Dinheiro,1,2025-04-09,PAGO,Letícia
+2025-12-19,Isaque Rocha,Processador Intel i7,4,6889.28,0%,Cartão,12,2026-01-18,PENDENTE,Rodrigo
+2025-03-27,Carolina Correia,"Monitor 24""",2,1473.6,5%,Pix,1,2025-03-27,PAGO,Camila
+2025-10-02,Mirella Azevedo,Impressora,3,4445.19,0%,Cartão,6,2026-01-30,PAGO,Lívia
+2025-03-01,Bento Cavalcanti,Processador AMD Ryzen 5,1,1139.45,0%,Dinheiro,1,2025-03-01,PAGO,Vitória
+2025-08-25,Luigi Sá,Notebook,4,12537.28,20%,Dinheiro,1,2025-08-25,PAGO,Maya
+2025-10-31,Ana da Costa,Cabo HDMI,5,318.36,20%,Cartão,4,2026-01-29,PENDENTE,Emanuella
+2025-05-31,Melina Santos,Pendrive 32GB,4,204.25,5%,Dinheiro,1,2025-05-31,PAGO,Sophie
+2026-01-07,João Lucas Pires,Webcam,4,1943.84,0%,Cartão,4,2026-02-06,PAGO,Emanuelly
+2025-06-30,Apollo Barros,Cabo HDMI,2,75.26,5%,Dinheiro,1,2025-06-30,PAGO,Ana Cecília
+2025-02-01,Hellena Melo,Pendrive 32GB,4,156.06,10%,Dinheiro,1,2025-02-01,PAGO,Ana Liz
+2025-09-19,Ana Carolina Macedo,Cabo de Rede,3,103.38,0%,Dinheiro,1,2025-09-19,PAGO,Ian
+2025-02-02,Sabrina Nogueira,Teclado,5,586.7,0%,Dinheiro,1,2025-02-02,PAGO,José
+2025-05-10,Vinícius Borges,Pendrive 32GB,5,288.25,0%,Cartão,5,2025-10-07,NÃO PAGO,Lunna
+2025-10-14,Valentina Oliveira,Pendrive 64GB,3,176.73,0%,Cartão,9,2026-01-12,NÃO PAGO,Ana Sophia
+2025-01-18,Maria Isis Silveira,Teclado,5,689.25,0%,Dinheiro,1,2025-01-18,PAGO,Marina
+2025-01-19,André Freitas,Pendrive 32GB,4,139.88,15%,Dinheiro,1,2025-01-19,PAGO,Maria Isis
+2025-03-15,Maria Laura da Mata,Impressora,1,425.37,0%,Dinheiro,1,2025-03-15,PAGO,Rael
+2025-04-23,Theo Dias,Computador Desktop,2,8757.36,0%,Boleto,1,2025-04-23,PENDENTE,Bernardo
+2025-06-23,Stephany Araújo,Cooler para CPU,3,181.78,20%,Dinheiro,1,2025-06-23,PAGO,Bianca
+2025-07-17,Zoe das Neves,Computador Desktop,3,7874.34,0%,Dinheiro,1,2025-07-17,PAGO,Lavínia
+2025-01-09,Raquel Vieira,Fonte 500W,4,1031.87,10%,Boleto,10,2025-11-05,PENDENTE,Zoe
+2026-01-07,Lucas Moraes,"Monitor 27""",5,6065.88,20%,Pix,1,2026-01-07,PAGO,Kamilly
+2025-12-01,Natália da Cunha,Teclado,5,621.92,5%,Cartão,1,2025-12-01,PENDENTE,Ana Vitória
+2025-08-14,Bruno Barros,Gabinete,3,976.92,20%,Boleto,9,2026-01-11,PAGO,Paulo
+2025-01-29,Maria Helena Melo,SSD 1TB,4,1853.8,0%,Boleto,2,2025-03-30,PAGO,Murilo
+2025-08-17,Rodrigo Silva,Notebook,2,7373.52,0%,Boleto,9,2026-01-14,NÃO PAGO,Valentina
+2025-08-02,Heloisa da Mata,SSD 256GB,2,602.74,5%,Dinheiro,1,2025-08-02,PAGO,Ana Julia
+2025-02-26,Eloah Leão,Pendrive 32GB,4,144.64,0%,Pix,1,2025-02-26,PAGO,Marcelo
+2025-04-11,Vicente Abreu,Processador Intel i7,4,7643.36,5%,Dinheiro,1,2025-04-11,PAGO,Brayan
+2025-01-13,João Lucas Garcia,Teclado,5,732.87,10%,Cartão,10,2025-11-09,PENDENTE,Gustavo
+2025-01-25,Manuela Macedo,SSD 1TB,1,653.26,20%,Dinheiro,1,2025-01-25,PAGO,Maria Julia
+2025-12-04,Theo Cunha,Pendrive 64GB,5,406.65,0%,Cartão,9,2026-02-02,PAGO,Mateus
+2025-11-19,Ana Liz Souza,Cooler para CPU,1,102.43,15%,Boleto,11,2026-01-18,PAGO,Nathan
+2025-05-13,Cecília Pacheco,SSD 512GB,5,2044.45,5%,Cartão,12,2026-02-07,PENDENTE,Rhavi
+2025-09-14,Yuri Freitas,Cabo HDMI,2,97.58,5%,Pix,1,2025-09-14,PAGO,Nina
+2025-04-09,João Lucas Ferreira,Impressora,3,2563.43,10%,Dinheiro,1,2025-04-09,PAGO,Isabella
+2025-07-20,Bernardo Garcia,SSD 512GB,5,2009.15,0%,Cartão,6,2026-01-16,NÃO PAGO,Francisco
+2025-02-25,Marcos Vinicius Viana,HD Externo 1TB,1,262.76,10%,Pix,1,2025-02-25,PAGO,Vicente
+2025-10-27,Pedro Lucas Aragão,HD Externo 1TB,2,524.65,10%,Dinheiro,1,2025-10-27,PAGO,Paulo
+2025-05-22,Laís Azevedo,Placa de Vídeo GTX,4,5077.58,10%,Pix,1,2025-05-22,PAGO,Ana Clara
+2025-06-29,Carolina Sales,Teclado,5,929.29,5%,Boleto,9,2026-01-25,PAGO,Ester
+2025-10-27,Apollo Carvalho,Notebook,3,10013.3,10%,Cartão,9,2026-01-25,NÃO PAGO,Nina
+2025-09-13,Henrique Lopes,Cooler para CPU,1,120.74,20%,Pix,1,2025-09-13,PAGO,Ana Carolina
+2025-12-27,Pedro Miguel Nogueira,Processador Intel i5,1,1496.02,0%,Cartão,6,2026-01-26,NÃO PAGO,João Pedro
+2025-10-18,Jade da Rosa,Gabinete,5,2852.0,0%,Pix,1,2025-10-18,PAGO,Laura
+2025-08-31,Laís Melo,Fonte 700W,3,1211.13,0%,Cartão,4,2025-12-29,PAGO,Benjamin
+2025-05-14,Davi Miguel Lopes,Cooler para CPU,3,346.33,5%,Pix,1,2025-05-14,PAGO,Vitor Hugo
+2025-10-08,Vitor Gabriel da Cruz,Fonte 700W,4,2128.36,0%,Dinheiro,1,2025-10-08,PAGO,João Pedro
+2025-05-07,Pietro Peixoto,Placa de Vídeo GTX,1,2234.54,0%,Boleto,2,2025-07-06,PENDENTE,Luiz Fernando
+2025-09-01,Benjamim da Rosa,Computador Desktop,1,5230.92,10%,Dinheiro,1,2025-09-01,PAGO,Emilly
+2025-12-27,Rafaela Silva,Impressora,4,4247.84,0%,Dinheiro,1,2025-12-27,PAGO,Rael
+2025-06-10,Isabella Leão,Processador AMD Ryzen 5,4,2492.74,15%,Pix,1,2025-06-10,PAGO,Yasmin
+2025-02-02,Letícia Ribeiro,Mouse,4,350.52,0%,Cartão,1,2025-02-02,NÃO PAGO,Otto
+2025-08-13,Matteo Albuquerque,Processador AMD Ryzen 5,4,5039.52,0%,Pix,1,2025-08-13,PAGO,Ana Luiza
+2025-03-25,Marina da Cunha,Cadeira Gamer,1,843.71,15%,Pix,1,2025-03-25,PAGO,Cecília
+2025-07-17,Pietra Rocha,Cabo HDMI,2,66.67,20%,Dinheiro,1,2025-07-17,PAGO,Aurora
+2025-10-14,Bruna Casa Grande,Webcam,2,287.91,10%,Boleto,11,2026-01-12,PENDENTE,Paulo
+2025-08-22,Apollo Ferreira,Impressora,1,1189.09,0%,Boleto,3,2025-11-20,NÃO PAGO,Ana Carolina
+2025-06-21,João Miguel Monteiro,Pendrive 32GB,5,218.19,15%,Boleto,6,2025-12-18,PENDENTE,Joaquim
+2025-03-10,Isaque Albuquerque,Notebook,5,15372.8,5%,Dinheiro,1,2025-03-10,PAGO,Jade
+2025-04-29,Isadora Lopes,Mesa para Computador,3,1708.25,15%,Dinheiro,1,2025-04-29,PAGO,Sabrina
+2025-05-02,Thiago Oliveira,Fonte 500W,1,219.48,15%,Pix,1,2025-05-02,PAGO,Marcela
+2025-11-22,Maria Alice Alves,Switch de Rede,5,2465.95,0%,Dinheiro,1,2025-11-22,PAGO,Ana Carolina
+2025-01-04,Bárbara Monteiro,Headset,2,697.6,5%,Boleto,4,2025-05-04,PAGO,João
+2025-02-05,Apollo Dias,Cabo de Rede,1,25.21,0%,Boleto,9,2025-11-02,PENDENTE,Valentim
+2025-07-07,Maria Clara Aragão,Processador AMD Ryzen 7,5,9059.9,0%,Pix,1,2025-07-07,PAGO,Olivia
+2025-03-10,Luísa Fonseca,Mesa para Computador,5,3745.85,0%,Boleto,7,2025-10-06,PAGO,José
+2025-11-28,Catarina Santos,SSD 512GB,1,426.76,10%,Pix,1,2025-11-28,PAGO,Yan
+2025-01-29,Matteo Leão,Pendrive 32GB,3,170.88,0%,Dinheiro,1,2025-01-29,PAGO,Pedro Henrique
+2025-07-03,Rael Rocha,HD Externo 1TB,4,1695.2,0%,Boleto,11,2026-01-29,PAGO,Maria Flor
+2025-12-27,Joaquim Caldeira,Impressora,5,5612.2,0%,Cartão,7,2026-01-26,NÃO PAGO,Lorenzo
+2025-12-12,Vitor Peixoto,SSD 512GB,4,1204.86,20%,Pix,1,2025-12-12,PAGO,Luiz Fernando
+2025-10-14,Isaac Pimenta,Mouse,4,205.56,15%,Pix,1,2025-10-14,PAGO,Bruno
+2025-03-31,Caroline Vasconcelos,SSD 256GB,3,702.36,0%,Cartão,1,2025-03-31,PAGO,Emanuel
+2025-12-02,Davi Silveira,Memória RAM 8GB,1,135.34,20%,Pix,1,2025-12-02,PAGO,Juan
+2025-07-06,Luiza Lopes,Pendrive 64GB,5,263.11,10%,Cartão,2,2025-09-04,PAGO,Vicente
+2025-08-07,Nicole Porto,Switch de Rede,3,1108.53,0%,Dinheiro,1,2025-08-07,PAGO,Vinícius
+2025-01-25,Thomas da Costa,Switch de Rede,2,546.96,0%,Boleto,7,2025-08-23,PAGO,Sophie
+2025-02-13,Ana Laura Siqueira,Cabo de Rede,2,41.2,0%,Cartão,3,2025-05-14,PAGO,Camila
+2025-09-07,Benjamin Mendes,Mesa para Computador,5,2822.3,0%,Pix,1,2025-09-07,PAGO,Igor
+2025-04-23,Lorenzo Azevedo,Computador Desktop,4,12525.76,0%,Cartão,10,2026-01-18,PAGO,José Pedro
+2025-01-09,Zoe Câmara,Placa de Vídeo RTX,2,6041.97,10%,Cartão,2,2025-03-10,PENDENTE,Oliver
+2025-12-27,Apollo Siqueira,HD Externo 1TB,5,1960.85,0%,Cartão,9,2026-01-26,PAGO,Heitor
+2025-09-22,Hadassa Viana,Processador AMD Ryzen 7,5,8109.45,10%,Pix,1,2025-09-22,PAGO,Pedro Lucas
+2025-08-24,Davi Miguel Souza,Pendrive 32GB,1,51.4,0%,Pix,1,2025-08-24,PAGO,Eduarda
+2025-02-20,João Guilherme da Cruz,Switch de Rede,2,376.18,10%,Pix,1,2025-02-20,PAGO,Hadassa
+2025-11-05,Luna Rocha,Cabo de Rede,4,115.56,10%,Pix,1,2025-11-05,PAGO,Sophia
+2025-06-24,Nina Gonçalves,Memória RAM 8GB,1,170.5,10%,Dinheiro,1,2025-06-24,PAGO,Ana Vitória
+2025-10-16,Benício Novais,Cabo HDMI,3,76.37,20%,Cartão,9,2026-01-14,NÃO PAGO,Benjamin
+2025-10-07,Allana Sousa,Roteador Wi-Fi,3,900.89,20%,Pix,1,2025-10-07,PAGO,Otávio
+2025-03-01,Luiz Gustavo Alves,Computador Desktop,1,4326.29,15%,Dinheiro,1,2025-03-01,PAGO,Bella
+2025-05-29,Pedro Lucas Vieira,Cabo HDMI,2,114.0,20%,Boleto,8,2026-01-24,PENDENTE,Lucca
+2025-02-04,Clara Castro,Processador Intel i7,1,1826.35,20%,Dinheiro,1,2025-02-04,PAGO,Beatriz
+2025-03-29,Pedro Henrique Duarte,Cooler para CPU,2,309.81,15%,Cartão,1,2025-03-29,NÃO PAGO,Carolina
+2025-01-15,Thiago Barros,Memória RAM 8GB,5,798.05,0%,Boleto,4,2025-05-15,PENDENTE,Ravy
+2026-01-05,Letícia Marques,Gabinete,1,572.56,0%,Cartão,6,2026-02-04,NÃO PAGO,Cauê
+2025-03-27,Arthur Miguel Mendes,Placa de Vídeo GTX,5,11729.08,5%,Cartão,4,2025-07-25,PAGO,Paulo
+2025-05-25,Ravi Lucca da Rocha,Processador Intel i7,4,6367.9,20%,Dinheiro,1,2025-05-25,PAGO,Maria
+2025-12-01,Arthur Gabriel Pires,Placa-Mãe,3,1526.23,10%,Pix,1,2025-12-01,PAGO,Aurora
+2025-04-29,João Gabriel Aragão,Computador Desktop,3,8057.19,0%,Dinheiro,1,2025-04-29,PAGO,Lorena
+2025-12-09,Ana Vitória Cardoso,SSD 1TB,3,1540.02,0%,Dinheiro,1,2025-12-09,PAGO,Cecilia
+2025-10-21,Rhavi Mendes,SSD 256GB,3,884.55,0%,Dinheiro,1,2025-10-21,PAGO,Miguel
+2025-08-21,Sabrina Montenegro,Cadeira Gamer,4,4013.95,20%,Boleto,4,2025-12-19,NÃO PAGO,Cecilia
+2025-06-14,Vinicius Cirino,Placa de Vídeo RTX,1,4075.11,0%,Boleto,7,2026-01-10,PAGO,Ravi Lucca
+2025-09-13,Ana Liz Pastor,SSD 256GB,4,860.16,0%,Boleto,6,2026-01-11,NÃO PAGO,Alexia
+2025-07-06,Ana Clara Fonseca,Placa de Vídeo GTX,5,9949.51,15%,Cartão,5,2025-12-03,PAGO,Isabelly
+2025-11-03,Maria Helena Andrade,Cabo de Rede,5,224.0,0%,Boleto,2,2026-01-02,PENDENTE,Ana Sophia
+2025-07-23,Isaque Pimenta,Fonte 700W,4,2355.0,0%,Cartão,9,2026-01-19,PENDENTE,Guilherme
+2025-11-05,Leandro Rocha,Processador AMD Ryzen 7,4,7416.43,10%,Boleto,4,2026-02-03,PENDENTE,Maria Isis
+2025-10-21,Benicio Rocha,Processador Intel i5,2,1636.87,10%,Pix,1,2025-10-21,PAGO,João Vitor
+2025-11-20,Luiz Gustavo Leão,Processador AMD Ryzen 7,4,6879.96,0%,Dinheiro,1,2025-11-20,PAGO,Oliver
+2025-06-09,Maria Liz Nascimento,Pendrive 64GB,4,318.36,0%,Dinheiro,1,2025-06-09,PAGO,Vinícius
+2025-12-19,Stella Rezende,Cadeira Gamer,1,1115.89,20%,Dinheiro,1,2025-12-19,PAGO,Giovanna
+2025-01-01,Yuri Santos,Cabo de Rede,2,52.26,20%,Pix,1,2025-01-01,PAGO,Nicole
+2025-07-23,Benicio Rodrigues,Cadeira Gamer,5,5036.64,20%,Boleto,12,2026-01-19,NÃO PAGO,Helena
+2025-11-16,Maya Mendes,HD Externo 1TB,3,924.96,15%,Dinheiro,1,2025-11-16,PAGO,Vicente
+2025-07-12,Lavínia Barros,Cadeira Gamer,5,7012.16,20%,Dinheiro,1,2025-07-12,PAGO,Daniel
+2025-01-14,Vitor Gabriel Pastor,Memória RAM 16GB,3,1436.1,0%,Pix,1,2025-01-14,PAGO,Rafaela
+2025-08-25,Kaique Sampaio,Processador Intel i7,1,2304.35,0%,Cartão,1,2025-08-25,PAGO,Calebe
+2025-01-01,André Câmara,Notebook,2,5938.19,20%,Pix,1,2025-01-01,PAGO,Léo
+2025-10-14,Samuel Almeida,Impressora,2,1103.86,20%,Boleto,3,2026-01-12,PENDENTE,Stella
+2025-08-14,Lorena Gomes,"Monitor 27""",2,3047.3,0%,Boleto,8,2026-01-11,PAGO,Vitória
+2025-09-05,Isabel Machado,SSD 256GB,5,928.96,20%,Boleto,9,2026-02-02,NÃO PAGO,Luara
+2025-01-03,Maya Costa,Cabo HDMI,3,171.37,10%,Cartão,2,2025-03-04,NÃO PAGO,Isabella
+2025-07-28,João Felipe Castro,Placa-Mãe,2,1302.74,5%,Pix,1,2025-07-28,PAGO,Olivia
+2025-07-09,Julia Campos,HD Externo 1TB,3,1014.06,0%,Cartão,9,2026-02-04,PAGO,Davi Luiz
+2025-06-10,Bianca da Mata,Processador AMD Ryzen 5,3,3282.09,5%,Boleto,5,2025-11-07,NÃO PAGO,Ana Lívia
+2025-04-30,Henry Gabriel da Mota,Switch de Rede,4,1444.32,15%,Cartão,12,2026-01-25,PENDENTE,Maria Isis
+2025-07-02,Sarah Freitas,Cadeira Gamer,3,2898.24,0%,Cartão,4,2025-10-30,PAGO,Arthur Miguel
+2026-01-02,Aurora Mendonça,Gabinete,3,1381.05,0%,Pix,1,2026-01-02,PAGO,Maria Luísa
+2025-02-06,Miguel Marques,"Monitor 27""",1,1559.69,0%,Dinheiro,1,2025-02-06,PAGO,Anna Liz
+2025-08-14,Anna Liz Rocha,Fonte 700W,1,361.34,0%,Pix,1,2025-08-14,PAGO,Rebeca
+2025-11-13,Lucca Marques,Placa de Vídeo GTX,2,2236.13,15%,Cartão,12,2026-01-12,NÃO PAGO,Henry
+2025-09-25,Davi Lucas Ferreira,Mesa para Computador,2,2371.58,0%,Dinheiro,1,2025-09-25,PAGO,Allana
+2025-01-29,Raul Pastor,"Monitor 27""",4,7320.44,0%,Boleto,9,2025-10-26,PENDENTE,Kaique
+2025-08-08,Maria Isis Pimenta,Processador AMD Ryzen 7,3,5283.41,10%,Cartão,12,2026-02-04,NÃO PAGO,Maria Laura
+2025-10-26,Gael Novais,Processador AMD Ryzen 5,5,5989.45,0%,Cartão,8,2026-01-24,PAGO,Caio
+2025-10-14,Carolina Silveira,Cadeira Gamer,5,7332.84,20%,Boleto,6,2026-01-12,PENDENTE,Beatriz
+2025-01-03,Júlia Duarte,Placa de Vídeo RTX,3,14138.91,0%,Pix,1,2025-01-03,PAGO,Caroline
+2025-08-25,Eloá Cassiano,SSD 256GB,3,696.18,0%,Cartão,12,2026-01-22,NÃO PAGO,Giovanna
+2025-12-26,Isabela Melo,Impressora,5,2953.45,0%,Dinheiro,1,2025-12-26,PAGO,Heloísa
+2025-03-24,Kaique Ramos,Memória RAM 8GB,4,792.78,15%,Boleto,12,2026-01-18,PENDENTE,Milena
+2025-07-05,Vicente Garcia,Switch de Rede,4,1894.07,5%,Dinheiro,1,2025-07-05,PAGO,Luiz Henrique
+2025-02-11,Brenda Nascimento,Computador Desktop,5,18525.81,5%,Cartão,9,2025-11-08,NÃO PAGO,Leandro
+2025-01-07,Luiza Gomes,Pendrive 64GB,5,286.07,15%,Cartão,12,2026-01-02,PENDENTE,Anthony Gabriel
+2025-08-29,Hellena Gonçalves,SSD 1TB,1,575.93,15%,Dinheiro,1,2025-08-29,PAGO,Maysa
+2025-05-21,Camila Castro,Teclado,4,383.44,0%,Pix,1,2025-05-21,PAGO,Juliana
+2025-04-27,Matheus da Rocha,"Monitor 27""",1,1275.76,5%,Boleto,10,2026-01-22,NÃO PAGO,Mateus
+2025-11-28,Danilo Rezende,Cabo HDMI,5,267.33,15%,Cartão,6,2026-01-27,PENDENTE,Sofia
+2025-12-16,Sarah Campos,Fonte 500W,4,1188.75,5%,Boleto,1,2025-12-16,NÃO PAGO,Isis
+2025-03-04,Diogo da Rocha,Pendrive 32GB,4,109.68,0%,Boleto,11,2026-01-28,PAGO,Raul
+2025-11-25,Marina Santos,Teclado,5,908.86,10%,Pix,1,2025-11-25,PAGO,Camila
+2025-12-11,Asafe Vasconcelos,Memória RAM 16GB,1,324.66,15%,Cartão,6,2026-01-10,PAGO,Luara
+2025-12-21,Guilherme Silva,Cabo de Rede,4,64.04,0%,Boleto,7,2026-01-20,PENDENTE,Maria Alice
+2025-12-30,Alana Pacheco,Impressora,2,2435.61,15%,Boleto,1,2025-12-30,PENDENTE,Laura
+2025-07-16,Yuri Porto,"Monitor 24""",4,2863.76,0%,Boleto,12,2026-01-12,PENDENTE,Eduardo
+2025-06-14,Renan Costela,Impressora,2,1592.2,0%,Boleto,3,2025-09-12,NÃO PAGO,Olívia
+2025-04-17,Eduardo Moraes,Processador Intel i7,4,8248.44,0%,Cartão,4,2025-08-15,PAGO,Danilo
+2025-08-17,Maria Luiza Rocha,Computador Desktop,1,4472.99,5%,Dinheiro,1,2025-08-17,PAGO,Letícia
+2025-01-22,Nathan da Luz,HD Externo 1TB,4,1448.14,10%,Cartão,11,2025-12-18,NÃO PAGO,Davi Lucca
+2025-08-20,João Gabriel das Neves,Placa de Vídeo GTX,1,1783.41,0%,Pix,1,2025-08-20,PAGO,Ana Lívia
+2025-09-30,Caio da Mata,Impressora,5,2395.8,20%,Pix,1,2025-09-30,PAGO,Maria Liz
+2025-08-26,Maria Eduarda Pinto,Cadeira Gamer,2,2849.16,5%,Cartão,6,2026-01-23,NÃO PAGO,Thiago
+2025-05-01,Fernanda Melo,Processador AMD Ryzen 7,5,7091.0,15%,Pix,1,2025-05-01,PAGO,Brayan
+2025-09-30,Ísis Albuquerque,Gabinete,2,587.01,15%,Boleto,12,2026-01-28,NÃO PAGO,Dom
+2025-07-19,Aylla Albuquerque,Impressora,5,4796.0,0%,Pix,1,2025-07-19,PAGO,Daniel
+2025-10-02,Isadora Guerra,Webcam,5,2070.54,10%,Boleto,9,2026-01-30,NÃO PAGO,Erick
+2025-03-03,Maria Helena Lima,Processador Intel i7,3,4473.5,5%,Cartão,2,2025-05-02,PAGO,Luana
+2025-04-24,Theodoro da Paz,Roteador Wi-Fi,3,1129.88,5%,Dinheiro,1,2025-04-24,PAGO,Marcela
+2025-02-23,Isabel Freitas,Cadeira Gamer,4,3334.6,0%,Dinheiro,1,2025-02-23,PAGO,Henry Gabriel
+2025-08-05,Maria Flor Nogueira,Processador Intel i5,1,1018.32,0%,Pix,1,2025-08-05,PAGO,Helena
+2025-12-25,Theodoro das Neves,Pendrive 64GB,5,220.02,5%,Dinheiro,1,2025-12-25,PAGO,Agatha
+2025-08-24,Ana Júlia Rezende,Gabinete,2,618.5,0%,Pix,1,2025-08-24,PAGO,Isabelly
+2025-12-31,Nathan Nogueira,"Monitor 27""",2,3835.68,0%,Boleto,8,2026-01-30,NÃO PAGO,Larissa
+2025-04-05,Maysa Campos,Teclado,2,212.22,0%,Dinheiro,1,2025-04-05,PAGO,Heloísa
+2025-10-15,Ísis das Neves,Cooler para CPU,5,553.5,10%,Cartão,10,2026-01-13,PAGO,Maria Luísa
+2025-03-09,Anna Liz Garcia,Computador Desktop,3,9068.33,10%,Boleto,7,2025-10-05,PAGO,Vitória
+2025-09-22,Enzo Rocha,Cabo de Rede,3,104.42,20%,Dinheiro,1,2025-09-22,PAGO,Pedro
+2025-04-01,Léo Cavalcanti,Placa de Vídeo GTX,5,10920.45,0%,Dinheiro,1,2025-04-01,PAGO,Lunna
+2025-04-20,Emanuelly Martins,SSD 512GB,1,451.02,5%,Pix,1,2025-04-20,PAGO,Rhavi
+2025-02-12,Maria Julia Viana,"Monitor 27""",4,3655.96,0%,Pix,1,2025-02-12,PAGO,Juliana
+2025-05-22,Ana Vitória Novais,SSD 1TB,5,3852.3,0%,Cartão,8,2026-01-17,PAGO,Laís
+2025-12-19,Maria Cecília Barbosa,Placa-Mãe,4,3501.57,20%,Pix,1,2025-12-19,PAGO,Marcelo
+2025-07-28,Ana Liz Lopes,Webcam,1,378.44,0%,Pix,1,2025-07-28,PAGO,Allana
+2025-11-03,Ana Lívia Teixeira,SSD 1TB,4,3560.36,0%,Dinheiro,1,2025-11-03,PAGO,Joaquim
+2025-03-26,Juan Pimenta,Cadeira Gamer,4,3361.92,0%,Boleto,9,2025-12-21,PAGO,Isadora
+2025-11-24,João Lucas Jesus,"Monitor 27""",3,3571.85,5%,Boleto,3,2026-01-23,NÃO PAGO,Lunna
+2025-12-11,Cauê Cardoso,Teclado,5,865.78,5%,Boleto,5,2026-01-10,NÃO PAGO,Letícia
+2025-05-15,Davi Lucas da Costa,Processador AMD Ryzen 7,5,7597.5,0%,Cartão,6,2025-11-11,NÃO PAGO,Antonella
+2025-05-23,Pedro Miguel Cirino,Computador Desktop,1,2588.88,10%,Boleto,2,2025-07-22,NÃO PAGO,Levi
+2025-05-09,Zoe da Mota,Cabo de Rede,3,84.48,0%,Cartão,1,2025-05-09,NÃO PAGO,Augusto
+2025-10-24,Murilo da Rosa,Fonte 500W,2,368.42,20%,Boleto,1,2025-10-24,NÃO PAGO,Luísa
+2025-04-11,Calebe Ribeiro,Mesa para Computador,1,954.7,5%,Dinheiro,1,2025-04-11,PAGO,Lorenzo
+2025-09-05,Léo Vargas,Cabo de Rede,5,238.65,0%,Cartão,10,2026-02-02,NÃO PAGO,Emanuel
+2025-10-22,Miguel Vasconcelos,Headset,4,336.5,15%,Boleto,1,2025-10-22,PENDENTE,Pedro Lucas
+2025-07-15,Jade Nunes,Roteador Wi-Fi,1,244.31,0%,Pix,1,2025-07-15,PAGO,Isabelly
+2025-03-14,Bianca Melo,Placa de Vídeo GTX,3,3818.39,10%,Dinheiro,1,2025-03-14,PAGO,Cauê
+2025-10-25,Benjamim Lima,Mouse,4,398.76,0%,Dinheiro,1,2025-10-25,PAGO,Zoe
+2026-01-06,Jade Carvalho,Placa de Vídeo RTX,4,17457.44,0%,Dinheiro,1,2026-01-06,PAGO,Agatha
+2025-11-12,Luiz Felipe Siqueira,"Monitor 27""",3,4387.1,15%,Boleto,6,2026-01-11,NÃO PAGO,Maria Luísa
+2025-06-20,Renan Fogaça,Cadeira Gamer,4,7799.36,0%,Cartão,5,2025-11-17,PENDENTE,Gabriel
+2025-01-29,José Pedro da Luz,"Monitor 24""",4,2926.56,0%,Cartão,6,2025-07-28,PAGO,Maria Liz
+2025-02-23,Lorena Lima,Cabo HDMI,3,150.78,0%,Boleto,1,2025-02-23,PAGO,Melissa
+2025-08-21,Maria Flor Castro,Memória RAM 8GB,4,991.0,0%,Cartão,5,2026-01-18,NÃO PAGO,Vinícius
+2025-03-14,Eduarda Pastor,Roteador Wi-Fi,5,592.2,10%,Boleto,12,2026-02-07,PAGO,Henry
+2025-08-03,Isis Siqueira,Cooler para CPU,5,312.7,0%,Dinheiro,1,2025-08-03,PAGO,Heloisa
+2025-04-29,Yan Câmara,Cabo de Rede,1,17.6,20%,Dinheiro,1,2025-04-29,PAGO,Yago
+2025-12-22,Luiz Miguel Casa Grande,SSD 512GB,3,1700.76,0%,Boleto,5,2026-01-21,NÃO PAGO,Maria Fernanda
+2025-01-31,Leonardo Peixoto,Fonte 700W,5,2435.6,0%,Dinheiro,1,2025-01-31,PAGO,Ravi
+2025-10-21,Rodrigo da Luz,Processador Intel i7,5,11167.5,0%,Cartão,6,2026-01-19,PAGO,Yan
+2025-11-17,Ana Vitória Almeida,SSD 256GB,4,1006.88,0%,Dinheiro,1,2025-11-17,PAGO,Joaquim
+2025-08-19,Thomas Pimenta,Cadeira Gamer,1,1403.67,0%,Dinheiro,1,2025-08-19,PAGO,João Guilherme
+2025-05-22,Isabelly Sousa,Processador AMD Ryzen 7,3,4067.66,20%,Dinheiro,1,2025-05-22,PAGO,Thiago
+2025-03-28,Luiz Fernando Rocha,Teclado,1,258.5,0%,Cartão,2,2025-05-27,PAGO,Ian
+2025-04-30,Laura Santos,Cabo de Rede,3,67.19,15%,Boleto,10,2026-01-25,NÃO PAGO,André
+2025-09-09,Diego da Mota,Pendrive 64GB,2,75.58,20%,Boleto,6,2026-02-06,PAGO,Evelyn
+2025-06-18,Helena Castro,Pendrive 32GB,5,170.8,0%,Pix,1,2025-06-18,PAGO,Arthur
+2025-09-05,Carlos Eduardo Rezende,Switch de Rede,2,775.08,0%,Boleto,5,2026-02-02,PAGO,Maria Luiza
+2025-08-17,Bella Sá,Cabo de Rede,2,86.54,0%,Pix,1,2025-08-17,PAGO,Vitor Gabriel
+2025-06-05,Enrico Pacheco,SSD 512GB,2,970.92,0%,Dinheiro,1,2025-06-05,PAGO,Pedro Henrique
+2025-04-28,Antonella Mendonça,Placa de Vídeo RTX,2,8202.38,10%,Cartão,1,2025-04-28,PAGO,Larissa
+2025-01-21,Isis Ramos,Webcam,1,212.1,10%,Boleto,6,2025-07-20,NÃO PAGO,Julia
+2025-02-20,Ana Cecília Marques,Placa de Vídeo GTX,2,4869.3,0%,Dinheiro,1,2025-02-20,PAGO,Hellena
+2025-03-03,Maria Gomes,Fonte 700W,3,1458.59,10%,Pix,1,2025-03-03,PAGO,Erick
+2025-07-21,Augusto Nogueira,Processador AMD Ryzen 7,1,1615.72,0%,Cartão,8,2026-01-17,NÃO PAGO,Clarice
+2025-08-28,Levi Barros,Roteador Wi-Fi,2,527.74,20%,Pix,1,2025-08-28,PAGO,Levi
+2025-08-29,Davi Lucca Carvalho,Cabo HDMI,3,230.79,0%,Pix,1,2025-08-29,PAGO,Ravi
+2025-09-08,Gustavo Henrique Costa,HD Externo 1TB,1,302.99,20%,Pix,1,2025-09-08,PAGO,Ana Cecília
+2025-05-13,Danilo Fonseca,Fonte 700W,1,443.09,20%,Pix,1,2025-05-13,PAGO,Nathan
+2025-11-28,Bento Castro,Mouse,3,317.52,0%,Pix,1,2025-11-28,PAGO,Cauê
+2025-10-07,João Pedro da Rosa,Memória RAM 16GB,2,467.02,20%,Dinheiro,1,2025-10-07,PAGO,Ana Laura
+2025-06-03,Jade Vieira,Placa de Vídeo RTX,4,17516.92,0%,Dinheiro,1,2025-06-03,PAGO,Aylla
+2025-11-24,Raquel Cirino,Pendrive 32GB,1,31.9,0%,Cartão,10,2026-01-23,NÃO PAGO,Emanuella
+2025-05-19,Sophia da Mota,Mesa para Computador,1,277.14,20%,Dinheiro,1,2025-05-19,PAGO,Dom
+2025-05-10,Fernanda Castro,Processador AMD Ryzen 7,1,1427.65,5%,Dinheiro,1,2025-05-10,PAGO,Maria Luísa
+2025-06-16,Anthony Gabriel Souza,"Monitor 24""",3,2758.74,15%,Boleto,6,2025-12-13,NÃO PAGO,Vinicius
+2025-01-14,Kamilly das Neves,Notebook,3,9617.88,0%,Boleto,12,2026-01-09,NÃO PAGO,Kamilly
+2025-05-22,Theodoro Teixeira,Headset,4,697.92,0%,Dinheiro,1,2025-05-22,PAGO,Sophie
+2025-05-19,Bento Aparecida,Switch de Rede,5,1060.12,15%,Cartão,10,2026-01-14,PENDENTE,Joaquim
+2025-07-19,Maria Laura Duarte,Teclado,4,993.8,0%,Pix,1,2025-07-19,PAGO,Cecília
+2025-11-05,Gabriela da Rosa,Impressora,3,2622.48,0%,Boleto,4,2026-02-03,PENDENTE,Catarina
+2025-10-31,Alana Montenegro,SSD 1TB,1,455.41,20%,Cartão,7,2026-01-29,PAGO,Juan
+2025-06-06,Diego Pinto,Cooler para CPU,4,540.22,20%,Dinheiro,1,2025-06-06,PAGO,Léo
+2025-12-12,Pedro Miguel Brito,Memória RAM 8GB,2,337.28,20%,Dinheiro,1,2025-12-12,PAGO,Anthony Gabriel
+2025-09-15,Davi Lucas Monteiro,Fonte 700W,5,2168.39,15%,Dinheiro,1,2025-09-15,PAGO,Beatriz
+2025-06-08,Liam Oliveira,Processador AMD Ryzen 7,1,1650.73,0%,Boleto,3,2025-09-06,PAGO,Matteo
+2025-03-14,Diogo Dias,Fonte 700W,1,592.5,0%,Dinheiro,1,2025-03-14,PAGO,Théo
+2025-06-04,Miguel Teixeira,Processador AMD Ryzen 5,1,1018.44,0%,Pix,1,2025-06-04,PAGO,João Guilherme
+2025-04-10,Bryan da Rosa,Placa de Vídeo GTX,4,5092.0,0%,Dinheiro,1,2025-04-10,PAGO,Luana
+2025-09-18,Mariane Vieira,Mesa para Computador,3,2850.81,0%,Pix,1,2025-09-18,PAGO,Yasmin
+2025-06-15,Catarina Porto,SSD 512GB,5,1960.32,5%,Dinheiro,1,2025-06-15,PAGO,Oliver
+2025-08-01,Clarice Costa,Placa-Mãe,3,1431.1,20%,Dinheiro,1,2025-08-01,PAGO,Davi Luiz
+2025-07-08,Matheus Vargas,Notebook,3,9664.5,0%,Pix,1,2025-07-08,PAGO,Lorena
+2025-04-16,Mathias Cassiano,Pendrive 64GB,4,303.66,5%,Boleto,11,2026-01-11,PAGO,Natália
+2025-01-15,Nina da Costa,Memória RAM 8GB,5,955.44,15%,Boleto,2,2025-03-16,PAGO,Rebeca
+2025-04-16,Maria Flor Fogaça,Computador Desktop,2,7868.2,10%,Dinheiro,1,2025-04-16,PAGO,Ana Sophia
+2025-06-27,João Vitor Monteiro,Notebook,4,8881.11,15%,Cartão,11,2026-01-23,PENDENTE,Thales
+2026-01-05,Benjamin Jesus,SSD 512GB,4,1497.05,15%,Dinheiro,1,2026-01-05,PAGO,Valentim
+2025-04-14,Helena da Luz,Roteador Wi-Fi,4,561.98,5%,Pix,1,2025-04-14,PAGO,Yan
+2025-07-07,Isaac da Conceição,Fonte 500W,1,215.06,15%,Boleto,4,2025-11-04,PAGO,Maria Helena
+2025-07-23,Emilly Barros,Cooler para CPU,5,385.8,0%,Boleto,11,2026-01-19,PAGO,Ana Júlia
+2025-02-23,Rafaela Lopes,Switch de Rede,3,557.9,10%,Boleto,11,2026-01-19,PENDENTE,Alice
+2025-05-28,Bárbara Pires,Mouse,2,224.67,20%,Pix,1,2025-05-28,PAGO,Rafaela
+2025-01-26,Melissa Barbosa,Cabo HDMI,3,56.84,15%,Boleto,3,2025-04-26,PAGO,Isabelly
+2025-06-25,Nathan Macedo,Mouse,3,307.2,5%,Cartão,10,2026-01-21,PAGO,Rebeca
+2025-12-27,Sophie Sousa,Teclado,2,453.36,0%,Dinheiro,1,2025-12-27,PAGO,Davi Lucas
+2025-04-22,Nicolas Santos,Cabo HDMI,4,106.08,15%,Pix,1,2025-04-22,PAGO,Maria Helena
+2025-07-03,Natália Ramos,SSD 256GB,3,741.82,10%,Cartão,7,2026-01-29,PENDENTE,Gabriela
+2025-08-06,Ísis da Luz,Cadeira Gamer,3,1951.9,20%,Cartão,9,2026-02-02,PAGO,Vitor
+2025-12-17,Stephany Leão,Memória RAM 8GB,3,599.7,10%,Pix,1,2025-12-17,PAGO,Melina
+2025-06-27,Ana Beatriz Nascimento,Fonte 700W,5,1441.68,20%,Boleto,3,2025-09-25,PENDENTE,Eduardo
+2025-01-08,Lorena Jesus,HD Externo 1TB,1,338.65,15%,Pix,1,2025-01-08,PAGO,Benjamim
+2025-01-17,Caleb Sales,Roteador Wi-Fi,2,238.85,5%,Dinheiro,1,2025-01-17,PAGO,Maria Luiza
+2025-10-01,Sabrina Azevedo,Memória RAM 8GB,3,654.31,20%,Pix,1,2025-10-01,PAGO,Manuella
+2025-09-17,Fernanda Moraes,Cooler para CPU,2,141.06,5%,Dinheiro,1,2025-09-17,PAGO,Olivia
+2025-01-31,Eloah Teixeira,Processador AMD Ryzen 5,2,1829.1,15%,Dinheiro,1,2025-01-31,PAGO,Ana Cecília
+2025-04-27,Yasmin Cunha,Fonte 500W,1,326.49,10%,Pix,1,2025-04-27,PAGO,Vitória
+2025-06-06,Heloísa Guerra,Processador Intel i7,2,3528.84,15%,Dinheiro,1,2025-06-06,PAGO,Joana
+2025-07-02,Luiz Fernando Nogueira,Switch de Rede,5,1809.4,0%,Dinheiro,1,2025-07-02,PAGO,Ana Julia
+2025-05-10,Thales Sales,Gabinete,4,2150.5,10%,Pix,1,2025-05-10,PAGO,Hadassa
+2025-10-06,Felipe Sousa,Cabo de Rede,2,45.76,20%,Cartão,1,2025-10-06,NÃO PAGO,Stephany
+2025-02-11,Sophia Melo,Roteador Wi-Fi,3,985.65,0%,Pix,1,2025-02-11,PAGO,Julia
+2025-07-09,Benjamin Caldeira,Fonte 700W,2,948.76,0%,Dinheiro,1,2025-07-09,PAGO,Bruna
+2025-05-31,Gael Henrique Macedo,Cabo de Rede,5,213.45,0%,Pix,1,2025-05-31,PAGO,Bernardo
+2025-03-17,Raquel Monteiro,Roteador Wi-Fi,4,927.4,10%,Dinheiro,1,2025-03-17,PAGO,Felipe
+2025-09-06,Otávio Pires,Placa de Vídeo GTX,4,8238.72,0%,Pix,1,2025-09-06,PAGO,Nina
+2025-07-15,Levi Duarte,SSD 512GB,3,1222.01,20%,Cartão,10,2026-01-11,PAGO,Davi Lucca
+2025-07-16,Antony Jesus,Headset,5,621.35,15%,Cartão,8,2026-01-12,NÃO PAGO,Antônio
+2025-03-18,Maria Fernanda Macedo,SSD 512GB,4,2365.36,0%,Cartão,10,2026-01-12,NÃO PAGO,Letícia
+2025-07-09,Ravy Abreu,Impressora,2,1887.32,0%,Boleto,10,2026-02-04,PAGO,Maitê
+2025-02-24,Enzo Aparecida,Switch de Rede,4,899.69,5%,Boleto,5,2025-07-24,PENDENTE,Lorenzo
+2025-12-12,Gael Henrique Macedo,"Monitor 27""",1,1988.29,0%,Pix,1,2025-12-12,PAGO,Marina
+2025-08-09,Miguel Abreu,Pendrive 32GB,2,117.4,0%,Cartão,6,2026-02-05,PENDENTE,Valentina
+2025-10-14,Carlos Eduardo Dias,Fonte 500W,2,526.05,5%,Boleto,7,2026-01-12,PAGO,Maitê
+2025-04-26,Maria Fernanda Correia,Switch de Rede,5,1729.8,20%,Pix,1,2025-04-26,PAGO,Ryan
+2025-08-17,Ryan Vargas,Fonte 700W,3,1540.21,10%,Pix,1,2025-08-17,PAGO,Luigi
+2025-07-08,Théo Fernandes,SSD 1TB,1,544.74,0%,Dinheiro,1,2025-07-08,PAGO,Murilo
+2025-11-11,Davi Lucca Monteiro,Placa de Vídeo RTX,4,11950.75,20%,Cartão,3,2026-01-10,PAGO,João Felipe
+2025-04-08,Antônio Albuquerque,Processador Intel i5,3,2337.71,5%,Dinheiro,1,2025-04-08,PAGO,Thales
+2025-11-15,Ana Lívia Sá,SSD 256GB,4,866.77,10%,Dinheiro,1,2025-11-15,PAGO,Theo
+2025-04-10,Vicente Moreira,Cadeira Gamer,4,7158.9,5%,Cartão,6,2025-10-07,PAGO,Sophie
+2025-09-14,João Felipe da Rosa,Fonte 500W,3,893.28,0%,Boleto,10,2026-01-12,PENDENTE,Maria Luísa
+2025-06-28,Marina Ramos,Cooler para CPU,2,271.48,10%,Dinheiro,1,2025-06-28,PAGO,Ravi
+2025-11-26,João Felipe Brito,Gabinete,3,1423.23,0%,Pix,1,2025-11-26,PAGO,Eduarda
+2025-02-07,Bella Sampaio,Pendrive 32GB,1,57.41,0%,Pix,1,2025-02-07,PAGO,Zoe
+2025-10-08,Otávio Carvalho,Processador AMD Ryzen 5,5,4129.84,5%,Pix,1,2025-10-08,PAGO,Davi Luiz
+2025-08-01,Ravi Camargo,Mouse,1,138.18,5%,Boleto,4,2025-11-29,PENDENTE,Isaac
+2025-10-06,Henry Gabriel Dias,Roteador Wi-Fi,3,835.1,15%,Dinheiro,1,2025-10-06,PAGO,Benjamim
+2025-07-18,Aylla Pacheco,Pendrive 32GB,1,50.22,0%,Cartão,2,2025-09-16,PENDENTE,Rebeca
+2025-10-31,Caleb Sales,Impressora,1,716.3,0%,Boleto,5,2026-01-29,PAGO,Theo
+2025-07-20,Samuel Farias,Cabo de Rede,5,98.77,10%,Cartão,6,2026-01-16,PENDENTE,Lucca
+2025-05-18,Maria Julia Correia,Pendrive 64GB,1,85.01,5%,Dinheiro,1,2025-05-18,PAGO,Daniela
+2025-06-07,Rafael Machado,SSD 1TB,5,2259.57,5%,Dinheiro,1,2025-06-07,PAGO,Luiz Fernando
+2026-01-06,Giovanna Albuquerque,Processador AMD Ryzen 7,3,4660.74,0%,Pix,1,2026-01-06,PAGO,Davi Lucca
+2025-01-21,Arthur Gabriel Correia,Notebook,2,8528.05,5%,Boleto,2,2025-03-22,NÃO PAGO,Rafael
+2025-01-21,Danilo Vasconcelos,Processador AMD Ryzen 5,2,1604.89,5%,Pix,1,2025-01-21,PAGO,Helena
+2025-11-19,Vinicius Nunes,Cabo de Rede,5,170.84,20%,Dinheiro,1,2025-11-19,PAGO,Maria Cecília
+2025-09-19,Lucas Siqueira,SSD 1TB,1,684.92,0%,Boleto,9,2026-01-17,PENDENTE,Diogo
+2025-11-07,Ana Vitória Pimenta,Cadeira Gamer,1,1292.98,5%,Boleto,5,2026-02-05,NÃO PAGO,Yuri
+2025-06-27,Yago Guerra,Webcam,4,355.67,15%,Dinheiro,1,2025-06-27,PAGO,Beatriz
+2025-11-30,Sara Costela,Pendrive 32GB,4,122.56,0%,Dinheiro,1,2025-11-30,PAGO,Mariah
+2025-01-04,Vitor Cavalcante,Cooler para CPU,1,189.2,0%,Boleto,4,2025-05-04,NÃO PAGO,Ryan
+2025-02-11,Ísis Cardoso,Processador AMD Ryzen 7,2,2398.79,15%,Boleto,9,2025-11-08,PAGO,Nicole
+2025-04-12,Rhavi Araújo,Fonte 500W,3,725.85,0%,Dinheiro,1,2025-04-12,PAGO,Júlia
+2025-06-14,Danilo Almeida,Processador AMD Ryzen 5,1,945.64,0%,Boleto,10,2026-01-10,PENDENTE,Luiz Otávio
+2025-05-29,Aurora da Cruz,"Monitor 27""",5,6833.65,0%,Boleto,9,2026-01-24,PENDENTE,Júlia
+2025-06-17,Emanuella Ferreira,HD Externo 1TB,1,263.04,10%,Dinheiro,1,2025-06-17,PAGO,Stephany
+2025-07-26,Thiago Silva,Processador AMD Ryzen 5,4,4736.17,5%,Pix,1,2025-07-26,PAGO,Enzo
+2025-10-19,Marcela Fogaça,Mouse,2,230.49,15%,Cartão,7,2026-01-17,PAGO,Isabelly
+2025-12-23,Lucas Gabriel Siqueira,Fonte 700W,3,1291.56,20%,Dinheiro,1,2025-12-23,PAGO,Luiz Miguel
+2025-10-12,Daniel Castro,Fonte 700W,4,2023.12,0%,Cartão,9,2026-01-10,PAGO,Laís
+2025-04-06,Emanuel Garcia,Processador Intel i5,4,5586.28,0%,Pix,1,2025-04-06,PAGO,Caroline
+2025-05-17,Raquel Vasconcelos,SSD 512GB,3,1358.02,5%,Cartão,7,2025-12-13,NÃO PAGO,Maria Alice
+2025-09-01,Mariana Farias,Fonte 500W,4,879.01,20%,Boleto,11,2026-01-29,NÃO PAGO,Juan
+2025-10-16,Ana Laura Carvalho,Processador Intel i7,3,5304.9,0%,Cartão,8,2026-01-14,PENDENTE,Ana Liz
