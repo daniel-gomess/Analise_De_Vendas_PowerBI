@@ -3,7 +3,7 @@ table d_Calendario
 
 	column Data
 		dataType: dateTime
-		formatString: Long Date
+		formatString: Short Date
 		lineageTag: 967a9a38-48fe-48a4-a7f1-25ad5e5bf86a
 		summarizeBy: none
 		sourceColumn: Data
@@ -21,19 +21,19 @@ table d_Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 9310f8d1-9e0b-4cb2-923f-e78722d810de
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Ano
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column Mes
 		dataType: int64
 		formatString: 0
 		lineageTag: 4e8f71cb-2c33-4a6a-8231-0045a915535b
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Mes
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column Mes_Nome
 		dataType: string
@@ -71,19 +71,19 @@ table d_Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 9be83b6c-d5ce-4e60-92f0-111062452a9b
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Dia
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column Dia_Semana
 		dataType: int64
 		formatString: 0
 		lineageTag: 5c656eee-0a0b-41ce-8044-45898e936923
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Dia_Semana
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column Dia_Semana_Nome
 		dataType: string
@@ -97,10 +97,10 @@ table d_Calendario
 		dataType: int64
 		formatString: 0
 		lineageTag: 8219681a-481e-4930-872c-138e83987d04
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Semana_Ano
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	partition d_Calendario = m
 		mode: import

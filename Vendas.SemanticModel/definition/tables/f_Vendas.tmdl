@@ -3,15 +3,10 @@ table f_Vendas
 
 	column Data
 		dataType: dateTime
-		formatString: Long Date
+		formatString: Short Date
 		lineageTag: d7abdcb5-a3aa-4df4-905f-49962b92fd4f
 		summarizeBy: none
 		sourceColumn: Data
-
-		variation Variation
-			isDefault
-			relationship: 1efe55d7-95a4-4225-8914-3ecb3ed1b14b
-			defaultHierarchy: LocalDateTable_60d3dbd3-6e53-4e36-95e3-29de3b1d535e.'Hierarquia de datas'
 
 		annotation SummarizationSetBy = Automatic
 
@@ -35,31 +30,30 @@ table f_Vendas
 
 	column Quantidade
 		dataType: int64
-		formatString: 0
+		formatString: #,0
 		lineageTag: e796d97a-18b3-4366-95a9-15451d6646f3
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Quantidade
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column Valor
 		dataType: int64
-		formatString: 0
+		formatString: #,0.00
 		lineageTag: 336a2786-530e-4c2f-90f1-6f1d29e0199a
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Valor
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column Desconto
 		dataType: double
+		formatString: 0.0%;-0.0%;0.0%
 		lineageTag: a32cef51-71a5-4240-8f1f-502c703576e5
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Desconto
 
-		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
+		annotation SummarizationSetBy = User
 
 	column 'Forma de Pagamento'
 		dataType: string
@@ -71,24 +65,19 @@ table f_Vendas
 
 	column 'Nº Vezes'
 		dataType: int64
-		formatString: 0
+		formatString: #,0
 		lineageTag: 8cef5b81-5c34-4557-9a21-1512a65f7fde
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Nº Vezes
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column 'Data Vencimento'
 		dataType: dateTime
-		formatString: Long Date
+		formatString: Short Date
 		lineageTag: 5d326579-f4db-4a0b-9603-c3d2caf3cbed
 		summarizeBy: none
 		sourceColumn: Data Vencimento
-
-		variation Variation
-			isDefault
-			relationship: a3266785-2780-4a94-8c37-a1128b2255ba
-			defaultHierarchy: LocalDateTable_9641083c-e9aa-4680-ab4e-4c8f83b4c1a9.'Hierarquia de datas'
 
 		annotation SummarizationSetBy = Automatic
 
