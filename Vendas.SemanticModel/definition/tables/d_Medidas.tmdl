@@ -31,15 +31,210 @@ table d_Medidas
 
 	measure Var_%_Valor_Total_Mes = ```
 			
-			DIVIDE(
-			    [Valor_Total] - [Valor_Total_Mes_Anterior],
-			    [Valor_Total_Mes_Anterior]
+			VAR valorAtual = [Valor_Total]
+			VAR valorAnterior = [Valor_Total_Mes_Anterior]
+			RETURN
+			IF(
+			    NOT ISBLANK(valorAnterior),
+			    DIVIDE(valorAtual - valorAnterior, valorAnterior)
 			)
 			
 			```
 		formatString: 0.0%;-0.0%;0.0%
 		displayFolder: 2. Analise_Temporal
 		lineageTag: 9cc7b332-39e8-4e0c-9137-ca8b157ca529
+
+	measure Valor_Total_YTD = ```
+			
+			TOTALYTD(
+			    [Valor_Total],
+			    d_calendario[Data]
+			)
+			
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 2. Analise_Temporal
+		lineageTag: a1f5d26d-3ac1-4b9c-8242-c8239e0a2ead
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Media_Movel_3M = ```
+			
+			AVERAGEX(
+			    DATESINPERIOD(
+			        d_calendario[Data],
+			        MAX(d_calendario[Data]),
+			        -3,
+			        MONTH
+			    ),
+			    [Valor_Total]
+			)
+			
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 2. Analise_Temporal
+		lineageTag: f5655650-2338-4113-96ef-a819381de73d
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Ticket_Medio = ```
+			
+			DIVIDE(
+			    [Valor_Total],
+			    COUNTROWS(f_vendas)
+			)
+			
+			```
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 21dea777-69e7-499a-886a-cf3d859a3001
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Valor_Sem_Desconto = ```
+			
+			SUMX(
+			    f_vendas,
+			    DIVIDE(
+			        f_vendas[Valor],
+			        1 - f_vendas[Desconto]
+			    )
+			)
+			
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 1. Principal
+		lineageTag: 3925cf14-e9fa-4b35-bd19-6fdeeb8ca49d
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Impacto_%_Desconto = ```
+			
+			DIVIDE(
+			    [Valor_Desconto],
+			    [Valor_Sem_Desconto]
+			)
+			
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: 1. Principal
+		lineageTag: 56a5d7cb-492c-4079-bd58-d2128de83dde
+
+	measure Valor_Desconto = [Valor_Sem_Desconto] - [Valor_Total]
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 1. Principal
+		lineageTag: 85705db3-e2a3-4fe6-be5e-19cb7401a625
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Primeira_Data_Compra = ```
+			
+			CALCULATE(
+			    MIN(f_vendas[Data]),
+			    REMOVEFILTERS(d_calendario)
+			)
+			
+			```
+		formatString: Short Date
+		displayFolder: 1. Principal
+		lineageTag: c2cad211-5524-4f24-b585-f3ad7fec5105
+
+	measure Cliente_Novo = ```
+			
+			IF(
+			    MIN(f_vendas[Data]) = [Primeira_Data_Compra],
+			    1,
+			    0
+			)
+			
+			```
+		formatString: 0
+		displayFolder: 1. Principal
+		lineageTag: 60dc793c-5ff8-48c8-86c3-8a3ce33a7718
+
+	measure Qtd_Clientes_Novos = ```
+			
+			CALCULATE(
+			    DISTINCTCOUNT(d_Clientes[Cliente]),
+			    FILTER(
+			        d_Clientes,
+			        [Cliente_Novo] = 1
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: 1. Principal
+		lineageTag: c9ba3416-973d-4560-afac-227dc90e36f1
+
+	measure Qtd_Clientes_Recorrentes = ```
+			
+			CALCULATE(
+			    DISTINCTCOUNT(d_Clientes[Cliente]),
+			    FILTER(
+			        d_Clientes,
+			        [Cliente_Novo] = 0
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: 1. Principal
+		lineageTag: 2cfbd44b-8b0a-42d0-bad8-fad1b56e45ba
+
+	measure Desconto_Medio_Geral = AVERAGE(f_vendas[Desconto])
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: 1. Principal
+		lineageTag: 42901807-7b1e-4a70-9f31-d0d7499998e1
+
+	measure Qtd_Vendas = COUNTROWS(f_vendas)
+		formatString: #,0
+		displayFolder: 1. Principal
+		lineageTag: 05db6b5d-b493-462e-a43e-cff223c6a3d9
+
+	measure Qtd_Vendas_Por_Status = ```
+			
+			CALCULATE(
+			    [Qtd_Vendas],
+			    VALUES(f_vendas[Status])
+			)
+			
+			```
+		formatString: 0
+		displayFolder: 1. Principal
+		lineageTag: d82931ff-4a80-4288-9bb6-4ab071524990
+
+	measure Valor_Em_Risco = ```
+			
+			CALCULATE(
+			    [Valor_Total],
+			    f_vendas[Status] <> "Pago"
+			)
+			
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 3. Pagamento
+		lineageTag: c3d9d7ad-3645-4836-9c9f-fc1011b0f0f6
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Prazo_Medio_Pagamento = ```
+			
+			AVERAGEX(
+			    FILTER(
+			        f_Vendas,
+			        NOT ISBLANK(f_Vendas[Data Vencimento])
+			    ),
+			    DATEDIFF(
+			        f_Vendas[Data],
+			        f_Vendas[Data Vencimento],
+			        DAY
+			    )
+			)
+			
+			```
+		formatString: #,0
+		displayFolder: 3. Pagamento
+		lineageTag: e3e7f449-7366-42ca-b7ca-2b92a931830c
 
 	partition d_Medidas = m
 		mode: import
