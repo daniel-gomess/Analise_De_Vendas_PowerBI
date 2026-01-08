@@ -1,0 +1,26 @@
+table d_Forma_Pagamento
+	lineageTag: c5037ef9-83ed-49a7-a962-b0b0756e8b3c
+
+	column 'Forma de Pagamento'
+		dataType: string
+		lineageTag: 97d30bd8-2037-49e3-b698-27a4eed319db
+		summarizeBy: none
+		sourceColumn: Forma de Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	partition d_Forma_Pagamento = m
+		mode: import
+		queryGroup: Dimensão
+		source =
+				let
+				    Fonte = f_Vendas,
+				    #"Selecionar Colunas" = Table.SelectColumns(Fonte, {"Forma de Pagamento"}),
+				    #"Remover Duplicados" = Table.Distinct(#"Selecionar Colunas")
+				in
+				    #"Remover Duplicados"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

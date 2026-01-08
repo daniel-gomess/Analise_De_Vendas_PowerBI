@@ -1,0 +1,35 @@
+relationship 1efe55d7-95a4-4225-8914-3ecb3ed1b14b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: f_Vendas.Data
+	toColumn: LocalDateTable_60d3dbd3-6e53-4e36-95e3-29de3b1d535e.Date
+
+relationship a3266785-2780-4a94-8c37-a1128b2255ba
+	joinOnDateBehavior: datePartOnly
+	fromColumn: f_Vendas.'Data Vencimento'
+	toColumn: LocalDateTable_9641083c-e9aa-4680-ab4e-4c8f83b4c1a9.Date
+
+relationship 3da4b47e-7a46-4931-b73b-9eedc62fb06e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: d_Calendario.Data
+	toColumn: LocalDateTable_64f323cf-49ab-4c90-abdf-0530f2a363e1.Date
+
+relationship AutoDetected_983eedce-8743-4168-875b-eff69b63f5e8
+	fromColumn: f_Vendas.Cliente
+	toColumn: d_Clientes.Cliente
+
+relationship AutoDetected_de14a870-9411-4ae1-adba-7206163ce4d3
+	fromColumn: f_Vendas.Produto
+	toColumn: d_Produto.Produto
+
+relationship AutoDetected_a4fbce34-aa69-4341-85b5-9209598e1b70
+	fromColumn: f_Vendas.'Forma de Pagamento'
+	toColumn: d_Forma_Pagamento.'Forma de Pagamento'
+
+relationship AutoDetected_66fa9046-298c-4db2-ac91-6387fa127a45
+	fromColumn: f_Vendas.Status
+	toColumn: d_Status_Venda.Status
+
+relationship AutoDetected_17cb1419-f556-44a4-ac55-d05d0f652041
+	fromColumn: f_Vendas.Vendedor
+	toColumn: d_Vendedor.Vendedor
+

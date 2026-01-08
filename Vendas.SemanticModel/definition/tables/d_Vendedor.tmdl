@@ -1,0 +1,26 @@
+table d_Vendedor
+	lineageTag: 2ca1fbad-fce6-4f84-a7b1-f80db816f6a9
+
+	column Vendedor
+		dataType: string
+		lineageTag: 0a670a97-f26d-4011-a97a-2ec9c6381bca
+		summarizeBy: none
+		sourceColumn: Vendedor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition d_Vendedor = m
+		mode: import
+		queryGroup: Dimensão
+		source =
+				let
+				    Fonte = f_Vendas,
+				    #"Selecionar Colunas" = Table.SelectColumns(Fonte, {"Vendedor"}),
+				    #"Remover Duplicados" = Table.Distinct(#"Selecionar Colunas")
+				in
+				    #"Remover Duplicados"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,26 @@
+table d_Status_Venda
+	lineageTag: fb49fd71-cfd1-4a77-ba72-d148d1d4f2b9
+
+	column Status
+		dataType: string
+		lineageTag: 4b959c44-abf1-4fa1-8dea-0902b42b7aa2
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition d_Status_Venda = m
+		mode: import
+		queryGroup: Dimensão
+		source =
+				let
+				    Fonte = f_Vendas,
+				    #"Selecionar Colunas" = Table.SelectColumns(Fonte, {"Status"}),
+				    #"Remover Duplicados" = Table.Distinct(#"Selecionar Colunas")
+				in
+				    #"Remover Duplicados"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

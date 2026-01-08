@@ -6,9 +6,31 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
+queryGroup Fato
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup Dimensão
+
+	annotation PBI_QueryGroupOrder = 1
+
 annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBI_QueryOrder = ["f_Vendas","d_Calendario","d_Clientes","d_Produto","d_Vendedor","d_Forma_Pagamento","d_Status_Venda"]
+
+ref table f_Vendas
+ref table DateTableTemplate_3a0d8556-c4c7-4b7f-be21-fea33fc9daa7
+ref table LocalDateTable_60d3dbd3-6e53-4e36-95e3-29de3b1d535e
+ref table LocalDateTable_9641083c-e9aa-4680-ab4e-4c8f83b4c1a9
+ref table d_Calendario
+ref table LocalDateTable_64f323cf-49ab-4c90-abdf-0530f2a363e1
+ref table d_Clientes
+ref table d_Produto
+ref table d_Vendedor
+ref table d_Forma_Pagamento
+ref table d_Status_Venda
 
 ref cultureInfo pt-BR
 

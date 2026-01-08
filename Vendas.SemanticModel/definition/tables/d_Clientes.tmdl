@@ -1,0 +1,26 @@
+table d_Clientes
+	lineageTag: 16005afb-077d-45b5-8fc2-c33ec5f7ae9d
+
+	column Cliente
+		dataType: string
+		lineageTag: d11b6363-d9a4-42a8-a728-9b904c34b61e
+		summarizeBy: none
+		sourceColumn: Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	partition d_Clientes = m
+		mode: import
+		queryGroup: Dimensão
+		source =
+				let
+				    Fonte = f_Vendas,
+				    #"Selecionar Colunas" = Table.SelectColumns(Fonte, {"Cliente"}),
+				    #"Remover Duplicados" = Table.Distinct(#"Selecionar Colunas")
+				in
+				    #"Remover Duplicados"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

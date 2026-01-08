@@ -1,0 +1,26 @@
+table d_Produto
+	lineageTag: 7f2f7c9c-a6a1-45f1-81d8-025356261693
+
+	column Produto
+		dataType: string
+		lineageTag: 4b907931-0539-46f4-b8ea-06395a40f10e
+		summarizeBy: none
+		sourceColumn: Produto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition d_Produto = m
+		mode: import
+		queryGroup: Dimensão
+		source =
+				let
+				    Fonte = f_Vendas,
+				    #"Selecionar Colunas" = Table.SelectColumns(Fonte, {"Produto"}),
+				    #"Remover Duplicados" = Table.Distinct(#"Selecionar Colunas")
+				in
+				    #"Remover Duplicados"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
