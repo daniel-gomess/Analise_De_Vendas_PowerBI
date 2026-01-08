@@ -1,0 +1,32 @@
+table d_Medidas
+	lineageTag: 0a5ea071-d8a1-4cc2-bc94-0d1867f0708b
+
+	measure Valor_Total = SUM(f_Vendas[Valor])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 9abf1e68-1d23-4261-bfec-9ba4dacedbdb
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Valor_Total_Mes_Anterior =
+			
+			CALCULATE(
+			    [Valor_Total],
+			    PREVIOUSMONTH(d_Calendario[Data])
+			)
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 868d70c1-5770-4fd9-99ec-b3bd17243dfe
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	partition d_Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+

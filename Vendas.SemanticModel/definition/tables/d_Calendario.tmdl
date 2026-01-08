@@ -40,6 +40,9 @@ table d_Calendario
 		lineageTag: 4e4cc946-a1b4-4924-8f63-d14c73a0360a
 		summarizeBy: none
 		sourceColumn: Mes_Nome
+		sortByColumn: Mes
+
+		changedProperty = SortByColumn
 
 		annotation SummarizationSetBy = Automatic
 
@@ -105,63 +108,74 @@ table d_Calendario
 	partition d_Calendario = m
 		mode: import
 		queryGroup: Dimensão
-		source = ```
+		source =
 				let
-				    DataInicial = #date(2018, 1, 1),
-				    DataFinal = #date(2030, 12, 31),
+				    // Fonte da tabela fato
+				    Fonte = f_Vendas,
+				
+				    // Garantia de tipo correto
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte, {{"Data", type date}}),
+				
+				    // Datas mínima e máxima da fato
+				    DataInicial = List.Min(#"Tipo Alterado"[Data]),
+				    DataFinal   = List.Max(#"Tipo Alterado"[Data]),
+				
+				    // Geração da lista de datas
 				    ListaDatas = List.Dates(
-				        DataInicial, 
-				        Duration.Days(DataFinal - DataInicial) + 1, 
+				        DataInicial,
+				        Duration.Days(DataFinal - DataInicial) + 1,
 				        #duration(1,0,0,0)
 				    ),
+				
+				    // Criação da tabela calendário
 				    TabelaDatas = Table.FromList(ListaDatas, Splitter.SplitByNothing(), {"Data"}),
 				
-				    #"Tipo Alterado" = Table.TransformColumnTypes(TabelaDatas, {{"Data", type date}}),
+				    #"Tipo Alterado Calendario" = Table.TransformColumnTypes(TabelaDatas, {{"Data", type date}}),
 				
-				    #"Ano" = Table.AddColumn(#"Tipo Alterado", "Ano", each Date.Year([Data]), Int64.Type),
+				    // Colunas de calendário
+				    #"Ano" = Table.AddColumn(#"Tipo Alterado Calendario", "Ano", each Date.Year([Data]), Int64.Type),
 				    #"Mes" = Table.AddColumn(#"Ano", "Mes", each Date.Month([Data]), Int64.Type),
 				    #"Mes Nome" = Table.AddColumn(#"Mes", "Mes_Nome", each Date.MonthName([Data]), type text),
 				    #"Mes Abreviado" = Table.AddColumn(
-				        #"Mes Nome", 
-				        "Mes_Abreviado", 
-				        each Text.Start(Date.MonthName([Data]), 3), 
+				        #"Mes Nome",
+				        "Mes_Abreviado",
+				        each Text.Start(Date.MonthName([Data]), 3),
 				        type text
 				    ),
 				    #"AnoMes" = Table.AddColumn(
-				        #"Mes Abreviado", 
-				        "AnoMes", 
-				        each Text.From(Date.Year([Data])) & "-" & Text.PadStart(Text.From(Date.Month([Data])), 2, "0"), 
+				        #"Mes Abreviado",
+				        "AnoMes",
+				        each Text.From(Date.Year([Data])) & "-" & Text.PadStart(Text.From(Date.Month([Data])), 2, "0"),
 				        type text
 				    ),
 				    #"Trimestre" = Table.AddColumn(
-				        #"AnoMes", 
-				        "Trimestre", 
-				        each "T" & Text.From(Date.QuarterOfYear([Data])), 
+				        #"AnoMes",
+				        "Trimestre",
+				        each "T" & Text.From(Date.QuarterOfYear([Data])),
 				        type text
 				    ),
 				    #"Dia" = Table.AddColumn(#"Trimestre", "Dia", each Date.Day([Data]), Int64.Type),
 				    #"Dia Semana" = Table.AddColumn(
-				        #"Dia", 
-				        "Dia_Semana", 
-				        each Date.DayOfWeek([Data]) + 1, 
+				        #"Dia",
+				        "Dia_Semana",
+				        each Date.DayOfWeek([Data]) + 1,
 				        Int64.Type
 				    ),
 				    #"Dia Semana Nome" = Table.AddColumn(
-				        #"Dia Semana", 
-				        "Dia_Semana_Nome", 
-				        each Date.DayOfWeekName([Data]), 
+				        #"Dia Semana",
+				        "Dia_Semana_Nome",
+				        each Date.DayOfWeekName([Data]),
 				        type text
 				    ),
 				    #"Semana Ano" = Table.AddColumn(
-				        #"Dia Semana Nome", 
-				        "Semana_Ano", 
-				        each Date.WeekOfYear([Data]), 
+				        #"Dia Semana Nome",
+				        "Semana_Ano",
+				        each Date.WeekOfYear([Data]),
 				        Int64.Type
 				    )
 				
 				in
 				    #"Semana Ano"
-				```
 
 	annotation PBI_NavigationStepName = Navegação
 

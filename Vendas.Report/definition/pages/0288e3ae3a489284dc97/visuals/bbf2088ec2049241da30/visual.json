@@ -1,0 +1,100 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "bbf2088ec2049241da30",
+  "position": {
+    "x": 144.18136020151132,
+    "y": 189.52141057934509,
+    "z": 0,
+    "height": 299.24433249370276,
+    "width": 425.28967254408059
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Vendedor"
+                    }
+                  },
+                  "Property": "Vendedor"
+                }
+              },
+              "queryRef": "d_Vendedor.Vendedor",
+              "nativeQueryRef": "Vendedor"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Medidas"
+                    }
+                  },
+                  "Property": "Valor_Total"
+                }
+              },
+              "queryRef": "d_Medidas.Valor_Total",
+              "nativeQueryRef": "Valor_Total"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Medidas"
+                    }
+                  },
+                  "Property": "Valor_Total_Mes_Anterior"
+                }
+              },
+              "queryRef": "d_Medidas.Valor_Total_Mes_Anterior",
+              "nativeQueryRef": "Valor_Total_Mes_Anterior"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "d_Vendedor"
+                  }
+                },
+                "Property": "Vendedor"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "259c362655143dee528d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "d_Vendedor"
+              }
+            },
+            "Property": "Vendedor"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}
