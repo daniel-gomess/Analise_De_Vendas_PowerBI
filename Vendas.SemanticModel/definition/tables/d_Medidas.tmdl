@@ -3,6 +3,7 @@ table d_Medidas
 
 	measure Valor_Total = SUM(f_Vendas[Valor])
 		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 1. Principal
 		lineageTag: 9abf1e68-1d23-4261-bfec-9ba4dacedbdb
 
 		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
@@ -11,12 +12,34 @@ table d_Medidas
 			
 			CALCULATE(
 			    [Valor_Total],
-			    PREVIOUSMONTH(d_Calendario[Data])
+			    DATEADD(
+			        d_calendario[Data],
+			        -1,
+			        MONTH
+			    )
 			)
 		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
-		lineageTag: 868d70c1-5770-4fd9-99ec-b3bd17243dfe
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 1f7ce940-1712-4c6e-a3f2-113c1bc74fe1
 
 		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Qtde_Parcelas = SUM(f_Vendas[Nº Vezes])
+		formatString: #,0
+		displayFolder: 1. Principal
+		lineageTag: 1ac7f740-74be-495d-9e85-b2bf32b42c72
+
+	measure Var_%_Valor_Total_Mes = ```
+			
+			DIVIDE(
+			    [Valor_Total] - [Valor_Total_Mes_Anterior],
+			    [Valor_Total_Mes_Anterior]
+			)
+			
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 9cc7b332-39e8-4e0c-9137-ca8b157ca529
 
 	partition d_Medidas = m
 		mode: import
