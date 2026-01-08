@@ -85,10 +85,9 @@ table d_Medidas
 			)
 			
 			```
+		formatString: #,0.00
 		displayFolder: 2. Analise_Temporal
 		lineageTag: 21dea777-69e7-499a-886a-cf3d859a3001
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure Valor_Sem_Desconto = ```
 			
@@ -195,7 +194,7 @@ table d_Medidas
 			
 			CALCULATE(
 			    [Qtd_Vendas],
-			    VALUES(f_vendas[Status])
+			    VALUES(f_Vendas[Status 2.0])
 			)
 			
 			```
@@ -235,6 +234,20 @@ table d_Medidas
 		formatString: #,0
 		displayFolder: 3. Pagamento
 		lineageTag: e3e7f449-7366-42ca-b7ca-2b92a931830c
+
+	measure Media_Vendas_Por_Vendedor = ```
+			
+			DIVIDE(
+			    [Valor_Total],
+			    DISTINCTCOUNT(d_Vendedor[Vendedor])
+			)
+			
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 1. Principal
+		lineageTag: f0a57bd5-6de3-475f-88f0-89178ec7d3d2
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
 
 	partition d_Medidas = m
 		mode: import

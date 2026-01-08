@@ -51,6 +51,9 @@ table d_Calendario
 		lineageTag: 4dc3d548-4abf-4c16-a845-18cfe556be68
 		summarizeBy: none
 		sourceColumn: Mes_Abreviado
+		sortByColumn: Mes
+
+		changedProperty = SortByColumn
 
 		annotation SummarizationSetBy = Automatic
 

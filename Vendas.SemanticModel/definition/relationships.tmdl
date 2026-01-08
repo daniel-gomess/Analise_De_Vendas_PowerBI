@@ -15,10 +15,6 @@ relationship AutoDetected_a4fbce34-aa69-4341-85b5-9209598e1b70
 	fromColumn: f_Vendas.'Forma de Pagamento'
 	toColumn: d_Forma_Pagamento.'Forma de Pagamento'
 
-relationship AutoDetected_66fa9046-298c-4db2-ac91-6387fa127a45
-	fromColumn: f_Vendas.Status
-	toColumn: d_Status_Venda.Status
-
 relationship AutoDetected_17cb1419-f556-44a4-ac55-d05d0f652041
 	fromColumn: f_Vendas.Vendedor
 	toColumn: d_Vendedor.Vendedor
@@ -31,4 +27,8 @@ relationship fc4c4ca0-08e4-365f-3721-f6ba154c93cb
 	isActive: false
 	fromColumn: f_Vendas.'Data Vencimento'
 	toColumn: d_Calendario.Data
+
+relationship AutoDetected_b61c5c10-fca8-48cb-a464-e899d2b38503
+	fromColumn: f_Vendas.'Status 2.0'
+	toColumn: d_Status_Venda.'Status 2.0'
 

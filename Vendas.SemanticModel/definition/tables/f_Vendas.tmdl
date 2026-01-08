@@ -99,6 +99,14 @@ table f_Vendas
 
 		annotation SummarizationSetBy = Automatic
 
+	column 'Status 2.0'
+		dataType: string
+		lineageTag: 8d1ae0cc-01d4-4207-b4af-dba56e26c028
+		summarizeBy: none
+		sourceColumn: Status 2.0
+
+		annotation SummarizationSetBy = Automatic
+
 	partition f_Vendas = m
 		mode: import
 		queryGroup: Fato
@@ -106,9 +114,11 @@ table f_Vendas
 				let
 				    Fonte = Csv.Document(File.Contents("C:\Users\daani\OneDrive\Desktop\Daniel\BIs para portifólio\Vendas\Analise_De_Vendas_PowerBI\dados_Vendas_geral.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
 				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
-				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Data", type date}, {"Cliente", type text}, {"Produto", type text}, {"Quantidade", Int64.Type}, {"Valor", Int64.Type}, {"Desconto", Percentage.Type}, {"Forma de Pagamento", type text}, {"Nº Vezes", Int64.Type}, {"Data Vencimento", type date}, {"Status", type text}, {"Vendedor", type text}})
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Data", type date}, {"Cliente", type text}, {"Produto", type text}, {"Quantidade", Int64.Type}, {"Valor", Int64.Type}, {"Desconto", Percentage.Type}, {"Forma de Pagamento", type text}, {"Nº Vezes", Int64.Type}, {"Data Vencimento", type date}, {"Status", type text}, {"Vendedor", type text}}),
+				    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Tipo Alterado", "Status 2.0", each if [Status] <> "PAGO" then "NÃO PAGO" else [Status]),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Coluna Condicional Adicionada",{{"Status 2.0", type text}})
 				in
-				    #"Tipo Alterado"
+				    #"Tipo Alterado1"
 
 	annotation PBI_NavigationStepName = Navegação
 

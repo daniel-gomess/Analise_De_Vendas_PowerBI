@@ -1,11 +1,11 @@
 table d_Status_Venda
 	lineageTag: fb49fd71-cfd1-4a77-ba72-d148d1d4f2b9
 
-	column Status
+	column 'Status 2.0'
 		dataType: string
-		lineageTag: 4b959c44-abf1-4fa1-8dea-0902b42b7aa2
+		lineageTag: d9755085-60d0-4471-b172-d43d1b60febb
 		summarizeBy: none
-		sourceColumn: Status
+		sourceColumn: Status 2.0
 
 		annotation SummarizationSetBy = Automatic
 
@@ -15,12 +15,12 @@ table d_Status_Venda
 		source =
 				let
 				    Fonte = f_Vendas,
-				    #"Selecionar Colunas" = Table.SelectColumns(Fonte, {"Status"}),
+				    #"Selecionar Colunas" = Table.SelectColumns(Fonte, {"Status 2.0"}),
 				    #"Remover Duplicados" = Table.Distinct(#"Selecionar Colunas")
 				in
 				    #"Remover Duplicados"
 
 	annotation PBI_NavigationStepName = Navegação
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 
