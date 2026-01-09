@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "eaf4ff1cbb9da92e00e5",
+  "name": "267590f6d8c7b03774ea",
   "position": {
-    "x": 981.29198966408262,
-    "y": 56.675279931093883,
-    "z": 9001,
+    "x": 888.41652112737609,
+    "y": 6.4252090281543515,
+    "z": 7002,
     "height": 92.299741602067186,
     "width": 236.41688199827735,
-    "tabOrder": 9001
+    "tabOrder": 7002
   },
   "visual": {
     "visualType": "slicer",
@@ -23,11 +23,11 @@
                       "Entity": "d_Calendario"
                     }
                   },
-                  "Property": "Mes_Nome"
+                  "Property": "Ano"
                 }
               },
-              "queryRef": "d_Calendario.Mes_Nome",
-              "nativeQueryRef": "Mes_Nome",
+              "queryRef": "d_Calendario.Ano",
+              "nativeQueryRef": "Ano",
               "active": true
             }
           ]
@@ -42,7 +42,7 @@
         "levels": [
           {
             "queryRefs": [
-              "d_Calendario.Mes_Nome"
+              "d_Calendario.Ano"
             ],
             "isCollapsed": true,
             "isPinned": true
@@ -129,7 +129,7 @@
                                   "Source": "d"
                                 }
                               },
-                              "Property": "Mes_Nome"
+                              "Property": "Ano"
                             }
                           }
                         ],
@@ -137,7 +137,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'maio'"
+                                "Value": "2025L"
                               }
                             }
                           ]
@@ -159,7 +159,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Mês'"
+                  "Value": "'Ano'"
                 }
               }
             },

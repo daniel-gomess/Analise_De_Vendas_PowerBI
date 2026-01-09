@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "20f5a1e000db600ca421",
+  "name": "58ea714d9757be7d19ab",
   "position": {
-    "x": 1282.4806201550387,
-    "y": 176.50301464254952,
-    "z": 4000,
-    "height": 87.441860465116278,
-    "width": 284.99569336778637,
-    "tabOrder": 4000
+    "x": 981.29198966408262,
+    "y": 246.13264427217914,
+    "z": 9008,
+    "height": 64.771748492678725,
+    "width": 241.27476313522826,
+    "tabOrder": 9006
   },
   "visual": {
     "visualType": "card",
@@ -23,32 +23,14 @@
                       "Entity": "d_Medidas"
                     }
                   },
-                  "Property": "Media_Vendas_Por_Vendedor"
+                  "Property": "Ticket_Medio_MoM_Texto"
                 }
               },
-              "queryRef": "d_Medidas.Media_Vendas_Por_Vendedor",
-              "nativeQueryRef": "Media_Vendas_Por_Vendedor"
+              "queryRef": "d_Medidas.Ticket_Medio_MoM_Texto",
+              "nativeQueryRef": "Ticket_Medio_MoM_Texto"
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Measure": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "d_Medidas"
-                  }
-                },
-                "Property": "Media_Vendas_Por_Vendedor"
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": true
       }
     },
     "objects": {
@@ -58,7 +40,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "14D"
                 }
               }
             },
@@ -66,6 +48,22 @@
               "expr": {
                 "Literal": {
                   "Value": "1D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "d_Medidas"
+                        }
+                      },
+                      "Property": "Ticket_Medio_MoM_Cor"
+                    }
+                  }
                 }
               }
             }
@@ -90,17 +88,10 @@
       "title": [
         {
           "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Média de Vendas Por Vendedor'"
-                }
-              }
-            },
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -121,7 +112,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "17D"
                 }
               }
             }
@@ -163,23 +154,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "e24fff328e06b40025d8",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Medidas"
-              }
-            },
-            "Property": "Media_Vendas_Por_Vendedor"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

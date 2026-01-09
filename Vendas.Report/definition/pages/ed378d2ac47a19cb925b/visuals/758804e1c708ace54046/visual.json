@@ -1,88 +1,112 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "20f5a1e000db600ca421",
+  "name": "758804e1c708ace54046",
   "position": {
-    "x": 1282.4806201550387,
-    "y": 176.50301464254952,
-    "z": 4000,
-    "height": 87.441860465116278,
-    "width": 284.99569336778637,
-    "tabOrder": 4000
+    "x": 1207.4173824538173,
+    "y": 6.4252090281543515,
+    "z": 7001,
+    "height": 92.299741602067186,
+    "width": 236.41688199827735,
+    "tabOrder": 7001
   },
   "visual": {
-    "visualType": "card",
+    "visualType": "slicer",
     "query": {
       "queryState": {
         "Values": {
           "projections": [
             {
               "field": {
-                "Measure": {
+                "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "d_Medidas"
+                      "Entity": "d_Calendario"
                     }
                   },
-                  "Property": "Media_Vendas_Por_Vendedor"
+                  "Property": "Mes_Nome"
                 }
               },
-              "queryRef": "d_Medidas.Media_Vendas_Por_Vendedor",
-              "nativeQueryRef": "Media_Vendas_Por_Vendedor"
+              "queryRef": "d_Calendario.Mes_Nome",
+              "nativeQueryRef": "Mes_Nome",
+              "active": true
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Measure": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "d_Medidas"
-                  }
-                },
-                "Property": "Media_Vendas_Por_Vendedor"
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": true
       }
     },
+    "expansionStates": [
+      {
+        "roles": [
+          "Values"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "d_Calendario.Mes_Nome"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
     "objects": {
-      "labels": [
+      "data": [
         {
           "properties": {
-            "fontSize": {
+            "mode": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
-                }
-              }
-            },
-            "labelDisplayUnits": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
+                  "Value": "'Dropdown'"
                 }
               }
             }
           }
         }
       ],
-      "categoryLabels": [
+      "header": [
         {
           "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'.'"
+                }
+              }
+            },
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
           }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
         }
       ]
     },
@@ -93,7 +117,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Média de Vendas Por Vendedor'"
+                  "Value": "'Mês'"
                 }
               }
             },
@@ -108,6 +132,18 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             },
@@ -163,23 +199,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "e24fff328e06b40025d8",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Medidas"
-              }
-            },
-            "Property": "Media_Vendas_Por_Vendedor"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

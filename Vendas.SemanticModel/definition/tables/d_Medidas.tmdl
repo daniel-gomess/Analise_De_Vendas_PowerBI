@@ -531,6 +531,276 @@ table d_Medidas
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure Qtd_Vendas_Mes_Anterior = ```
+			
+			CALCULATE(
+			    [Qtd_Vendas],
+			    DATEADD(
+			        d_calendario[Data],
+			        -1,
+			        MONTH
+			    )
+			)
+			
+			```
+		formatString: #,0
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 50895b35-99c7-494b-8bbe-293724025940
+
+	measure Ticket_Medio_Mes_Anterior = ```
+			
+			CALCULATE(
+			    [Ticket_Medio],
+			    DATEADD(
+			        d_calendario[Data],
+			        -1,
+			        MONTH
+			    )
+			)
+			
+			```
+		formatString: #,0.00
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 235b7692-45a8-4077-8cb3-11c16d690043
+
+	measure Media_Vendas_Por_Vendedor_Mes_Anterior = ```
+			
+			CALCULATE(
+			    [Media_Vendas_Por_Vendedor],
+			    DATEADD(
+			        d_calendario[Data],
+			        -1,
+			        MONTH
+			    )
+			)
+			
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 219f72d4-6f75-49ae-8f21-8a17427ccf06
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Qtd_Vendas_MoM_% = ```
+			
+			VAR vAtual = [Qtd_Vendas]
+			VAR vAnterior = [Qtd_Vendas_Mes_Anterior]
+			RETURN
+			DIVIDE(
+			    vAtual - vAnterior,
+			    vAnterior
+			)
+			
+			```
+		formatString: #,0.0%;-#,0.0%;#,0.0%
+		displayFolder: 2. Analise_Temporal
+		lineageTag: dc4256a0-94fc-4302-be95-1de040626909
+
+	measure Ticket_Medio_MoM_% = ```
+			
+			VAR vAtual = [Ticket_Medio]
+			VAR vAnterior = [Ticket_Medio_Mes_Anterior]
+			RETURN
+			DIVIDE(
+			    vAtual - vAnterior,
+			    vAnterior
+			)
+			
+			```
+		formatString: #,0.0%;-#,0.0%;#,0.0%
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 3056ccee-703b-44d2-9cb6-3c14f0b75235
+
+	measure Media_Vendas_Por_Vendedor_MoM_% = ```
+			
+			VAR vAtual = [Media_Vendas_Por_Vendedor]
+			VAR vAnterior = [Media_Vendas_Por_Vendedor_Mes_Anterior]
+			RETURN
+			DIVIDE(
+			    vAtual - vAnterior,
+			    vAnterior
+			)
+			
+			```
+		formatString: #,0.0%;-#,0.0%;#,0.0%
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 5851fceb-3b9b-4285-8103-375c2be9b02e
+
+	measure Valor_Total_MoM_% = ```
+			
+			VAR vAtual = [Valor_Total]
+			VAR vAnterior = [Valor_Total_Mes_Anterior]
+			RETURN
+			DIVIDE(
+			    vAtual - vAnterior,
+			    vAnterior
+			)
+			
+			```
+		formatString: #,0.0%;-#,0.0%;#,0.0%
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 597920ac-5991-400f-aba0-6d85bda7b867
+
+	measure Valor_Total_MoM_Texto = ```
+			
+			VAR vValor = [Valor_Total_MoM_%]
+			
+			VAR vSeta =
+			    SWITCH(
+			        TRUE(),
+			        vValor > 0, UNICHAR(9650),   -- ▲
+			        vValor < 0, UNICHAR(9660),   -- ▼
+			        UNICHAR(8213)                -- ―
+			    )
+			
+			RETURN
+			IF(
+			    ISBLANK(vValor),
+			    BLANK(),
+			    vSeta & " " &
+			    FORMAT(vValor, "0.00%") &
+			    " vs mês anterior"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: 42f7abab-c3eb-4ea9-8e2a-4e5400534c6a
+
+	measure Media_Vendas_Por_Vendedor_MoM_Cor = ```
+			
+			VAR vValor = [Media_Vendas_Por_Vendedor_MoM_%]
+			RETURN
+			SWITCH(
+			    TRUE(),
+			    vValor > 0, "#64B178",
+			    vValor < 0, "#ED695A",
+			    "#9E9E9E"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: 83ee2013-b8ae-444a-b967-fac89be63bfc
+
+	measure Ticket_Medio_MoM_Cor = ```
+			
+			VAR vValor = [Ticket_Medio_MoM_%]
+			RETURN
+			SWITCH(
+			    TRUE(),
+			    vValor > 0, "#64B178",
+			    vValor < 0, "#ED695A",
+			    "#9E9E9E"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: d16b4ed7-64dd-48e8-87f6-cfbbf6ede79e
+
+	measure Qtd_Vendas_MoM_Cor = ```
+			
+			VAR vValor = [Qtd_Vendas_MoM_%]
+			RETURN
+			SWITCH(
+			    TRUE(),
+			    vValor > 0, "#64B178",
+			    vValor < 0, "#ED695A",
+			    "#9E9E9E"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: 7d56eb85-d7ae-4962-b0d5-01ea2c45f7b3
+
+	measure Valor_Total_MoM_Cor = ```
+			
+			VAR vValor = [Valor_Total_MoM_%]
+			RETURN
+			SWITCH(
+			    TRUE(),
+			    vValor > 0, "#64B178",
+			    vValor < 0, "#ED695A",
+			    "#9E9E9E"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: 14a9f32f-9619-4764-bfd9-8a12fdbf2915
+
+	measure Qtd_Vendas_MoM_Texto = ```
+			
+			VAR vValor = [Qtd_Vendas_MoM_%]
+			
+			VAR vSeta =
+			    SWITCH(
+			        TRUE(),
+			        vValor > 0, UNICHAR(9650),   -- ▲
+			        vValor < 0, UNICHAR(9660),   -- ▼
+			        UNICHAR(8213)                -- ―
+			    )
+			
+			RETURN
+			IF(
+			    ISBLANK(vValor),
+			    BLANK(),
+			    vSeta & " " &
+			    FORMAT(vValor, "0.00%") &
+			    " vs mês anterior"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: 2615919f-6fad-4476-99ed-d9e77bed5e8d
+
+	measure Ticket_Medio_MoM_Texto = ```
+			
+			VAR vValor = [Ticket_Medio_MoM_%]
+			
+			VAR vSeta =
+			    SWITCH(
+			        TRUE(),
+			        vValor > 0, UNICHAR(9650),   -- ▲
+			        vValor < 0, UNICHAR(9660),   -- ▼
+			        UNICHAR(8213)                -- ―
+			    )
+			
+			RETURN
+			IF(
+			    ISBLANK(vValor),
+			    BLANK(),
+			    vSeta & " " &
+			    FORMAT(vValor, "0.00%") &
+			    " vs mês anterior"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: 3966d7db-c336-4e0a-8456-c6be5ba42c72
+
+	measure Media_Vendas_Por_Vendedor_MoM_Texto = ```
+			
+			VAR vValor = [Media_Vendas_Por_Vendedor_MoM_%]
+			
+			VAR vSeta =
+			    SWITCH(
+			        TRUE(),
+			        vValor > 0, UNICHAR(9650),   -- ▲
+			        vValor < 0, UNICHAR(9660),   -- ▼
+			        UNICHAR(8213)                -- ―
+			    )
+			
+			RETURN
+			IF(
+			    ISBLANK(vValor),
+			    BLANK(),
+			    vSeta & " " &
+			    FORMAT(vValor, "0.00%") &
+			    " vs mês anterior"
+			)
+			
+			```
+		displayFolder: 5. Dinâmicas
+		lineageTag: ebccc685-c234-48a6-90a6-de00399408c0
+
 	partition d_Medidas = m
 		mode: import
 		source =
