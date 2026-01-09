@@ -84,16 +84,6 @@ cultureInfo pt-BR
 			          }
 			        },
 			        {
-			          "statistic": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.736
-			          }
-			        },
-			        {
 			          "document": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -767,16 +757,6 @@ cultureInfo pt-BR
 			          }
 			        },
 			        {
-			          "statistic": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.736
-			          }
-			        },
-			        {
 			          "document": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1362,6 +1342,16 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "Mes:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1599,6 +1589,16 @@ cultureInfo pt-BR
 			        {
 			          "vendedor": {
 			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Vendedor:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -1955,6 +1955,16 @@ cultureInfo pt-BR
 			          }
 			        },
 			        {
+			          "Valor:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
 			          "Valor": {
 			            "State": "Suggested",
 			            "Source": {
@@ -2005,6 +2015,16 @@ cultureInfo pt-BR
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Mes Anterior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -2074,6 +2094,16 @@ cultureInfo pt-BR
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Variação %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -2894,6 +2924,2073 @@ cultureInfo pt-BR
 			          }
 			        }
 			      ]
+			    },
+			    "d_medida.rank_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Rank_Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank produtos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rank_Produtos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_3_vendedor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 3 Vendedor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 3 vendedor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 3 vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "first 3 vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "leading 3 vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "maximum 3 vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "peak 3 vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "upper 3 vendedor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.rank_vendedores": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Rank_Vendedores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank vendedores": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rank_Vendedores": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_3_foto_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 3 Foto Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 3 foto produtos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 3 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 3 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 3 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 3 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 3 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 3 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_3_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 3 Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 3 produtos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 3 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "first 3 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "leading 3 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "maximum 3 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "peak 3 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "upper 3 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_3_produtos_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 3 Produtos Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 3 produtos valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 3 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 3 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 3 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 3 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 3 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 3 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "top 3 produto courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 3 produto bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 3 produto heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 3 produto fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_2_foto_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 2 Foto Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 2 foto produtos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 2 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 2 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 2 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 2 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 2 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 2 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_1_foto_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 1 Foto Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 1 foto produtos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 1 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 1 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 1 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 1 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 1 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 1 foto produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_2_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 2 Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 2 produtos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 2 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "first 2 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "leading 2 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "maximum 2 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "peak 2 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "upper 2 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_1_produtos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 1 Produtos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 1 produtos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 1 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "first 1 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "leading 1 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "maximum 1 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "peak 1 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "upper 1 produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_2_produtos_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 2 Produtos Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 2 produtos valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 2 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 2 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 2 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 2 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 2 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 2 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "top 2 produto courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 2 produto bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 2 produto heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 2 produto fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.top_1_produtos_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Top 1 Produtos Valor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 1 produtos valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "best 1 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "first 1 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "leading 1 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "maximum 1 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "peak 1 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "upper 1 produto valor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "top 1 produto courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 1 produto bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 1 produto heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "top 1 produto fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.regressao_linear": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Regressao_Linear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regressao linear": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Regressao_Linear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.previsao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Previsao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "previsao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.data_selecionada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Data Selecionada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data selecionada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information selecionada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact selecionada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info selecionada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic selecionada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document selecionada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure selecionada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record selecionada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.qtde_produtos_vendido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Qtde_Produtos_Vendido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtde produtos vendido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Qtde_Produtos_Vendido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.data_selecionada_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "DataSelecionada2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data selecionada 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataSelecionada2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "information selecionada 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact selecionada 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info selecionada 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic selecionada 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document selecionada 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure selecionada 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record selecionada 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "regressao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regressao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.slope_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "Slope1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "slope 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Slope1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.intercept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "Intercept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "intercept": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.standard_error_slope_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "StandardErrorSlope1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error slope 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardErrorSlope1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error slope 1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.standard_error_intercept": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "StandardErrorIntercept"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error intercept": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardErrorIntercept": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error intercept": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.coefficient_of_determination": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "CoefficientOfDetermination"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coefficient of determination": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CoefficientOfDetermination": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "coefficient": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "quantity of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "measurement of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "constant of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "number of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "factor of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "amount of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "figure of determination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "factor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.standard_error": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "StandardError"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard error": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardError": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "error": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "standard booboo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard inaccuracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard miscalculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard slipup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "booboo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "inaccuracy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "miscalculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "slipup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "standard mistake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "standard fault": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.F_statistic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "FStatistic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F statistic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FStatistic": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "f digit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "f measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "f fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "digit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "f number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "f value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.degree_of_freedom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "DegreesOfFreedom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "degree of freedom": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DegreesOfFreedom": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "degree": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gradation of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "unit of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "grade of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mark of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "notch of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "step of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "point of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "gradation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quantity of freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.regression_sum_of_squares": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "RegressionSumOfSquares"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regression sum of squares": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regression sum of square": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "RegressionSumOfSquares": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "regression sum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "regression quantity of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.786
+			          }
+			        },
+			        {
+			          "regression summation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "regression aggregation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "regression summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regression aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regression total of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression aggregate of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression amount of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "regression total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "regression aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "regressao.residual_sum_of_squares": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Regressao",
+			          "ConceptualProperty": "ResidualSumOfSquares"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "residual sum of squares": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "residual sum of square": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "ResidualSumOfSquares": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "residual sum": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "residual quantity of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.786
+			          }
+			        },
+			        {
+			          "residual summation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "residual aggregation of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "residual summation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "residual aggregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "residual total of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual aggregate of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual amount of square": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "residual total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "residual aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -3606,6 +5703,1029 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "d_clientes_have_f_venda"
+			        }
+			      ]
+			    },
+			    "regressao_has_residual_sum_of_squares": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.residual_sum_of_squares": {
+			          "Target": {
+			            "Entity": "regressao.residual_sum_of_squares"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.residual_sum_of_squares"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_residual_sum_of_squares"
+			        }
+			      ]
+			    },
+			    "regressao_has_regression_sum_of_squares": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.regression_sum_of_squares": {
+			          "Target": {
+			            "Entity": "regressao.regression_sum_of_squares"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.regression_sum_of_squares"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_regression_sum_of_squares"
+			        }
+			      ]
+			    },
+			    "regressao_has_degree_of_freedom": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.degree_of_freedom": {
+			          "Target": {
+			            "Entity": "regressao.degree_of_freedom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.degree_of_freedom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_degree_of_freedom"
+			        }
+			      ]
+			    },
+			    "regressao_has_F_statistic": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.F_statistic": {
+			          "Target": {
+			            "Entity": "regressao.F_statistic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.F_statistic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_F_statistics"
+			        }
+			      ]
+			    },
+			    "regressao_has_standard_error": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.standard_error": {
+			          "Target": {
+			            "Entity": "regressao.standard_error"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.standard_error"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_standard_errors"
+			        }
+			      ]
+			    },
+			    "regressao_has_coefficient_of_determination": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.coefficient_of_determination": {
+			          "Target": {
+			            "Entity": "regressao.coefficient_of_determination"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.coefficient_of_determination"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_coefficient_of_determination"
+			        }
+			      ]
+			    },
+			    "regressao_has_standard_error_intercept": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.standard_error_intercept": {
+			          "Target": {
+			            "Entity": "regressao.standard_error_intercept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.standard_error_intercept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_standard_error_intercepts"
+			        }
+			      ]
+			    },
+			    "regressao_has_standard_error_slope_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.standard_error_slope_1": {
+			          "Target": {
+			            "Entity": "regressao.standard_error_slope_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.standard_error_slope_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_standard_error_slope_1"
+			        }
+			      ]
+			    },
+			    "regressao_has_intercept": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.intercept": {
+			          "Target": {
+			            "Entity": "regressao.intercept"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.intercept"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_intercepts"
+			        }
+			      ]
+			    },
+			    "regressao_has_slope_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "regressao.slope_1": {
+			          "Target": {
+			            "Entity": "regressao.slope_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "regressao.slope_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_slope_1"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_d_medida_data_selecionada_2": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_medida.data_selecionada_2": {
+			          "Target": {
+			            "Entity": "d_medida.data_selecionada_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_medida.data_selecionada_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_data_selecionada_2"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_qtde_produtos_vendido": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.qtde_produtos_vendido": {
+			          "Target": {
+			            "Entity": "d_medida.qtde_produtos_vendido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.qtde_produtos_vendido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_qtde_produtos_vendido"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_d_medida_data_selecionada": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_medida.data_selecionada": {
+			          "Target": {
+			            "Entity": "d_medida.data_selecionada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_medida.data_selecionada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_data_selecionada"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_previsao": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.previsao": {
+			          "Target": {
+			            "Entity": "d_medida.previsao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.previsao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_previsao"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_d_medida_previsao": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_medida.previsao": {
+			          "Target": {
+			            "Entity": "d_medida.previsao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_medida.previsao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_previsao"
+			        }
+			      ]
+			    },
+			    "d_calendario_has_d_medida_regressao_linear": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_calendario": {
+			          "Target": {
+			            "Entity": "d_calendario"
+			          }
+			        },
+			        "d_medida.regressao_linear": {
+			          "Target": {
+			            "Entity": "d_medida.regressao_linear"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_calendario"
+			            },
+			            "Object": {
+			              "Role": "d_medida.regressao_linear"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_calendarios_have_regressao_linear"
+			        }
+			      ]
+			    },
+			    "regressao_has_d_medida_regressao_linear": {
+			      "Binding": {
+			        "ConceptualEntity": "Regressao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regressao": {
+			          "Target": {
+			            "Entity": "regressao"
+			          }
+			        },
+			        "d_medida.regressao_linear": {
+			          "Target": {
+			            "Entity": "d_medida.regressao_linear"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regressao"
+			            },
+			            "Object": {
+			              "Role": "d_medida.regressao_linear"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "regressaos_have_regressao_linear"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_top_1_produtos_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.top_1_produtos_valor": {
+			          "Target": {
+			            "Entity": "d_medida.top_1_produtos_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_1_produtos_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_top_1_produtos_valor"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_top_2_produtos_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.top_2_produtos_valor": {
+			          "Target": {
+			            "Entity": "d_medida.top_2_produtos_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_2_produtos_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_top_2_produtos_valor"
+			        }
+			      ]
+			    },
+			    "d_produto_has_d_medida_top_1_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Produto"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_medida.top_1_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.top_1_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_produto"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_1_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_produtos_have_top_1_produtos"
+			        }
+			      ]
+			    },
+			    "d_produto_has_d_medida_top_2_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Produto"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_medida.top_2_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.top_2_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_produto"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_2_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_produtos_have_top_2_produtos"
+			        }
+			      ]
+			    },
+			    "d_fotos_produto_has_d_medida_top_1_foto_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Fotos_Produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_fotos_produto": {
+			          "Target": {
+			            "Entity": "d_fotos_produto"
+			          }
+			        },
+			        "d_medida.top_1_foto_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.top_1_foto_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_fotos_produto"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_1_foto_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_fotos_produtos_have_top_1_foto_produtos"
+			        }
+			      ]
+			    },
+			    "d_fotos_produto_has_d_medida_top_2_foto_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Fotos_Produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_fotos_produto": {
+			          "Target": {
+			            "Entity": "d_fotos_produto"
+			          }
+			        },
+			        "d_medida.top_2_foto_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.top_2_foto_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_fotos_produto"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_2_foto_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_fotos_produtos_have_top_2_foto_produtos"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_top_3_produtos_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.top_3_produtos_valor": {
+			          "Target": {
+			            "Entity": "d_medida.top_3_produtos_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_3_produtos_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_top_3_produtos_valor"
+			        }
+			      ]
+			    },
+			    "d_produto_has_d_medida_top_3_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Produto"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_medida.top_3_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.top_3_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_produto"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_3_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_produtos_have_top_3_produtos"
+			        }
+			      ]
+			    },
+			    "d_fotos_produto_has_d_medida_top_3_foto_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Fotos_Produtos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_fotos_produto": {
+			          "Target": {
+			            "Entity": "d_fotos_produto"
+			          }
+			        },
+			        "d_medida.top_3_foto_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.top_3_foto_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_fotos_produto"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_3_foto_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_fotos_produtos_have_top_3_foto_produtos"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_rank_vendedores": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.rank_vendedores": {
+			          "Target": {
+			            "Entity": "d_medida.rank_vendedores"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.rank_vendedores"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_rank_vendedores"
+			        }
+			      ]
+			    },
+			    "d_vendedor_has_d_medida_rank_vendedores": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Vendedor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedor"
+			          }
+			        },
+			        "d_medida.rank_vendedores": {
+			          "Target": {
+			            "Entity": "d_medida.rank_vendedores"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_vendedor"
+			            },
+			            "Object": {
+			              "Role": "d_medida.rank_vendedores"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_vendedors_have_rank_vendedores"
+			        }
+			      ]
+			    },
+			    "d_vendedor_has_d_medida_top_3_vendedor": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Vendedor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedor"
+			          }
+			        },
+			        "d_medida.top_3_vendedor": {
+			          "Target": {
+			            "Entity": "d_medida.top_3_vendedor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_vendedor"
+			            },
+			            "Object": {
+			              "Role": "d_medida.top_3_vendedor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_vendedors_have_top_3_vendedor"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_rank_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.rank_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.rank_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.rank_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_rank_produtos"
+			        }
+			      ]
+			    },
+			    "d_produto_has_d_medida_rank_produtos": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Produto"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_produto": {
+			          "Target": {
+			            "Entity": "d_produto"
+			          }
+			        },
+			        "d_medida.rank_produtos": {
+			          "Target": {
+			            "Entity": "d_medida.rank_produtos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_produto"
+			            },
+			            "Object": {
+			              "Role": "d_medida.rank_produtos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_produtos_have_rank_produtos"
 			        }
 			      ]
 			    },

@@ -60,8 +60,13 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "Group_12891868289714373.svg",
-          "path": "Group_12891868289714373.svg",
+          "name": "Produtos5602572960898601.svg",
+          "path": "Produtos5602572960898601.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Vendedores8286688310684996.svg",
+          "path": "Vendedores8286688310684996.svg",
           "type": "Image"
         }
       ]

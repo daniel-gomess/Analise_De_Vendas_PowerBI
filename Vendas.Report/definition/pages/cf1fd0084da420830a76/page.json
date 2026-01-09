@@ -3,7 +3,7 @@
   "name": "cf1fd0084da420830a76",
   "displayName": "Produto",
   "displayOption": "FitToPage",
-  "height": 1020,
+  "height": 1120,
   "width": 1880,
   "objects": {
     "background": [
@@ -14,7 +14,7 @@
               "name": {
                 "expr": {
                   "Literal": {
-                    "Value": "'Group 1.svg'"
+                    "Value": "'Produtos.svg'"
                   }
                 }
               },
@@ -23,7 +23,7 @@
                   "ResourcePackageItem": {
                     "PackageName": "RegisteredResources",
                     "PackageType": 1,
-                    "ItemName": "Group_12891868289714373.svg"
+                    "ItemName": "Produtos5602572960898601.svg"
                   }
                 }
               },
@@ -40,6 +40,19 @@
             "expr": {
               "Literal": {
                 "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "displayArea": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Middle'"
               }
             }
           }
@@ -64,8 +77,8 @@
       "type": "NoFilter"
     },
     {
-      "source": "bba225493d517560d05d",
-      "target": "95bb8a4034770603cb1d",
+      "source": "a0740f1720be29377931",
+      "target": "6e7a0824ad51772cd407",
       "type": "NoFilter"
     }
   ]

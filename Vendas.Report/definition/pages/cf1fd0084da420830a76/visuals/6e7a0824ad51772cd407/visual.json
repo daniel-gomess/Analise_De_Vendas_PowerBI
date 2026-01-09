@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "b140ce2bda4aca0643ee",
+  "name": "6e7a0824ad51772cd407",
   "position": {
-    "x": 99.1883116883117,
-    "y": 248.73376623376626,
-    "z": 4000,
-    "height": 418.11688311688317,
-    "width": 961.36363636363649,
-    "tabOrder": 4000
+    "x": 98.776916451335055,
+    "y": 714.10852713178292,
+    "z": 9000,
+    "height": 338.43238587424634,
+    "width": 961.860465116279,
+    "tabOrder": 9000
   },
   "visual": {
-    "visualType": "lineChart",
+    "visualType": "areaChart",
     "query": {
       "queryState": {
         "Category": {
@@ -84,119 +84,26 @@
               },
               "queryRef": "d_Medidas.Valor_Total",
               "nativeQueryRef": "Valor_Total"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Medidas"
+                    }
+                  },
+                  "Property": "Valor_Total_Mes_Anterior"
+                }
+              },
+              "queryRef": "d_Medidas.Valor_Total_Mes_Anterior",
+              "nativeQueryRef": "Valor_Total_Mes_Anterior"
             }
           ]
         }
       }
     },
     "objects": {
-      "forecast": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "displayName": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Previsão'"
-                }
-              }
-            },
-            "transform": {
-              "algorithm": "Forecast",
-              "parameters": [
-                {
-                  "Literal": {
-                    "Value": "7D"
-                  },
-                  "Name": "Unit"
-                },
-                {
-                  "Literal": {
-                    "Value": "5D"
-                  },
-                  "Name": "ForecastLength"
-                },
-                {
-                  "Literal": {
-                    "Value": "0D"
-                  },
-                  "Name": "IgnoreLast"
-                },
-                {
-                  "Literal": {
-                    "Value": "0.99D"
-                  },
-                  "Name": "ConfidenceLevel"
-                }
-              ]
-            },
-            "style": {
-              "expr": {
-                "Literal": {
-                  "Value": "'solid'"
-                }
-              }
-            },
-            "width": {
-              "expr": {
-                "Literal": {
-                  "Value": "3D"
-                }
-              }
-            },
-            "matchSeriesInterpolation": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "bandLineShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "bandAreaShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 8,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "interpolation": {
-              "expr": {
-                "Literal": {
-                  "Value": "'smooth'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "d_Medidas.Valor_Total",
-            "id": "1"
-          }
-        }
-      ],
       "labels": [
         {
           "properties": {
@@ -317,7 +224,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Previsão de Receita'"
+                  "Value": "'Receita Atual x Receita Mês Anterior'"
                 }
               }
             },

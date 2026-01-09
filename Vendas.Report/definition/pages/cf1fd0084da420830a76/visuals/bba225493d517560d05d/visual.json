@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
   "name": "bba225493d517560d05d",
   "position": {
-    "x": 617.29133858267721,
-    "y": 0,
+    "x": 280.13781223083549,
+    "y": 61.533161068044784,
     "z": 2000,
-    "height": 150.99212598425197,
-    "width": 183.55905511811025,
+    "height": 92.299741602067186,
+    "width": 236.41688199827735,
     "tabOrder": 2000
   },
   "visual": {
@@ -93,6 +93,13 @@
                   }
                 }
               }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'.'"
+                }
+              }
             }
           }
         }
@@ -130,7 +137,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'Computador Desktop'"
+                                "Value": "'Fonte 500W'"
                               }
                             }
                           ]
@@ -152,7 +159,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -160,6 +167,39 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Produto'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
                 }
               }
             }

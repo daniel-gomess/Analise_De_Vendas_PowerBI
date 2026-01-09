@@ -510,6 +510,27 @@ table d_Medidas
 		displayFolder: 1. Principal
 		lineageTag: 61e080cf-b67a-47c2-a5b3-ed170ba9bfba
 
+	measure DataSelecionada2 = ```
+			
+			VAR _Ano = SELECTEDVALUE(d_Calendario[Ano])
+			VAR _MesNumero = SELECTEDVALUE(d_Calendario[Mes])
+			VAR _MesNome = SELECTEDVALUE(d_Calendario[Mes_Nome])
+			VAR _Filtro = 
+			    IF(
+			        ISBLANK(_Ano),
+			            _MesNumero = 1,
+			            _MesNome
+			    )
+			
+			RETURN
+			
+			    _Filtro
+			```
+		displayFolder: 1. Principal
+		lineageTag: f6b0e0d8-4aae-4414-9081-d31f1bf92268
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	partition d_Medidas = m
 		mode: import
 		source =

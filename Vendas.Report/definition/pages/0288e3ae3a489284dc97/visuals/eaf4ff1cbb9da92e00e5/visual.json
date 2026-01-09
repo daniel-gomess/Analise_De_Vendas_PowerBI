@@ -1,88 +1,112 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "f012d5d5b2a4e7e29344",
+  "name": "eaf4ff1cbb9da92e00e5",
   "position": {
-    "x": 756.06994171523729,
-    "y": 150.27477102414653,
-    "z": 2000,
-    "height": 106.44462947543713,
-    "width": 184.71273938384678,
-    "tabOrder": 2000
+    "x": 982.91128337639964,
+    "y": 56.675279931093883,
+    "z": 9001,
+    "height": 92.299741602067186,
+    "width": 236.41688199827735,
+    "tabOrder": 9001
   },
   "visual": {
-    "visualType": "card",
+    "visualType": "slicer",
     "query": {
       "queryState": {
         "Values": {
           "projections": [
             {
               "field": {
-                "Measure": {
+                "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "d_Medidas"
+                      "Entity": "d_Calendario"
                     }
                   },
-                  "Property": "Ticket_Medio"
+                  "Property": "Mes_Nome"
                 }
               },
-              "queryRef": "d_Medidas.Ticket_Medio",
-              "nativeQueryRef": "Ticket_Medio"
+              "queryRef": "d_Calendario.Mes_Nome",
+              "nativeQueryRef": "Mes_Nome",
+              "active": true
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Measure": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "d_Medidas"
-                  }
-                },
-                "Property": "Ticket_Medio"
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": true
       }
     },
+    "expansionStates": [
+      {
+        "roles": [
+          "Values"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "d_Calendario.Mes_Nome"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
     "objects": {
-      "labels": [
+      "data": [
         {
           "properties": {
-            "fontSize": {
+            "mode": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
-                }
-              }
-            },
-            "labelDisplayUnits": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
+                  "Value": "'Dropdown'"
                 }
               }
             }
           }
         }
       ],
-      "categoryLabels": [
+      "header": [
         {
           "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'.'"
+                }
+              }
+            },
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
           }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
         }
       ]
     },
@@ -93,7 +117,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Ticket Médio'"
+                  "Value": "'Mês'"
                 }
               }
             },
@@ -111,6 +135,18 @@
                 }
               }
             },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
             "alignment": {
               "expr": {
                 "Literal": {
@@ -121,7 +157,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "17D"
+                  "Value": "15D"
                 }
               }
             }
@@ -134,7 +170,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
   "name": "aa97329753a0c83adb39",
   "position": {
-    "x": 176.88592839300583,
-    "y": 308.376353039134,
+    "x": 98.776916451335055,
+    "y": 327.09732988802756,
     "z": 5000,
-    "height": 294.28809325562031,
-    "width": 779.55037468776015,
+    "height": 336.81309216192938,
+    "width": 963.479758828596,
     "tabOrder": 5000
   },
   "visual": {
@@ -27,8 +27,9 @@
                 }
               },
               "queryRef": "d_Calendario.Mes_Abreviado",
-              "nativeQueryRef": "Mes_Abreviado",
-              "active": true
+              "nativeQueryRef": "Mes:",
+              "active": true,
+              "displayName": "Mes:"
             }
           ]
         },
@@ -46,7 +47,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total",
-              "nativeQueryRef": "Valor_Total"
+              "nativeQueryRef": "Valor:",
+              "displayName": "Valor:"
             }
           ]
         }
@@ -130,6 +132,30 @@
                   "Value": "false"
                 }
               }
+            },
+            "gridlineShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#64B178'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -150,6 +176,19 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
