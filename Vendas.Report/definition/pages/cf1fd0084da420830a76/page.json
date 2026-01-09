@@ -4,5 +4,69 @@
   "displayName": "Produto",
   "displayOption": "FitToPage",
   "height": 1020,
-  "width": 1880
+  "width": 1880,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Group 1.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Group_12891868289714373.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fill'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "bba225493d517560d05d",
+      "target": "32714d3d78d3802b0c69",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bba225493d517560d05d",
+      "target": "9627047ce097c74be509",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bba225493d517560d05d",
+      "target": "39d51b7e8a910a03eb23",
+      "type": "NoFilter"
+    },
+    {
+      "source": "bba225493d517560d05d",
+      "target": "95bb8a4034770603cb1d",
+      "type": "NoFilter"
+    }
+  ]
 }

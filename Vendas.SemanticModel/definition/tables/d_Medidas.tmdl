@@ -263,6 +263,253 @@ table d_Medidas
 
 		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
 
+	measure Rank_Produtos =
+			
+			RANKX(
+			    ALLSELECTED(d_Produto[Produto]),
+			    [Valor_Total]
+			)
+		formatString: 0
+		displayFolder: 4. Ranking
+		lineageTag: 6f6ffaa4-4e43-4a4c-aa8e-5a0bd27f449f
+
+	measure 'Top 3 Vendedor' = ```
+			
+			CALCULATE(
+			    SELECTEDVALUE(d_Vendedor[Vendedor]),
+			    FILTER(
+			        VALUES(d_Vendedor[Vendedor]),
+			        [Rank_Vendedores] = 3
+			    )
+			)
+			
+			```
+		displayFolder: 4. Ranking
+		lineageTag: 72677b00-85bb-4bbf-a3a3-f74ea7f1165c
+
+	measure Rank_Vendedores =
+			
+			RANKX(
+			    ALLSELECTED(d_Vendedor[Vendedor]),
+			    [Valor_Total]
+			)
+		formatString: 0
+		displayFolder: 4. Ranking
+		lineageTag: 4b50b434-3979-4f3a-b9ab-16c78b64adaa
+
+	measure 'Top 3 Foto Produtos' = ```
+			
+			CALCULATE(
+			    SELECTEDVALUE(d_Fotos_Produtos[Link]),
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 3
+			    )
+			)
+			
+			```
+		displayFolder: 4. Ranking
+		lineageTag: 5a5abd17-bb27-4b89-9991-86fe68cd86fb
+		dataCategory: WebUrl
+
+	measure 'Top 3 Produtos' =
+			
+			CALCULATE(
+			    SELECTEDVALUE(d_Produto[Produto]),
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 3
+			    )
+			)
+		displayFolder: 4. Ranking
+		lineageTag: 887c1619-a136-4e75-a11b-b17beac350e8
+		dataCategory: ImageUrl
+
+	measure 'Top 3 Produtos Valor' =
+			
+			CALCULATE(
+			    [Valor_Total],
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 3
+			    )
+			)
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 4. Ranking
+		lineageTag: 3c4674ed-8140-40f4-885c-3238b01dc71d
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Top 2 Foto Produtos' = ```
+			
+			CALCULATE(
+			    SELECTEDVALUE(d_Fotos_Produtos[Link]),
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 2
+			    )
+			)
+			
+			```
+		displayFolder: 4. Ranking
+		lineageTag: 808073d2-f4c7-4d8f-8cab-7e8817cd03c2
+
+	measure 'Top 1 Foto Produtos' = ```
+			
+			CALCULATE(
+			    SELECTEDVALUE(d_Fotos_Produtos[Link]),
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 1
+			    )
+			)
+			
+			```
+		displayFolder: 4. Ranking
+		lineageTag: 1b35547c-ed72-4949-9c2f-5c37120316a3
+
+	measure 'Top 2 Produtos' =
+			
+			CALCULATE(
+			    SELECTEDVALUE(d_Produto[Produto]),
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 2
+			    )
+			)
+		displayFolder: 4. Ranking
+		lineageTag: 1ec1f3fa-1078-4af1-ac34-2bf67e0b757d
+
+	measure 'Top 1 Produtos' =
+			
+			CALCULATE(
+			    SELECTEDVALUE(d_Produto[Produto]),
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 1
+			    )
+			)
+		displayFolder: 4. Ranking
+		lineageTag: 7352a230-9b24-4a86-82ef-c38db3906fa8
+
+	measure 'Top 2 Produtos Valor' =
+			
+			CALCULATE(
+			    [Valor_Total],
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 2
+			    )
+			)
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 4. Ranking
+		lineageTag: 7b5b732b-b792-4013-bd03-3b9fc6f1d378
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Top 1 Produtos Valor' =
+			
+			CALCULATE(
+			    [Valor_Total],
+			    FILTER(
+			        VALUES(d_Produto[Produto]),
+			        [Rank_Produtos] = 1
+			    )
+			)
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 4. Ranking
+		lineageTag: bc441969-6888-4f6d-b59b-91e89baf7a0b
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Regressao_Linear =
+			
+			VAR vSlope = SELECTEDVALUE(Regressao[Slope1])
+			VAR vIntercept = SELECTEDVALUE(Regressao[Intercept])
+			VAR vX = SELECTEDVALUE(d_Calendario[Data])
+			VAR vY = vX * vSlope + vIntercept
+			
+			RETURN
+			
+			vY
+		displayFolder: 2. Analise_Temporal
+		lineageTag: 5b52efbb-e55f-4bc8-9ce5-1b548810fcc6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Previsao = ```
+			
+			VAR vDataUltimaVenda = 
+			CALCULATE(
+			    MAX(f_Vendas[Data]),
+			    ALL(d_Calendario[Data])
+			)
+			
+			VAR vEixo = MIN(d_Calendario[Data])
+			
+			VAR vValor = 
+			AVERAGEX(
+			    ALL(
+			        d_Calendario[Mes_Nome],
+			        d_Calendario[Mes],
+			        d_Calendario[Ano]
+			    ),
+			    [Valor_Total]
+			)
+			
+			RETURN
+			
+			IF(
+			    vEixo > vDataUltimaVenda,
+			        vValor,
+			        BLANK()
+			)
+			
+			```
+		displayFolder: 2. Analise_Temporal
+		lineageTag: a2163383-728c-4cb7-b804-b71b42cc0062
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Data Selecionada' = ```
+			
+			VAR vAno =
+			    SELECTEDVALUE(d_Calendario[Ano])
+			
+			VAR vTabelaMeses =
+			    SUMMARIZE(
+			        d_Calendario,
+			        d_Calendario[Mes],
+			        d_Calendario[Mes_Nome]
+			    )
+			
+			VAR vQtdMesesSelecionados =
+			    COUNTROWS(vTabelaMeses)
+			
+			VAR vListaMeses =
+			    CONCATENATEX(
+			        vTabelaMeses,
+			        d_Calendario[Mes_Nome],
+			        ", ",
+			        d_Calendario[Mes]
+			    )
+			
+			RETURN
+			IF(
+			    vQtdMesesSelecionados = 12,
+			    "no ano de " & vAno,
+			    "no(s) mês(es) de " & vListaMeses & " de " & vAno
+			)
+			
+			```
+		displayFolder: 1. Principal
+		lineageTag: 2627afcb-ac43-4a43-9927-33606627ed12
+
+	measure Qtde_Produtos_Vendido = SUM(f_Vendas[Quantidade])
+		formatString: #,0
+		displayFolder: 1. Principal
+		lineageTag: 61e080cf-b67a-47c2-a5b3-ed170ba9bfba
+
 	partition d_Medidas = m
 		mode: import
 		source =

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "a932606fbab48b3e8731",
+  "position": {
+    "x": 1149.0584415584417,
+    "y": 206.00649350649351,
+    "z": 1000,
+    "height": 421.16883116883122,
+    "width": 640.909090909091,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "ImageGrid_FC5183B9_926C_45E0_B5F7_0CE9EAF1DA9B",
+    "query": {
+      "queryState": {
+        "ImageURL": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Fotos_Produtos"
+                    }
+                  },
+                  "Property": "Link"
+                }
+              },
+              "queryRef": "d_Fotos_Produtos.Link",
+              "nativeQueryRef": "Link"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

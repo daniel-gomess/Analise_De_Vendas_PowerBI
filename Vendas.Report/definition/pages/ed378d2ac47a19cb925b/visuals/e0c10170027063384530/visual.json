@@ -118,23 +118,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "c4b2f32e035add3631e6",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Clientes"
-              }
-            },
-            "Property": "Cliente"
-          }
-        },
-        "type": "Categorical"
-      }
-    ]
   }
 }

@@ -40,7 +40,8 @@
     ]
   },
   "publicCustomVisuals": [
-    "donut2F78F20E2D01E463883DD711125F9D186"
+    "donut2F78F20E2D01E463883DD711125F9D186",
+    "ImageGrid_FC5183B9_926C_45E0_B5F7_0CE9EAF1DA9B"
   ],
   "resourcePackages": [
     {
@@ -51,6 +52,17 @@
           "name": "CY25SU11",
           "path": "BaseThemes/CY25SU11.json",
           "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "Group_12891868289714373.svg",
+          "path": "Group_12891868289714373.svg",
+          "type": "Image"
         }
       ]
     }

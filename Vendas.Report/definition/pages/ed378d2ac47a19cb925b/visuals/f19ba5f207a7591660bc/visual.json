@@ -245,20 +245,6 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "e24624c76deeabe8cb6e",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Clientes"
-              }
-            },
-            "Property": "Cliente"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
         "name": "b6b603b529c74cb10135",
         "field": {
           "Measure": {
@@ -309,48 +295,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "42c397d38741425435c3",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Medidas"
-              }
-            },
-            "Property": "Qtde_Parcelas"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "881d0ae56bec34edbe91",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "f_Vendas"
-              }
-            },
-            "Property": "Data Vencimento"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "654153e7ea397bd048bd",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Forma_Pagamento"
-              }
-            },
-            "Property": "Forma de Pagamento"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }

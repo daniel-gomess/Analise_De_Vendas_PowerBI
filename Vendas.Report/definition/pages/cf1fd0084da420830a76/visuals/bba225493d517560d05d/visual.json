@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "a0740f1720be29377931",
+  "name": "bba225493d517560d05d",
   "position": {
-    "x": 965.94155844155853,
-    "y": 15.25974025974026,
-    "z": 0,
-    "height": 151.07142857142858,
-    "width": 183.11688311688314,
-    "tabOrder": 0
+    "x": 617.29133858267721,
+    "y": 0,
+    "z": 2000,
+    "height": 150.99212598425197,
+    "width": 183.55905511811025,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "slicer",
@@ -20,29 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "d_Calendario"
+                      "Entity": "d_Produto"
                     }
                   },
-                  "Property": "Ano"
+                  "Property": "Produto"
                 }
               },
-              "queryRef": "d_Calendario.Ano",
-              "nativeQueryRef": "Ano",
-              "active": true
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "d_Calendario"
-                    }
-                  },
-                  "Property": "Mes_Nome"
-                }
-              },
-              "queryRef": "d_Calendario.Mes_Nome",
-              "nativeQueryRef": "Mes_Nome",
+              "queryRef": "d_Produto.Produto",
+              "nativeQueryRef": "Produto",
               "active": true
             }
           ]
@@ -57,45 +42,13 @@
         "levels": [
           {
             "queryRefs": [
-              "d_Calendario.Ano"
-            ],
-            "isCollapsed": true,
-            "identityKeys": [
-              {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "d_Calendario"
-                    }
-                  },
-                  "Property": "Ano"
-                }
-              }
-            ],
-            "isPinned": true
-          },
-          {
-            "queryRefs": [
-              "d_Calendario.Mes_Nome"
+              "d_Produto.Produto"
             ],
             "isCollapsed": true,
             "isPinned": true
           }
         ],
-        "root": {
-          "children": [
-            {
-              "identityValues": [
-                {
-                  "Literal": {
-                    "Value": "2025L"
-                  }
-                }
-              ],
-              "isToggled": true
-            }
-          ]
-        }
+        "root": {}
       }
     ],
     "objects": {
@@ -115,13 +68,6 @@
       "header": [
         {
           "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "' Data'"
-                }
-              }
-            },
             "show": {
               "expr": {
                 "Literal": {
@@ -160,7 +106,7 @@
                 "From": [
                   {
                     "Name": "d",
-                    "Entity": "d_Calendario",
+                    "Entity": "d_Produto",
                     "Type": 0
                   }
                 ],
@@ -176,7 +122,7 @@
                                   "Source": "d"
                                 }
                               },
-                              "Property": "Ano"
+                              "Property": "Produto"
                             }
                           }
                         ],
@@ -184,60 +130,10 @@
                           [
                             {
                               "Literal": {
-                                "Value": "2025L"
+                                "Value": "'Computador Desktop'"
                               }
                             }
                           ]
-                        ]
-                      }
-                    },
-                    "Annotations": {
-                      "filterExpressionMetadata": {
-                        "expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Entity": "d_Calendario"
-                                }
-                              },
-                              "Property": "Ano"
-                            }
-                          }
-                        ],
-                        "decomposedIdentities": {
-                          "values": [
-                            [
-                              {
-                                "0": [
-                                  {
-                                    "Literal": {
-                                      "Value": "2025L"
-                                    }
-                                  }
-                                ]
-                              }
-                            ]
-                          ],
-                          "columns": [
-                            {
-                              "value": {
-                                "Column": {
-                                  "Expression": {
-                                    "SourceRef": {
-                                      "Entity": "d_Calendario"
-                                    }
-                                  },
-                                  "Property": "Ano"
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        "valueMap": [
-                          {
-                            "0": "2025"
-                          }
                         ]
                       }
                     }
@@ -253,13 +149,6 @@
       "title": [
         {
           "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Data'"
-                }
-              }
-            },
             "show": {
               "expr": {
                 "Literal": {
