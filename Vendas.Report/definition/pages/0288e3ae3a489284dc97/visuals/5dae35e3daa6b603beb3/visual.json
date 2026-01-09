@@ -27,8 +27,9 @@
                 }
               },
               "queryRef": "d_Status_Venda.Status 2.0",
-              "nativeQueryRef": "Status 2.0",
-              "active": true
+              "nativeQueryRef": "Status:",
+              "active": true,
+              "displayName": "Status:"
             }
           ]
         },
@@ -46,7 +47,8 @@
                 }
               },
               "queryRef": "d_Medidas.Qtd_Vendas_Por_Status",
-              "nativeQueryRef": "Qtd_Vendas_Por_Status"
+              "nativeQueryRef": "Quantidade:",
+              "displayName": "Quantidade:"
             }
           ]
         }
@@ -255,6 +257,25 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }

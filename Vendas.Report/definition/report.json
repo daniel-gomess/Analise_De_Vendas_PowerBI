@@ -60,13 +60,18 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "Produtos5602572960898601.svg",
-          "path": "Produtos5602572960898601.svg",
+          "name": "Vendedores8286688310684996.svg",
+          "path": "Vendedores8286688310684996.svg",
           "type": "Image"
         },
         {
-          "name": "Vendedores8286688310684996.svg",
-          "path": "Vendedores8286688310684996.svg",
+          "name": "Clientes24381065185380246.svg",
+          "path": "Clientes24381065185380246.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Produtos3994466249643993.svg",
+          "path": "Produtos3994466249643993.svg",
           "type": "Image"
         }
       ]

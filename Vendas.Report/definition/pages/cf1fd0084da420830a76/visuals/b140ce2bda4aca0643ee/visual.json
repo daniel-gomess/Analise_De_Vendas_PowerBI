@@ -83,7 +83,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total",
-              "nativeQueryRef": "Valor_Total"
+              "nativeQueryRef": "Valor:",
+              "displayName": "Valor:"
             }
           ]
         }

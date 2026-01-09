@@ -1514,6 +1514,16 @@ cultureInfo pt-BR
 			          "cliente": {
 			            "State": "Generated"
 			          }
+			        },
+			        {
+			          "Cliente:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1637,6 +1647,26 @@ cultureInfo pt-BR
 			        {
 			          "forma de pagamento": {
 			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Forma de Pagamento:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Forma Pgto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -1888,6 +1918,16 @@ cultureInfo pt-BR
 			            },
 			            "Weight": 0.582
 			          }
+			        },
+			        {
+			          "Status:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -2019,6 +2059,16 @@ cultureInfo pt-BR
 			        },
 			        {
 			          "Mes Anterior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Mes Anterior:": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -2484,6 +2534,16 @@ cultureInfo pt-BR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "Quantidade:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -2552,6 +2612,16 @@ cultureInfo pt-BR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Quantidade": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -2676,6 +2746,16 @@ cultureInfo pt-BR
 			            },
 			            "Weight": 0.748
 			          }
+			        },
+			        {
+			          "Quantidade:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -2698,6 +2778,16 @@ cultureInfo pt-BR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Valor em Atraso:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        },
 			        {
@@ -4991,6 +5081,443 @@ cultureInfo pt-BR
 			          }
 			        }
 			      ]
+			    },
+			    "d_medida.qtd_vendas_mes_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Qtd_Vendas_Mes_Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd vendas mes anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Qtd_Vendas_Mes_Anterior": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.ticket_medio_mes_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Ticket_Medio_Mes_Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket medio mes anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ticket_Medio_Mes_Anterior": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.media_vendas_por_vendedor_mes_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Media_Vendas_Por_Vendedor_Mes_Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media vendas por vendedor mes anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Vendas_Por_Vendedor_Mes_Anterior": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.Qtd_Vendas_MoM_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Qtd_Vendas_MoM_%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Qtd_Vendas_MoM_%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtd_vendas_mom_ percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "qtd_vendas_mom_ pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.Ticket_Medio_MoM_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Ticket_Medio_MoM_%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Ticket_Medio_MoM_%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ticket_medio_mom_ percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ticket_medio_mom_ pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.Media_Vendas_Por_Vendedor_MoM_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Media_Vendas_Por_Vendedor_MoM_%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Media_Vendas_Por_Vendedor_MoM_%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "media_vendas_por_vendedor_mom_ percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "media_vendas_por_vendedor_mom_ pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.Valor_Total_MoM_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Valor_Total_MoM_%"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Valor_Total_MoM_%": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_total_mom_ percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "valor_total_mom_ pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.valor_total_mo_M_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Valor_Total_MoM_Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor total mo M texto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Valor_Total_MoM_Texto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "valor aggregate mo m texto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "valor overall mo m texto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.media_vendas_por_vendedor_mo_M_cor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Media_Vendas_Por_Vendedor_MoM_Cor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media vendas por vendedor mo M cor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Vendas_Por_Vendedor_MoM_Cor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.ticket_medio_mo_M_cor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Ticket_Medio_MoM_Cor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket medio mo M cor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ticket_Medio_MoM_Cor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.qtd_vendas_mo_M_cor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Qtd_Vendas_MoM_Cor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd vendas mo M cor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Qtd_Vendas_MoM_Cor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.valor_total_mo_M_cor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Valor_Total_MoM_Cor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor total mo M cor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Valor_Total_MoM_Cor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "valor aggregate mo m cor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "valor overall mo m cor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.qtd_vendas_mo_M_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Qtd_Vendas_MoM_Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd vendas mo M texto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Qtd_Vendas_MoM_Texto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.ticket_medio_mo_M_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Ticket_Medio_MoM_Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket medio mo M texto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ticket_Medio_MoM_Texto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "d_medida.media_vendas_por_vendedor_mo_M_texto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "d_Medidas",
+			          "ConceptualProperty": "Media_Vendas_Por_Vendedor_MoM_Texto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media vendas por vendedor mo M texto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Vendas_Por_Vendedor_MoM_Texto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -5703,6 +6230,633 @@ cultureInfo pt-BR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "d_clientes_have_f_venda"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_media_vendas_por_vendedor_mo_M_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.media_vendas_por_vendedor_mo_M_texto": {
+			          "Target": {
+			            "Entity": "d_medida.media_vendas_por_vendedor_mo_M_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.media_vendas_por_vendedor_mo_M_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_media_vendas_por_vendedor_mo_M_texto"
+			        }
+			      ]
+			    },
+			    "d_vendedor_has_d_medida_media_vendas_por_vendedor_mo_M_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Vendedor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedor"
+			          }
+			        },
+			        "d_medida.media_vendas_por_vendedor_mo_M_texto": {
+			          "Target": {
+			            "Entity": "d_medida.media_vendas_por_vendedor_mo_M_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_vendedor"
+			            },
+			            "Object": {
+			              "Role": "d_medida.media_vendas_por_vendedor_mo_M_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_vendedors_have_media_vendas_por_vendedor_mo_M_texto"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_ticket_medio_mo_M_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.ticket_medio_mo_M_texto": {
+			          "Target": {
+			            "Entity": "d_medida.ticket_medio_mo_M_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.ticket_medio_mo_M_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_ticket_medio_mo_M_texto"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_qtd_vendas_mo_M_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.qtd_vendas_mo_M_texto": {
+			          "Target": {
+			            "Entity": "d_medida.qtd_vendas_mo_M_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.qtd_vendas_mo_M_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_qtd_vendas_mo_M_texto"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_valor_total_mo_M_cor": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.valor_total_mo_M_cor": {
+			          "Target": {
+			            "Entity": "d_medida.valor_total_mo_M_cor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.valor_total_mo_M_cor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_valor_total_mo_M_cor"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_qtd_vendas_mo_M_cor": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.qtd_vendas_mo_M_cor": {
+			          "Target": {
+			            "Entity": "d_medida.qtd_vendas_mo_M_cor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.qtd_vendas_mo_M_cor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_qtd_vendas_mo_M_cor"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_ticket_medio_mo_M_cor": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.ticket_medio_mo_M_cor": {
+			          "Target": {
+			            "Entity": "d_medida.ticket_medio_mo_M_cor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.ticket_medio_mo_M_cor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_ticket_medio_mo_M_cor"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_media_vendas_por_vendedor_mo_M_cor": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.media_vendas_por_vendedor_mo_M_cor": {
+			          "Target": {
+			            "Entity": "d_medida.media_vendas_por_vendedor_mo_M_cor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.media_vendas_por_vendedor_mo_M_cor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_media_vendas_por_vendedor_mo_M_cor"
+			        }
+			      ]
+			    },
+			    "d_vendedor_has_d_medida_media_vendas_por_vendedor_mo_M_cor": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Vendedor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedor"
+			          }
+			        },
+			        "d_medida.media_vendas_por_vendedor_mo_M_cor": {
+			          "Target": {
+			            "Entity": "d_medida.media_vendas_por_vendedor_mo_M_cor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_vendedor"
+			            },
+			            "Object": {
+			              "Role": "d_medida.media_vendas_por_vendedor_mo_M_cor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_vendedors_have_media_vendas_por_vendedor_mo_M_cor"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_valor_total_mo_M_texto": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.valor_total_mo_M_texto": {
+			          "Target": {
+			            "Entity": "d_medida.valor_total_mo_M_texto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.valor_total_mo_M_texto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_valor_total_mo_M_texto"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_Valor_Total_MoM_": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.Valor_Total_MoM_": {
+			          "Target": {
+			            "Entity": "d_medida.Valor_Total_MoM_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.Valor_Total_MoM_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_Valor_Total_MoM_"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_Media_Vendas_Por_Vendedor_MoM_": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.Media_Vendas_Por_Vendedor_MoM_": {
+			          "Target": {
+			            "Entity": "d_medida.Media_Vendas_Por_Vendedor_MoM_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.Media_Vendas_Por_Vendedor_MoM_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_Media_Vendas_Por_Vendedor_MoM_"
+			        }
+			      ]
+			    },
+			    "d_vendedor_has_d_medida_Media_Vendas_Por_Vendedor_MoM_": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Vendedor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedor"
+			          }
+			        },
+			        "d_medida.Media_Vendas_Por_Vendedor_MoM_": {
+			          "Target": {
+			            "Entity": "d_medida.Media_Vendas_Por_Vendedor_MoM_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_vendedor"
+			            },
+			            "Object": {
+			              "Role": "d_medida.Media_Vendas_Por_Vendedor_MoM_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_vendedors_have_Media_Vendas_Por_Vendedor_MoM_"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_Ticket_Medio_MoM_": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.Ticket_Medio_MoM_": {
+			          "Target": {
+			            "Entity": "d_medida.Ticket_Medio_MoM_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.Ticket_Medio_MoM_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_Ticket_Medio_MoM_"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_Qtd_Vendas_MoM_": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.Qtd_Vendas_MoM_": {
+			          "Target": {
+			            "Entity": "d_medida.Qtd_Vendas_MoM_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.Qtd_Vendas_MoM_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_Qtd_Vendas_MoM_"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_media_vendas_por_vendedor_mes_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.media_vendas_por_vendedor_mes_anterior": {
+			          "Target": {
+			            "Entity": "d_medida.media_vendas_por_vendedor_mes_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.media_vendas_por_vendedor_mes_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_media_vendas_por_vendedor_mes_anterior"
+			        }
+			      ]
+			    },
+			    "d_vendedor_has_d_medida_media_vendas_por_vendedor_mes_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "d_Vendedor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "d_vendedor": {
+			          "Target": {
+			            "Entity": "d_vendedor"
+			          }
+			        },
+			        "d_medida.media_vendas_por_vendedor_mes_anterior": {
+			          "Target": {
+			            "Entity": "d_medida.media_vendas_por_vendedor_mes_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "d_vendedor"
+			            },
+			            "Object": {
+			              "Role": "d_medida.media_vendas_por_vendedor_mes_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "d_vendedors_have_media_vendas_por_vendedor_mes_anterior"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_ticket_medio_mes_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.ticket_medio_mes_anterior": {
+			          "Target": {
+			            "Entity": "d_medida.ticket_medio_mes_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.ticket_medio_mes_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_ticket_medio_mes_anterior"
+			        }
+			      ]
+			    },
+			    "f_venda_has_d_medida_qtd_vendas_mes_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "f_Vendas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "f_venda": {
+			          "Target": {
+			            "Entity": "f_venda"
+			          }
+			        },
+			        "d_medida.qtd_vendas_mes_anterior": {
+			          "Target": {
+			            "Entity": "d_medida.qtd_vendas_mes_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "f_venda"
+			            },
+			            "Object": {
+			              "Role": "d_medida.qtd_vendas_mes_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "f_venda_have_qtd_vendas_mes_anterior"
 			        }
 			      ]
 			    },

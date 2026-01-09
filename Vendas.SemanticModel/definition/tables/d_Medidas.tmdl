@@ -801,6 +801,10 @@ table d_Medidas
 		displayFolder: 5. Dinâmicas
 		lineageTag: ebccc685-c234-48a6-90a6-de00399408c0
 
+	measure Titulo = "Top 3 Produtos mais Vendidos"
+		displayFolder: 1. Principal
+		lineageTag: a71a5c73-fc2d-49db-9f99-9620fc79542f
+
 	partition d_Medidas = m
 		mode: import
 		source =

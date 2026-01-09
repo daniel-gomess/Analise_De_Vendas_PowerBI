@@ -83,7 +83,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total",
-              "nativeQueryRef": "Valor_Total"
+              "nativeQueryRef": "Valor:",
+              "displayName": "Valor:"
             },
             {
               "field": {
@@ -97,7 +98,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total_Mes_Anterior",
-              "nativeQueryRef": "Valor_Total_Mes_Anterior"
+              "nativeQueryRef": "Mes Anterior:",
+              "displayName": "Mes Anterior:"
             }
           ]
         }
@@ -141,6 +143,20 @@
               }
             }
           }
+        },
+        {
+          "properties": {
+            "strokeTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "50D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Valor_Total_Mes_Anterior"
+          }
         }
       ],
       "dataPoint": [
@@ -156,10 +172,42 @@
                   }
                 }
               }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "45D"
+                }
+              }
             }
           },
           "selector": {
             "metadata": "d_Medidas.Valor_Total"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#64B178'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "86D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Valor_Total_Mes_Anterior"
           }
         }
       ],
