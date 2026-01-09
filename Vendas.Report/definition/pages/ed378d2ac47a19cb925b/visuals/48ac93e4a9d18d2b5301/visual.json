@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "d564952b0ca65a0d38a7",
+  "name": "48ac93e4a9d18d2b5301",
   "position": {
-    "x": 1062.8809325562031,
-    "y": 308.376353039134,
-    "z": 7000,
-    "height": 294.28809325562031,
-    "width": 779.55037468776015,
-    "tabOrder": 7000
+    "x": 68.363636363636374,
+    "y": 150.71074380165291,
+    "z": 0,
+    "height": 455.23966942148763,
+    "width": 637.02479338842977,
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "d_Vendedor"
+                      "Entity": "d_Clientes"
                     }
                   },
-                  "Property": "Vendedor"
+                  "Property": "Cliente"
                 }
               },
-              "queryRef": "d_Vendedor.Vendedor",
-              "nativeQueryRef": "Vendedor",
+              "queryRef": "d_Clientes.Cliente",
+              "nativeQueryRef": "Cliente",
               "active": true
             }
           ]
@@ -66,8 +66,7 @@
             },
             "direction": "Descending"
           }
-        ],
-        "isDefaultSort": true
+        ]
       }
     },
     "objects": {
@@ -81,15 +80,24 @@
                 }
               }
             },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
+            "maxMarginFactor": {
+              "expr": {
+                "Literal": {
+                  "Value": "50L"
+                }
+              }
+            },
+            "concatenateLabels": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "switchAxisPosition": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             },
@@ -106,22 +114,10 @@
       "valueAxis": [
         {
           "properties": {
-            "fontSize": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
+                  "Value": "false"
                 }
               }
             },
@@ -129,6 +125,26 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             }
@@ -143,7 +159,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Top 5 Vendedores'"
+                  "Value": "'Top 10 Clientes Por Valor'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
                 }
               }
             },
@@ -151,6 +174,18 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
@@ -163,15 +198,15 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "c2477b81e3926805989d",
+        "name": "536724c4a43301bb510a",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "d_Vendedor"
+                "Entity": "d_Clientes"
               }
             },
-            "Property": "Vendedor"
+            "Property": "Cliente"
           }
         },
         "type": "TopN",
@@ -187,7 +222,7 @@
                     "From": [
                       {
                         "Name": "d",
-                        "Entity": "d_Vendedor",
+                        "Entity": "d_Clientes",
                         "Type": 0
                       },
                       {
@@ -204,7 +239,7 @@
                               "Source": "d"
                             }
                           },
-                          "Property": "Vendedor"
+                          "Property": "Cliente"
                         },
                         "Name": "field"
                       }
@@ -224,7 +259,7 @@
                         }
                       }
                     ],
-                    "Top": 5
+                    "Top": 10
                   }
                 }
               },
@@ -232,7 +267,7 @@
             },
             {
               "Name": "d",
-              "Entity": "d_Vendedor",
+              "Entity": "d_Clientes",
               "Type": 0
             }
           ],
@@ -248,7 +283,7 @@
                             "Source": "d"
                           }
                         },
-                        "Property": "Vendedor"
+                        "Property": "Cliente"
                       }
                     }
                   ],

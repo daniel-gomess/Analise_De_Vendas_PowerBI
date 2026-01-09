@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "aa97329753a0c83adb39",
+  "name": "05f6547c06c8e11bcb95",
   "position": {
-    "x": 176.88592839300583,
-    "y": 308.376353039134,
-    "z": 5000,
-    "height": 294.28809325562031,
-    "width": 779.55037468776015,
-    "tabOrder": 5000
+    "x": 705.38842975206614,
+    "y": 605.95041322314057,
+    "z": 2000,
+    "height": 362.01652892561987,
+    "width": 467.66942148760336,
+    "tabOrder": 2000
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "pieChart",
     "query": {
       "queryState": {
         "Category": {
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "d_Calendario"
+                      "Entity": "d_Forma_Pagamento"
                     }
                   },
-                  "Property": "Mes_Abreviado"
+                  "Property": "Forma de Pagamento"
                 }
               },
-              "queryRef": "d_Calendario.Mes_Abreviado",
-              "nativeQueryRef": "Mes_Abreviado",
+              "queryRef": "d_Forma_Pagamento.Forma de Pagamento",
+              "nativeQueryRef": "Forma de Pagamento",
               "active": true
             }
           ]
@@ -42,11 +42,11 @@
                       "Entity": "d_Medidas"
                     }
                   },
-                  "Property": "Valor_Total"
+                  "Property": "Qtd_Vendas"
                 }
               },
-              "queryRef": "d_Medidas.Valor_Total",
-              "nativeQueryRef": "Valor_Total"
+              "queryRef": "d_Medidas.Qtd_Vendas",
+              "nativeQueryRef": "Qtd_Vendas"
             }
           ]
         }
@@ -55,79 +55,63 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "d_Calendario"
+                    "Entity": "d_Medidas"
                   }
                 },
-                "Property": "Mes_Abreviado"
+                "Property": "Qtd_Vendas"
               }
             },
-            "direction": "Ascending"
+            "direction": "Descending"
           }
-        ]
+        ],
+        "isDefaultSort": true
       }
     },
     "objects": {
-      "categoryAxis": [
+      "labels": [
         {
           "properties": {
+            "labelStyle": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Data'"
+                }
+              }
+            },
             "fontSize": {
               "expr": {
                 "Literal": {
                   "Value": "12D"
                 }
               }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
             }
           }
         }
       ],
-      "valueAxis": [
+      "legend": [
         {
           "properties": {
-            "fontSize": {
+            "position": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "'TopCenter'"
                 }
               }
             },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "showAxisTitle": {
+            "showTitle": {
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
                 }
               }
             }
@@ -142,7 +126,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Vendas Mensais'"
+                  "Value": "'Qtde de Vendas Por Forma de Pagamento'"
                 }
               }
             },
@@ -150,6 +134,25 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }

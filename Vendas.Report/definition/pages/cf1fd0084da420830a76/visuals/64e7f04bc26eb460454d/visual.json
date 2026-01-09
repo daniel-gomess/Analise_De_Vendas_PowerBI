@@ -1,39 +1,49 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "d564952b0ca65a0d38a7",
+  "name": "64e7f04bc26eb460454d",
   "position": {
-    "x": 1062.8809325562031,
-    "y": 308.376353039134,
-    "z": 7000,
-    "height": 294.28809325562031,
-    "width": 779.55037468776015,
-    "tabOrder": 7000
+    "x": 410.18181818181819,
+    "y": 45.057851239669425,
+    "z": 0,
+    "height": 921.35537190082653,
+    "width": 1357.9504132231407,
+    "tabOrder": 0
   },
   "visual": {
-    "visualType": "clusteredBarChart",
+    "visualType": "tableEx",
     "query": {
       "queryState": {
-        "Category": {
+        "Values": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "d_Vendedor"
+                      "Entity": "d_Produto"
                     }
                   },
-                  "Property": "Vendedor"
+                  "Property": "Produto"
                 }
               },
-              "queryRef": "d_Vendedor.Vendedor",
-              "nativeQueryRef": "Vendedor",
-              "active": true
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
+              "queryRef": "d_Produto.Produto",
+              "nativeQueryRef": "Produto"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Fotos_Produtos"
+                    }
+                  },
+                  "Property": "Link"
+                }
+              },
+              "queryRef": "d_Fotos_Produtos.Link",
+              "nativeQueryRef": " ",
+              "displayName": " "
+            },
             {
               "field": {
                 "Measure": {
@@ -46,7 +56,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total",
-              "nativeQueryRef": "Valor_Total"
+              "nativeQueryRef": "Valor",
+              "displayName": "Valor"
             }
           ]
         }
@@ -66,66 +77,91 @@
             },
             "direction": "Descending"
           }
-        ],
-        "isDefaultSort": true
+        ]
       }
     },
     "objects": {
-      "categoryAxis": [
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "343.01002664659393D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Produto.Produto"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "425.83118628731427D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Fotos_Produtos.Link"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "337.4958636639919D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Valor_Total"
+          }
+        }
+      ],
+      "values": [
         {
           "properties": {
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
+                  "Value": "25D"
                 }
               }
             }
           }
         }
       ],
-      "valueAxis": [
+      "grid": [
         {
           "properties": {
-            "fontSize": {
+            "imageHeight": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "300D"
                 }
               }
             },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
+            "imageWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "500D"
                 }
               }
-            },
-            "showAxisTitle": {
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
               "expr": {
                 "Literal": {
                   "Value": "false"
@@ -137,20 +173,13 @@
       ]
     },
     "visualContainerObjects": {
-      "title": [
+      "stylePreset": [
         {
           "properties": {
-            "text": {
+            "name": {
               "expr": {
                 "Literal": {
-                  "Value": "'Top 5 Vendedores'"
-                }
-              }
-            },
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
+                  "Value": "'None'"
                 }
               }
             }
@@ -163,15 +192,15 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "c2477b81e3926805989d",
+        "name": "4a27c0283dcaa0b75504",
         "field": {
           "Column": {
             "Expression": {
               "SourceRef": {
-                "Entity": "d_Vendedor"
+                "Entity": "d_Produto"
               }
             },
-            "Property": "Vendedor"
+            "Property": "Produto"
           }
         },
         "type": "TopN",
@@ -187,7 +216,7 @@
                     "From": [
                       {
                         "Name": "d",
-                        "Entity": "d_Vendedor",
+                        "Entity": "d_Produto",
                         "Type": 0
                       },
                       {
@@ -204,7 +233,7 @@
                               "Source": "d"
                             }
                           },
-                          "Property": "Vendedor"
+                          "Property": "Produto"
                         },
                         "Name": "field"
                       }
@@ -232,7 +261,7 @@
             },
             {
               "Name": "d",
-              "Entity": "d_Vendedor",
+              "Entity": "d_Produto",
               "Type": 0
             }
           ],
@@ -248,7 +277,7 @@
                             "Source": "d"
                           }
                         },
-                        "Property": "Vendedor"
+                        "Property": "Produto"
                       }
                     }
                   ],
@@ -262,6 +291,34 @@
             }
           ]
         }
+      },
+      {
+        "name": "c0bae196e1bccb60d9c7",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "d_Fotos_Produtos"
+              }
+            },
+            "Property": "Link"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "f9d0dc3665ed5d494195",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "d_Medidas"
+              }
+            },
+            "Property": "Valor_Total"
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }

@@ -32,3 +32,9 @@ relationship AutoDetected_b61c5c10-fca8-48cb-a464-e899d2b38503
 	fromColumn: f_Vendas.'Status 2.0'
 	toColumn: d_Status_Venda.'Status 2.0'
 
+relationship AutoDetected_2184f3c7-c47f-4b0a-a30e-ed2f8399984c
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: d_Fotos_Produtos.Produto
+	toColumn: d_Produto.Produto
+

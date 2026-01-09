@@ -1,19 +1,38 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "7358f90f2c0e540e0cb6",
+  "name": "21b066a08d768d9c0158",
   "position": {
-    "x": 488.39300582847625,
-    "y": 150.27477102414653,
-    "z": 1000,
-    "height": 106.44462947543713,
-    "width": 186.27810158201498,
-    "tabOrder": 1000
+    "x": 1513.3223140495868,
+    "y": 150.71074380165291,
+    "z": 3000,
+    "height": 455.23966942148763,
+    "width": 337.15702479338847,
+    "tabOrder": 3000
   },
   "visual": {
-    "visualType": "card",
+    "visualType": "clusteredBarChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Forma_Pagamento"
+                    }
+                  },
+                  "Property": "Forma de Pagamento"
+                }
+              },
+              "queryRef": "d_Forma_Pagamento.Forma de Pagamento",
+              "nativeQueryRef": "Forma de Pagamento",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
           "projections": [
             {
               "field": {
@@ -23,11 +42,11 @@
                       "Entity": "d_Medidas"
                     }
                   },
-                  "Property": "Qtd_Vendas"
+                  "Property": "Valor_Total"
                 }
               },
-              "queryRef": "d_Medidas.Qtd_Vendas",
-              "nativeQueryRef": "Qtd_Vendas"
+              "queryRef": "d_Medidas.Valor_Total",
+              "nativeQueryRef": "Valor_Total"
             }
           ]
         }
@@ -42,7 +61,7 @@
                     "Entity": "d_Medidas"
                   }
                 },
-                "Property": "Qtd_Vendas"
+                "Property": "Valor_Total"
               }
             },
             "direction": "Descending"
@@ -55,10 +74,10 @@
       "labels": [
         {
           "properties": {
-            "fontSize": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "true"
                 }
               }
             },
@@ -68,14 +87,69 @@
                   "Value": "1D"
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
             }
           }
         }
       ],
-      "categoryLabels": [
+      "categoryAxis": [
+        {
+          "properties": {
+            "maxMarginFactor": {
+              "expr": {
+                "Literal": {
+                  "Value": "50L"
+                }
+              }
+            },
+            "concatenateLabels": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "switchAxisPosition": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
         {
           "properties": {
             "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "showAxisTitle": {
               "expr": {
                 "Literal": {
                   "Value": "false"
@@ -93,14 +167,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Qtde Vendas'"
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
+                  "Value": "'Receita Por Forma de Pagamento'"
                 }
               }
             },
@@ -108,6 +175,18 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             },
@@ -121,7 +200,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "17D"
+                  "Value": "15D"
                 }
               }
             }

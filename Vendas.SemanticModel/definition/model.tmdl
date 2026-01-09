@@ -18,7 +18,7 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["f_Vendas","d_Calendario","d_Clientes","d_Produto","d_Vendedor","d_Forma_Pagamento","d_Status_Venda","d_Medidas"]
+annotation PBI_QueryOrder = ["f_Vendas","d_Calendario","d_Clientes","d_Produto","d_Vendedor","d_Forma_Pagamento","d_Status_Venda","d_Fotos_Produtos","d_Medidas"]
 
 ref table f_Vendas
 ref table DateTableTemplate_3a0d8556-c4c7-4b7f-be21-fea33fc9daa7
@@ -30,6 +30,7 @@ ref table d_Vendedor
 ref table d_Forma_Pagamento
 ref table d_Status_Venda
 ref table d_Medidas
+ref table d_Fotos_Produtos
 
 ref cultureInfo pt-BR
 

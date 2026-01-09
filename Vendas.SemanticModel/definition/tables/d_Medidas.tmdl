@@ -202,12 +202,12 @@ table d_Medidas
 		displayFolder: 1. Principal
 		lineageTag: d82931ff-4a80-4288-9bb6-4ab071524990
 
-	measure Valor_Em_Risco = ```
+	measure Valor_Em_Atraso = ```
 			
 			CALCULATE(
 			    [Valor_Total],
-			    f_vendas[Status] <> "Pago"
-			)
+			    f_vendas[Status 2.0] = "Não Pago"
+			) * -1
 			
 			```
 		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
@@ -246,6 +246,20 @@ table d_Medidas
 		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
 		displayFolder: 1. Principal
 		lineageTag: f0a57bd5-6de3-475f-88f0-89178ec7d3d2
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Valor_Em_Atraso 2' = ```
+			
+			CALCULATE(
+			    [Valor_Total],
+			    f_vendas[Status 2.0] = "Não Pago"
+			)
+			
+			```
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 3. Pagamento
+		lineageTag: 86c68fb2-de95-4fb8-b3d7-28f8fdcc2347
 
 		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
 

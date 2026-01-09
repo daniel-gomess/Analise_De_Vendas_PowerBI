@@ -4,7 +4,7 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 0,
+        "x": 331.86613178561828,
         "y": 0
       },
       "nodes": [
@@ -95,6 +95,32 @@
           "nodeLineageTag": "6593acaa-6bc0-41c6-a94e-c89b33fbde41",
           "size": {
             "height": 388.36209710906166,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1125.1707761714033,
+            "y": 251.32769707192563
+          },
+          "nodeIndex": "d_Medidas",
+          "nodeLineageTag": "0a5ea071-d8a1-4cc2-bc94-0d1867f0708b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1406.5554423745061,
+            "y": 337.32769707192563
+          },
+          "nodeIndex": "d_Fotos_Produtos",
+          "nodeLineageTag": "7b3c2559-0243-4bf5-8cfa-d7453704d112",
+          "size": {
+            "height": 128,
             "width": 234
           },
           "zIndex": 0

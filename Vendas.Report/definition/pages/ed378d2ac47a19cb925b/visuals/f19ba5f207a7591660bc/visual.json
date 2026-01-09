@@ -1,0 +1,357 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "f19ba5f207a7591660bc",
+  "position": {
+    "x": 1218.115702479339,
+    "y": 605.95041322314057,
+    "z": 5000,
+    "height": 362.01652892561987,
+    "width": 649.4545454545455,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Clientes"
+                    }
+                  },
+                  "Property": "Cliente"
+                }
+              },
+              "queryRef": "d_Clientes.Cliente",
+              "nativeQueryRef": "Cliente"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Forma_Pagamento"
+                    }
+                  },
+                  "Property": "Forma de Pagamento"
+                }
+              },
+              "queryRef": "d_Forma_Pagamento.Forma de Pagamento",
+              "nativeQueryRef": "Forma de Pagamento"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Medidas"
+                    }
+                  },
+                  "Property": "Qtde_Parcelas"
+                }
+              },
+              "queryRef": "d_Medidas.Qtde_Parcelas",
+              "nativeQueryRef": "Parcelas",
+              "displayName": "Parcelas"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Medidas"
+                    }
+                  },
+                  "Property": "Valor_Em_Atraso"
+                }
+              },
+              "queryRef": "d_Medidas.Valor_Em_Risco",
+              "nativeQueryRef": "Valor",
+              "displayName": "Valor"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "f_Vendas"
+                    }
+                  },
+                  "Property": "Data Vencimento"
+                }
+              },
+              "queryRef": "f_Vendas.Data Vencimento",
+              "nativeQueryRef": "Vencimento",
+              "displayName": "Vencimento"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "f_Vendas"
+                  }
+                },
+                "Property": "Data Vencimento"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "160.43528576053876D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Clientes.Cliente"
+          }
+        }
+      ],
+      "columnFormatting": [
+        {
+          "properties": {
+            "dataBars": {
+              "positiveColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'maxColor'"
+                      }
+                    }
+                  }
+                }
+              },
+              "negativeColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#ED695A'"
+                      }
+                    }
+                  }
+                }
+              },
+              "axisColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'foreground'"
+                      }
+                    }
+                  }
+                }
+              },
+              "reverseDirection": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "hideText": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "totalMatchingOption": {
+                "expr": {
+                  "Literal": {
+                    "Value": "1L"
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Valor_Em_Risco"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Análise de Inadimplência'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "e24624c76deeabe8cb6e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "d_Clientes"
+              }
+            },
+            "Property": "Cliente"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "b6b603b529c74cb10135",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "d_Medidas"
+              }
+            },
+            "Property": "Valor_Em_Atraso"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "d1",
+              "Entity": "d_Medidas",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Not": {
+                  "Expression": {
+                    "Comparison": {
+                      "ComparisonKind": 0,
+                      "Left": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "d1"
+                            }
+                          },
+                          "Property": "Valor_Em_Atraso"
+                        }
+                      },
+                      "Right": {
+                        "Literal": {
+                          "Value": "null"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "42c397d38741425435c3",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "d_Medidas"
+              }
+            },
+            "Property": "Qtde_Parcelas"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "881d0ae56bec34edbe91",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "f_Vendas"
+              }
+            },
+            "Property": "Data Vencimento"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "654153e7ea397bd048bd",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "d_Forma_Pagamento"
+              }
+            },
+            "Property": "Forma de Pagamento"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}
