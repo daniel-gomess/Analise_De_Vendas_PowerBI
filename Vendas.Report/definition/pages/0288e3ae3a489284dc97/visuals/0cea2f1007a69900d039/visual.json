@@ -4,10 +4,10 @@
   "position": {
     "x": 330.33591731266148,
     "y": 246.13264427217914,
-    "z": 9006,
+    "z": 13000,
     "height": 64.771748492678725,
     "width": 241.27476313522826,
-    "tabOrder": 9004
+    "tabOrder": 11000
   },
   "visual": {
     "visualType": "card",
@@ -154,23 +154,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "27794a86dd0a48887300",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Medidas"
-              }
-            },
-            "Property": "Valor_Total_MoM_Texto"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

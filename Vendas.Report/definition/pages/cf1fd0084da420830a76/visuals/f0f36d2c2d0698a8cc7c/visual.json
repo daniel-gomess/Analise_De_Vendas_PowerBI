@@ -4,10 +4,10 @@
   "position": {
     "x": 1133.3233979135618,
     "y": 714.45603576751114,
-    "z": 9004,
+    "z": 10000,
     "height": 33.621460506706406,
     "width": 655.618479880775,
-    "tabOrder": 9002
+    "tabOrder": 8000
   },
   "visual": {
     "visualType": "textbox",
@@ -22,7 +22,7 @@
                     "value": "Top 3 Produtos mais Vendidos",
                     "textStyle": {
                       "fontFamily": "DIN",
-                      "fontSize": "16pt",
+                      "fontSize": "18pt",
                       "color": "#000000"
                     }
                   }

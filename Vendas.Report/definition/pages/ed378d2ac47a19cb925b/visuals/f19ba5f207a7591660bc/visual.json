@@ -4,10 +4,10 @@
   "position": {
     "x": 1138.3634797588286,
     "y": 715.72782084409994,
-    "z": 5000,
+    "z": 4000,
     "height": 336.81309216192938,
     "width": 706.01205857019806,
-    "tabOrder": 5000
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "tableEx",
@@ -206,6 +206,39 @@
           },
           "selector": {
             "metadata": "d_Medidas.Var_%_Valor_Total_Mes"
+          }
+        },
+        {
+          "properties": {
+            "styleTotal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "styleValues": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Qtde_Parcelas"
           }
         }
       ],
@@ -440,7 +473,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "17D"
                 }
               }
             },

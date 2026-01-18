@@ -4,10 +4,10 @@
   "position": {
     "x": 616.95090439276487,
     "y": 715.72782084409994,
-    "z": 7000,
+    "z": 6000,
     "height": 336.81309216192938,
     "width": 463.11800172265288,
-    "tabOrder": 7000
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "pieChart",
@@ -101,6 +101,20 @@
               "expr": {
                 "Literal": {
                   "Value": "'preferOutside'"
+                }
+              }
+            },
+            "background": {
+              "expr": {
+                "Literal": {
+                  "Value": "'on'"
+                }
+              }
+            },
+            "overflow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -393,7 +407,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "17D"
                 }
               }
             }

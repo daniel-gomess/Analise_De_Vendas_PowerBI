@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "6e7a0824ad51772cd407",
+  "name": "3ba2ac2125ea30b30065",
   "position": {
-    "x": 98.776916451335055,
-    "y": 714.10852713178292,
-    "z": 9000,
-    "height": 338.43238587424634,
-    "width": 961.860465116279,
-    "tabOrder": 9000
+    "x": 99.2,
+    "y": 715.2,
+    "z": 11000,
+    "height": 337.6,
+    "width": 961.6,
+    "tabOrder": 11000
   },
   "visual": {
-    "visualType": "areaChart",
+    "visualType": "clusteredColumnChart",
     "query": {
       "queryState": {
         "Category": {
@@ -43,28 +43,17 @@
             },
             {
               "field": {
-                "HierarchyLevel": {
+                "Column": {
                   "Expression": {
-                    "Hierarchy": {
-                      "Expression": {
-                        "PropertyVariationSource": {
-                          "Expression": {
-                            "SourceRef": {
-                              "Entity": "d_Calendario"
-                            }
-                          },
-                          "Name": "Variation",
-                          "Property": "Data"
-                        }
-                      },
-                      "Hierarchy": "Hierarquia de datas"
+                    "SourceRef": {
+                      "Entity": "d_Calendario"
                     }
                   },
-                  "Level": "Mês"
+                  "Property": "Mes_Abreviado"
                 }
               },
-              "queryRef": "d_Calendario.Data.Variation.Hierarquia de datas.Mês",
-              "nativeQueryRef": "Data Mês",
+              "queryRef": "d_Calendario.Mes_Abreviado",
+              "nativeQueryRef": "Mes_Abreviado",
               "active": true
             }
           ]
@@ -83,8 +72,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total",
-              "nativeQueryRef": "Valor:",
-              "displayName": "Valor:"
+              "nativeQueryRef": "Atual",
+              "displayName": "Atual"
             },
             {
               "field": {
@@ -98,8 +87,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total_Mes_Anterior",
-              "nativeQueryRef": "Mes Anterior:",
-              "displayName": "Mes Anterior:"
+              "nativeQueryRef": "Mes Anterior",
+              "displayName": "Mes Anterior"
             }
           ]
         }
@@ -117,39 +106,51 @@
               }
             }
           }
-        }
-      ],
-      "seriesLabels": [
+        },
         {
           "properties": {
-            "show": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "10D"
                 }
               }
             }
-          }
-        }
-      ],
-      "lineStyles": [
-        {
-          "properties": {
-            "lineChartType": {
-              "expr": {
-                "Literal": {
-                  "Value": "'smooth'"
-                }
-              }
-            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Valor_Total"
           }
         },
         {
           "properties": {
-            "strokeTransparency": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "50D"
+                  "Value": "10D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
@@ -172,13 +173,6 @@
                   }
                 }
               }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "45D"
-                }
-              }
             }
           },
           "selector": {
@@ -192,16 +186,9 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#64B178'"
+                      "Value": "'#025918'"
                     }
                   }
-                }
-              }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "86D"
                 }
               }
             }
@@ -240,6 +227,32 @@
                   "Value": "true"
                 }
               }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "gridlineShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
             }
           }
         }
@@ -263,6 +276,38 @@
             }
           }
         }
+      ],
+      "legend": [
+        {
+          "properties": {
+            "showTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -279,7 +324,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "17D"
                 }
               }
             },

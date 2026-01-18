@@ -4,10 +4,10 @@
   "position": {
     "x": 93.919035314384146,
     "y": 715.72782084409994,
-    "z": 2000,
+    "z": 1000,
     "height": 336.81309216192938,
     "width": 466.3565891472868,
-    "tabOrder": 2000
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "pieChart",
@@ -87,6 +87,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Data'"
+                }
+              }
+            },
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             }
@@ -437,7 +444,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "17D"
                 }
               }
             },

@@ -672,7 +672,7 @@ table d_Medidas
 			RETURN
 			SWITCH(
 			    TRUE(),
-			    vValor > 0, "#64B178",
+			    vValor > 0, "#045223",
 			    vValor < 0, "#ED695A",
 			    "#9E9E9E"
 			)
@@ -687,7 +687,7 @@ table d_Medidas
 			RETURN
 			SWITCH(
 			    TRUE(),
-			    vValor > 0, "#64B178",
+			    vValor > 0, "#045223",
 			    vValor < 0, "#ED695A",
 			    "#9E9E9E"
 			)
@@ -702,7 +702,7 @@ table d_Medidas
 			RETURN
 			SWITCH(
 			    TRUE(),
-			    vValor > 0, "#64B178",
+			    vValor > 0, "#045223",
 			    vValor < 0, "#ED695A",
 			    "#9E9E9E"
 			)
@@ -717,7 +717,7 @@ table d_Medidas
 			RETURN
 			SWITCH(
 			    TRUE(),
-			    vValor > 0, "#64B178",
+			    vValor > 0, "#045223",
 			    vValor < 0, "#ED695A",
 			    "#9E9E9E"
 			)
@@ -804,6 +804,53 @@ table d_Medidas
 	measure Titulo = "Top 3 Produtos mais Vendidos"
 		displayFolder: 1. Principal
 		lineageTag: a71a5c73-fc2d-49db-9f99-9620fc79542f
+
+	measure Percentual_Faturamento_Forma_Pagamento = ```
+			
+			DIVIDE(
+			    [Valor_Total],
+			    CALCULATE(
+			        [Valor_Total],
+			        ALL(d_Forma_Pagamento)
+			    )
+			)
+			
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: 1. Principal
+		lineageTag: 246d0035-2b0d-40a0-9c14-6a636766f03a
+
+	measure Teste =
+			
+			CALCULATE(
+			    [Valor_Total],
+			    ALL(d_Forma_Pagamento[Forma de Pagamento])
+			)
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		displayFolder: 1. Principal
+		lineageTag: 84516c15-fdc4-4dc1-a9e7-6a8fe73f07b9
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure dica = ```
+			
+			VAR vFormaPagamento = SELECTEDVALUE(d_Forma_Pagamento[Forma de Pagamento])
+			VAR vValorSelecionado = [Valor_Total]
+			VAR vValorTotal = [Teste]
+			VAR vPorcentagemCorresp = [Percentual_Faturamento_Forma_Pagamento]
+			
+			RETURN
+			
+			    "A receita de  " & FORMAT(vValorSelecionado, "R$ #,##0.00")
+					& " que o meio de pagamento " 
+			        & vFormaPagamento
+			        & " obteve, corresponde a "
+			        & FORMAT(vPorcentagemCorresp, "0.0%")
+			        & " da receita total, que é "
+			        & FORMAT(vValorTotal, "R$ #,##0.00")
+			```
+		displayFolder: 1. Principal
+		lineageTag: 4c59beaf-0d76-4baa-82a3-c9b0845c9c51
 
 	partition d_Medidas = m
 		mode: import

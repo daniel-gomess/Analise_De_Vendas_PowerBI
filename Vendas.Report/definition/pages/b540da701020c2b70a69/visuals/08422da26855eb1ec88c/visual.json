@@ -1,40 +1,49 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
-  "name": "aa97329753a0c83adb39",
+  "name": "08422da26855eb1ec88c",
   "position": {
-    "x": 98.776916451335055,
-    "y": 327.09732988802756,
-    "z": 4000,
-    "height": 336.81309216192938,
-    "width": 963.479758828596,
-    "tabOrder": 4000
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 240,
+    "width": 320,
+    "tabOrder": 0
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "tableEx",
     "query": {
       "queryState": {
-        "Category": {
+        "Values": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "d_Calendario"
+                      "Entity": "d_Produto"
                     }
                   },
-                  "Property": "Mes_Abreviado"
+                  "Property": "Produto"
                 }
               },
-              "queryRef": "d_Calendario.Mes_Abreviado",
-              "nativeQueryRef": "Mes:",
-              "active": true,
-              "displayName": "Mes:"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
+              "queryRef": "d_Produto.Produto",
+              "nativeQueryRef": "Produto"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "d_Medidas"
+                    }
+                  },
+                  "Property": "Qtd_Vendas"
+                }
+              },
+              "queryRef": "d_Medidas.Qtd_Vendas",
+              "nativeQueryRef": "Qtde",
+              "displayName": "Qtde"
+            },
             {
               "field": {
                 "Measure": {
@@ -47,8 +56,8 @@
                 }
               },
               "queryRef": "d_Medidas.Valor_Total",
-              "nativeQueryRef": "Valor:",
-              "displayName": "Valor:"
+              "nativeQueryRef": "Valor",
+              "displayName": "Valor"
             }
           ]
         }
@@ -57,103 +66,43 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "d_Calendario"
+                    "Entity": "d_Medidas"
                   }
                 },
-                "Property": "Mes_Abreviado"
+                "Property": "Qtd_Vendas"
               }
             },
-            "direction": "Ascending"
+            "direction": "Descending"
           }
         ]
       }
     },
     "objects": {
-      "categoryAxis": [
+      "values": [
         {
           "properties": {
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
+                  "Value": "8D"
                 }
               }
             },
-            "labelColor": {
+            "fontColorPrimary": {
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#64B178'"
                     }
                   }
                 }
               }
             },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "11D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "gridlineShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "dataPoint": [
-        {
-          "properties": {
-            "fill": {
+            "fontColorSecondary": {
               "solid": {
                 "color": {
                   "expr": {
@@ -167,17 +116,17 @@
           }
         }
       ],
-      "labels": [
+      "columnHeaders": [
         {
           "properties": {
-            "show": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "10D"
                 }
               }
             },
-            "color": {
+            "fontColor": {
               "solid": {
                 "color": {
                   "expr": {
@@ -189,65 +138,111 @@
                 }
               }
             },
-            "fontSize": {
+            "alignment": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "'Center'"
                 }
               }
             },
-            "enableBackground": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#64B178'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#64B178'"
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
                 }
               }
             },
-            "backgroundColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "backgroundTransparency": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "45L"
+                  "Value": "8D"
                 }
               }
             }
           }
         }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "54.46779042239831D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Qtd_Vendas"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "122.57235648552894D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Produto.Produto"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "133.02930103265462D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "d_Medidas.Valor_Total"
+          }
+        }
       ]
     },
     "visualContainerObjects": {
-      "title": [
+      "stylePreset": [
         {
           "properties": {
-            "text": {
+            "name": {
               "expr": {
                 "Literal": {
-                  "Value": "'Vendas Mensais'"
-                }
-              }
-            },
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "20D"
+                  "Value": "'None'"
                 }
               }
             }

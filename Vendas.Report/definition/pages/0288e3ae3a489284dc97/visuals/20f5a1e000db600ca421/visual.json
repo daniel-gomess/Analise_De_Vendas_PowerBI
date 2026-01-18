@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
   "name": "20f5a1e000db600ca421",
   "position": {
-    "x": 1282.4806201550387,
-    "y": 176.50301464254952,
-    "z": 4000,
+    "x": 637.41350606108017,
+    "y": 173.34865222644189,
+    "z": 3000,
     "height": 87.441860465116278,
     "width": 284.99569336778637,
-    "tabOrder": 4000
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "card",
@@ -163,23 +163,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "e24fff328e06b40025d8",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "d_Medidas"
-              }
-            },
-            "Property": "Media_Vendas_Por_Vendedor"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

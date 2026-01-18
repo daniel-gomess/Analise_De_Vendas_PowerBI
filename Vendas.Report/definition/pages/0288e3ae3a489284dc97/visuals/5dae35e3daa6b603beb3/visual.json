@@ -4,10 +4,10 @@
   "position": {
     "x": 98.776916451335055,
     "y": 717.34711455641684,
-    "z": 8000,
+    "z": 6000,
     "height": 331.95521102497844,
     "width": 696.2962962962963,
-    "tabOrder": 8000
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "pieChart",
@@ -153,6 +153,13 @@
                   }
                 }
               }
+            },
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'TopCenter'"
+                }
+              }
             }
           }
         }
@@ -164,8 +171,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#ED695A'"
+                    "ThemeDataColor": {
+                      "ColorId": 8,
+                      "Percent": 0.6
                     }
                   }
                 }
@@ -206,7 +214,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#64B178'"
+                      "Value": "'#e1c233'"
                     }
                   }
                 }

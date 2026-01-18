@@ -4,10 +4,10 @@
   "position": {
     "x": 910.043066322136,
     "y": 61.533161068044784,
-    "z": 7001,
+    "z": 7000,
     "height": 92.299741602067186,
     "width": 236.41688199827735,
-    "tabOrder": 7001
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "slicer",
@@ -94,7 +94,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 1,
+                      "ColorId": 0,
                       "Percent": 0
                     }
                   }
